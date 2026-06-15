@@ -1,0 +1,103 @@
+# HalalOps — Islamic Preferences Profile
+# Arifuzzaman Moin
+
+candidate:
+  name: "Arifuzzaman Moin"
+  email: "arifuzzamanmoin@gmail.com"
+
+  # Path to CareerOps CV — skills/experience read from here, not duplicated
+  cv_path: "F:/CareerOps/career-ops/config/profile.yml"
+  cv_data: "F:/CareerOps/career-ops/data/cv.md"
+
+# ============================================================
+# ISLAMIC PREFERENCES
+# ============================================================
+
+fiqh:
+  # Primary madhab for borderline rulings. Options: hanafi | shafi | maliki | hanbali | include_all
+  madhab: "include_all"
+
+  # When scholars disagree, which position to default to:
+  # cautious | majority | present_all
+  disagreement_default: "cautious"
+
+  # When a clear fatwa exists from a trusted scholar, follow it even if stricter?
+  follow_strict_when_clear: true
+
+  # Personal absolute prohibitions — always HARAM regardless of role
+  personal_red_lines:
+    - "Any work directly contributing to weapons used against civilians"
+    - "Any role inside a riba-based financial product (loans, credit, interest products)"
+    - "Alcohol, tobacco, pork — any involvement, direct or indirect"
+    - "Conventional gambling or betting platforms"
+    - "Pornography or any sexually explicit content"
+    - "Companies with confirmed active contracts supplying oppressive regimes killing Muslims"
+
+  # Mashbooh tolerance — how to handle doubtful cases
+  # strict: treat mashbooh as haram | moderate: flag and present options | lenient: treat as halal unless proven haram
+  mashbooh_tolerance: "strict"
+
+# ============================================================
+# OPPRESSION WATCHLIST CONFIG
+# ============================================================
+
+oppression:
+  # Which watchlists to check
+  active_watchlists:
+    - palestine
+    - uyghurs
+    - kashmir
+    - rohingya
+
+  # Minimum confidence level to flag a company (high | medium | low)
+  flag_threshold: "low"   # flag everything, let the evaluation explain confidence
+
+  # Sources to consult (used in WebSearch during evaluations)
+  sources:
+    - "BDS Movement (bdsmovement.net)"
+    - "Amnesty International"
+    - "Human Rights Watch"
+    - "UN reports / UNRWA"
+    - "Who Profits (whoprofits.org)"
+    - "Australian Strategic Policy Institute (ASPI) — Uyghur forced labor tracker"
+    - "Business and Human Rights Resource Centre"
+
+  # Last watchlist update (auto-updated by scheduled agent)
+  last_updated: "2026-06-16"
+  next_update: "2026-06-18"
+
+# ============================================================
+# TRUSTED SCHOLARS
+# ============================================================
+
+scholars:
+  primary_references:
+    - name: "Sheikh Ibn Uthaymeen (rahimahullah)"
+      madhab: "Hanbali"
+      known_for: "Strict, evidence-based rulings; contemporary financial questions"
+    - name: "Mufti Taqi Usmani"
+      madhab: "Hanafi"
+      known_for: "Islamic finance authority; detailed rulings on banking, insurance, stocks"
+    - name: "Sheikh Ibn Baz (rahimahullah)"
+      madhab: "Hanbali"
+      known_for: "Comprehensive fatwas; economic and contemporary issues"
+    - name: "Dr. Yusuf Al-Qaradawi (rahimahullah)"
+      madhab: "Multiple — comparative fiqh"
+      known_for: "Contemporary fiqh; more lenient on some economic necessity cases"
+    - name: "IslamQA (Sheikh Muhammad Al-Munajjid)"
+      madhab: "Hanbali-leaning"
+      known_for: "Large fatwa database; cautious rulings on contemporary questions"
+    - name: "Darul Uloom Deoband"
+      madhab: "Hanafi"
+      known_for: "South/Southeast Asian Hanafi authority; financial questions"
+
+  fatwa_bodies:
+    - "Islamic Fiqh Academy (OIC) — Majma' al-Fiqh al-Islami"
+    - "AAOIFI (Accounting and Auditing Organization for Islamic Financial Institutions)"
+    - "European Council for Fatwa and Research (ECFR)"
+
+  primary_websites:
+    - url: "https://islamqa.info/en"
+      language: "English"
+    - url: "https://islamqa.org/"
+      language: "English/Arabic"
