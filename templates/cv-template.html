@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{NAME}} — CV</title>
 <style>
+  :root { --accent: #1F4E79; --accent-soft: color-mix(in srgb, var(--accent) 8%, white); }
   @font-face {
     font-family: 'Space Grotesk';
     src: url('./fonts/space-grotesk-latin.woff2') format('woff2');
@@ -87,7 +88,7 @@
 
   .header-gradient {
     height: 2px;
-    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    background: var(--accent);
     border-radius: 1px;
     margin-bottom: 10px;
   }
@@ -123,7 +124,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    color: hsl(187, 74%, 32%);
+    color: var(--accent);
     border-bottom: 1.5px solid #e2e2e2;
     padding-bottom: 4px;
     margin-bottom: 10px;
@@ -153,11 +154,11 @@
     font-family: 'DM Sans', sans-serif;
     font-size: 10px;
     font-weight: 500;
-    color: hsl(187, 74%, 28%);
-    background: hsl(187, 40%, 95%);
+    color: var(--accent);
+    background: var(--accent-soft);
     padding: 4px 10px;
     border-radius: 3px;
-    border: 1px solid hsl(187, 40%, 88%);
+    border: 1px solid var(--accent-soft);
   }
 
   /* === WORK EXPERIENCE === */
@@ -177,7 +178,7 @@
     font-family: 'Space Grotesk', sans-serif;
     font-size: 12.5px;
     font-weight: 600;
-    color: hsl(270, 70%, 45%);
+    color: var(--accent);
   }
 
   .job-period {
@@ -223,14 +224,14 @@
     font-family: 'Space Grotesk', sans-serif;
     font-size: 11.5px;
     font-weight: 600;
-    color: hsl(270, 70%, 45%);
+    color: var(--accent);
   }
 
   .project-badge {
     font-size: 9px;
     font-weight: 500;
-    color: hsl(187, 74%, 32%);
-    background: hsl(187, 40%, 95%);
+    color: var(--accent);
+    background: var(--accent-soft);
     padding: 1px 6px;
     border-radius: 2px;
     margin-left: 6px;
@@ -268,7 +269,7 @@
   }
 
   .edu-org {
-    color: hsl(270, 70%, 45%);
+    color: var(--accent);
     font-weight: 500;
   }
 
@@ -301,7 +302,7 @@
   }
 
   .cert-org {
-    color: hsl(270, 70%, 45%);
+    color: var(--accent);
   }
 
   .cert-year {
