@@ -3,7 +3,7 @@
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
 | 82 | 2026-07-06 | Allianz | Business Analyst Expert (Operations) | N/A | SKIP | ❌ | [055](reports/055-allianz-2026-07-06.md) | HARAM: conventional insurance core (OIC Res. 9/2); BA role works on the haram product directly; posting also already filled |
-| 81 | 2026-07-06 | GDEX Berhad | Data & BI Professional (Digital Transformation) | 3.6/5 | Evaluated | ❌ | [054](reports/054-gdex-2026-07-06.md) | ✅ HALAL (SC Shariah-listed) | PJ Malaysia; strong BI core match, MDM/DBA gaps; confirm EP sponsorship; comp likely below 8K floor |
+| 81 | 2026-07-06 | GDEX Berhad | Data & BI Professional (Digital Transformation) | 3.6/5 | Evaluated | ✅ | [054](reports/054-gdex-2026-07-06.md) | ✅ HALAL (SC Shariah-listed) | PJ Malaysia; strong BI core match, MDM/DBA gaps; confirm EP sponsorship; comp likely below 8K floor |
 | 80 | 2026-06-16 | AI HIVE Sdn. Bhd. | AI Automation Software Engineer | 3.0/5 | Evaluated | ❌ | [053](reports/053-ai-hive-2026-06-16.md) | ✅ HALAL (unanimous) \| PJ Malaysia on-site; LLM production gap + comp below target — borderline; build demo before applying |
 | 79 | 2026-06-15 | [Undisclosed SaaS] | Business Analyst (Smart Mobility) | 4.0/5 | Evaluated | ❌ | [052](reports/052-smart-mobility-saas-2026-06-15.md) | Location/company UNKNOWN — likely Cartrack KL; highest BA archetype match to date; clarify location+visa first, then strong apply |
 | 78 | 2026-06-13 | Aon | Data Analyst (Health Solutions) | 3.8/5 | Evaluated | ❌ | [051](reports/051-aon-2026-06-13.md) | KL Malaysia hybrid, strong DA+consulting fit, domain gap in insurance/health, EP sponsorable — apply |
