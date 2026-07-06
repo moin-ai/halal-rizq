@@ -27,6 +27,10 @@ Two-stage pipeline. Stage 1 gates Stage 2: a haram role is never career-scored.
 - **Skill knowledge** (read-only): this folder's `references/`.
 - Richer data (full rulings, live watchlists, company dossiers) lives in the user's HalalOps repo when present — prefer it over bundled snapshots.
 
+## First Run — Onboarding
+
+Before any evaluation, check user data exists (CV, profile.yml, tracker). Missing → guided setup per `references/discovery-pipeline.md` § Onboarding. Never evaluate against an empty profile.
+
 ## Stage 0 — Madhab (once)
 
 Read `config/profile.yml → fiqh.madhab`. If missing or `prompt_user`: ask (Hanafi / Shafi'i / Maliki / Hanbali / present all), save the answer, never ask again.
@@ -53,10 +57,14 @@ Follow `references/career-fit.md`: A) Role summary, B) CV match & strategy, D) C
 
 | User wants | Follow |
 |------------|--------|
+| Find new openings / "scan" / process URL inbox / many offers at once | `references/discovery-pipeline.md` (scan + pipeline + batch + liveness) |
 | Tailored CV / cover letter / form & screening answers | `references/apply-kit.md` |
 | LinkedIn outreach / follow-ups / "what's due?" | `references/outreach-followup.md` |
 | Interview prep (incl. deen accommodations) | `references/interview-prep.md` |
+| Compare offers / evaluate a course, cert, or portfolio project / external research prompt | `references/compare-grow.md` |
 | Outcome recorded / "what's working?" | tracker update + pattern learning (`career-fit.md` § Tracker) |
+
+Document output: markdown or self-contained HTML by default; user has a template/pipeline (HTML→PDF script, LaTeX/Overleaf, Canva) → use theirs. Verify a posting is live (liveness check) before investing document effort.
 
 Lifecycle ethics: draft everything, submit nothing — the user sends; never record a draft as sent; never invent experience anywhere.
 
