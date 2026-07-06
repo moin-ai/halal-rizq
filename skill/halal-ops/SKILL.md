@@ -56,6 +56,10 @@ Save report to `evaluations/{company}-{role}-{YYYY-MM-DD}.md` using the template
 
 When the user asks for work/rizq-related duas — or a report warrants one — use `references/duas.md` only. Never compose or recall duas from memory.
 
+## Language
+
+Respond in the user's language automatically. Prose (analysis, verdicts, career fit) — translate freely. Scripture — NEVER self-translate: fetch the verified translation in the user's language using the per-language sources in `references/verification.md` (§ Languages). Arabic text is always included unchanged. If no verified translation exists in the user's language, give the English verified text plus your translation clearly labeled "unofficial rendering — verified text in English above".
+
 ## Troubleshooting
 
 - API unreachable → cite from `references/citations.md` (pre-verified) and mark "ledger citation, live check unavailable".
