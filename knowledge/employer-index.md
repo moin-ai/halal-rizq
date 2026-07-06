@@ -9,6 +9,7 @@ Confidence: 🄷 High (filings/UN/court or 2+ independent sources) · 🄼 Mediu
 | Employer | Basis | Confidence | Evidence / Eval | Date |
 |----------|-------|------------|-----------------|------|
 | AI HIVE Sdn. Bhd. (MY) | SaaS automation; unanimous madhab clearance; watchlists clear | 🄷 | [reports/053](../reports/053-ai-hive-2026-06-16.md) | 2026-06-16 |
+| GDEX Berhad (MY, Bursa 0078) | Courier/logistics; SC Malaysia Shariah-compliant listing; watchlists clear | 🄷 | [reports/054](../reports/054-gdex-2026-07-06.md) · [dossier](companies/gdex.md) | 2026-07-06 |
 | Bank Islam Malaysia | Fully Islamic bank — no riba core product | 🄷 | Shariah-governed institution (BNM-regulated IFI) | 2026-07-06 |
 | Wahed Invest | Halal robo-advisor; Shariah board | 🄷 | Company Shariah certification, public | 2026-07-06 |
 | Zoya Finance | Halal investing screener | 🄷 | Product is halal-compliance itself | 2026-07-06 |
