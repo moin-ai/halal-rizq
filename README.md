@@ -1,356 +1,342 @@
 # HalalOps
 
-> **Evaluate job opportunities through an Islamic lens — before you evaluate them through a career lens.**
+> **The full career-ops job-search pipeline — halal-gated.** Every job offer is screened for Islamic permissibility (employer's business, your specific role, complicity in oppression of Muslims anywhere) with verified Quran/hadith/fatwa citations BEFORE any career evaluation runs. Haram roles never reach your pipeline. Built on [career-ops](https://github.com/santifer/career-ops) (MIT, © Santiago Fernández de Valderrama) — every base feature intact, the halal layer only adds.
 
-A personal career evaluation system for Muslim professionals. Every job is screened for Islamic permissibility first. If it passes, a full career fit analysis (CV match, level strategy, compensation, interview prep) follows automatically.
+**The halal layer:** `modes/halal-gate.md` (mandatory pre-stage) · `knowledge/rulings/` (madhab-aware, verified citations with named hadith graders) · `knowledge/oppression-watch/` (Palestine, Uyghurs, Kashmir, Rohingya — auto-updated every 2 days) · `skill/halal-ops/` (portable Claude skill: 44-language verified scripture, tiered company research via EDGAR/GLEIF/AFSC/UN OHCHR, jobseeker duas, deen-accommodations interview prep) · scan pre-filter that drops watchlisted weapons/surveillance companies before evaluation.
+
+**Integrity rule:** no unsourced claims, anywhere. Scripture from a live-verified ledger, company facts with links and confidence levels, salary data with citations — or explicitly labeled `[analysis — no source]`.
+
+*This tool presents scholarship; it does not issue fatwas. Rulings pending qualified scholar review — consult a scholar for your specific situation.*
+
+---
+
+# Career-Ops (base system)
+
+[English](README.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [한국어](README.ko-KR.md) | [日本語](README.ja.md) | [Русский](README.ru.md) | [简体中文](README.cn.md) | [繁體中文](README.zh-TW.md)
+
+<p align="center">
+  <a href="https://x.com/santifer"><img src="docs/hero-banner.jpg" alt="Career-Ops — Multi-Agent Job Search System" width="800"></a>
+</p>
+
+<p align="center">
+  <em>I spent months applying to jobs the hard way. So I engineered the system I wish I had.</em><br>
+  Companies use AI to filter candidates. <strong>I just gave candidates AI to <em>choose</em> companies.</strong><br>
+  <em>Now it's open source.</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude_Code-000?style=flat&logo=anthropic&logoColor=white" alt="Claude Code">
+  <img src="https://img.shields.io/badge/OpenCode-111827?style=flat&logo=terminal&logoColor=white" alt="OpenCode">
+  <img src="https://img.shields.io/badge/Gemini_CLI-4285F4?style=flat&logo=google&logoColor=white" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/Codex_(soon)-6B7280?style=flat&logo=openai&logoColor=white" alt="Codex">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" alt="Playwright">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT">
+  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
+  <a href="https://discord.gg/8pRpHETxa4"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord"></a>
+  <br>
+  <img src="https://img.shields.io/badge/EN-blue?style=flat" alt="EN">
+  <img src="https://img.shields.io/badge/ES-red?style=flat" alt="ES">
+  <img src="https://img.shields.io/badge/DE-grey?style=flat" alt="DE">
+  <img src="https://img.shields.io/badge/FR-blue?style=flat" alt="FR">
+  <img src="https://img.shields.io/badge/PT--BR-green?style=flat" alt="PT-BR">
+  <img src="https://img.shields.io/badge/KO-white?style=flat" alt="KO">
+  <img src="https://img.shields.io/badge/JA-red?style=flat" alt="JA">
+  <img src="https://img.shields.io/badge/ZH--CN-red?style=flat" alt="ZH-CN">
+  <img src="https://img.shields.io/badge/ZH--TW-blue?style=flat" alt="ZH-TW">
+</p>
 
 ---
 
-## Why This Exists
+<p align="center">
+  <img src="docs/demo.gif" alt="Career-Ops Demo" width="800">
+</p>
 
-Most career tools help you find the best job. This one helps you find the best *halal* job.
+<p align="center"><strong>740+ job listings evaluated · 100+ personalized CVs · 1 dream role landed</strong></p>
 
-The Prophet ﷺ said:
-> *"The halal is clear and the haram is clear, and between them are matters that are doubtful (mashbooh). Whoever avoids the doubtful matters has protected his religious commitment and his honour. Whoever falls into doubtful matters will fall into haram."*
-> — Sahih Bukhari 52; Sahih Muslim 1599
+<p align="center"><a href="https://discord.gg/8pRpHETxa4"><img src="https://img.shields.io/badge/Join_the_community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a></p>
 
-Before asking "does this role match my skills?", a Muslim professional must ask:
-- Is this company's business permissible?
-- Would my work contribute to something haram?
-- Is this company complicit in the oppression of Muslims anywhere in the world?
+## What Is This
 
-HalalOps answers those questions first — with Quranic ayaat, hadith references, and rulings prioritised by your madhab — then proceeds to the career evaluation only if the role passes.
+Career-Ops turns any AI coding CLI into a full job search command center. Instead of manually tracking applications in a spreadsheet, you get an AI-powered pipeline that:
 
----
+- **Evaluates offers** with a structured A-F scoring system (10 weighted dimensions)
+- **Generates tailored PDFs** -- ATS-optimized CVs customized per job description
+- **Scans portals** automatically (Greenhouse, Ashby, Lever, company pages)
+- **Processes in batch** -- evaluate 10+ offers in parallel with sub-agents
+- **Tracks everything** in a single source of truth with integrity checks
+
+> **Important: This is NOT a spray-and-pray tool.** Career-ops is a filter -- it helps you find the few offers worth your time out of hundreds. The system strongly recommends against applying to anything scoring below 4.0/5. Your time is valuable, and so is the recruiter's. Always review before submitting.
+
+Career-ops is agentic: Claude Code navigates career pages with Playwright, evaluates fit by reasoning about your CV vs the job description (not keyword matching), and adapts your resume per listing.
+
+> **Heads up: the first evaluations won't be great.** The system doesn't know you yet. Feed it context -- your CV, your career story, your proof points, your preferences, what you're good at, what you want to avoid. The more you nurture it, the better it gets. Think of it as onboarding a new recruiter: the first week they need to learn about you, then they become invaluable.
+
+Built by someone who used it to evaluate 740+ job offers, generate 100+ tailored CVs, and land a Head of Applied AI role. [Read the full case study](https://santifer.io/career-ops-system).
+
+## Features
+
+| Feature | Description |
+|---------|-------------|
+| **Auto-Pipeline** | Paste a URL, get a full evaluation + PDF + tracker entry |
+| **6-Block Evaluation** | Role summary, CV match, level strategy, comp research, personalization, interview prep (STAR+R) |
+| **Interview Story Bank** | Accumulates STAR+Reflection stories across evaluations -- 5-10 master stories that answer any behavioral question |
+| **Negotiation Scripts** | Salary negotiation frameworks, geographic discount pushback, competing offer leverage |
+| **ATS PDF Generation** | Keyword-injected CVs with Space Grotesk + DM Sans design |
+| **Portal Scanner** | 45+ companies pre-configured (Anthropic, OpenAI, ElevenLabs, Retool, n8n...) + custom queries across Ashby, Greenhouse, Lever, Wellfound |
+| **Batch Processing** | Parallel evaluation with `claude -p` workers |
+| **Dashboard TUI** | Terminal UI to browse, filter, and sort your pipeline |
+| **Human-in-the-Loop** | AI evaluates and recommends, you decide and act. The system never submits an application -- you always have the final call |
+| **Pipeline Integrity** | Automated merge, dedup, status normalization, health checks |
+
+## Quick Start
+
+```bash
+# 1. Clone and install
+git clone https://github.com/santifer/career-ops.git
+cd career-ops && npm install
+npx playwright install chromium   # Required for PDF generation
+
+# 2. Check setup
+npm run doctor                     # Validates all prerequisites
+
+# 3. Configure
+cp config/profile.example.yml config/profile.yml  # Edit with your details
+cp templates/portals.example.yml portals.yml       # Customize companies
+
+# 4. Add your CV
+# Create cv.md in the project root with your CV in markdown
+
+# 5. Personalize with Claude
+claude   # Open Claude Code in this directory
+
+# Then ask Claude to adapt the system to you:
+# "Change the archetypes to backend engineering roles"
+# "Translate the modes to English"
+# "Add these 5 companies to portals.yml"
+# "Update my profile with this CV I'm pasting"
+
+# 6. Start using
+# Paste a job URL or run /career-ops
+```
+
+> **The system is designed to be customized by Claude itself.** Modes, archetypes, scoring weights, negotiation scripts -- just ask Claude to change them. It reads the same files it uses, so it knows exactly what to edit.
+
+See [docs/SETUP.md](docs/SETUP.md) for the full setup guide.
+
+## Gemini CLI Integration
+
+Career-ops supports [Gemini CLI](https://github.com/google-gemini/gemini-cli) natively — the same way it supports Claude Code and OpenCode. All 15 slash commands are available, using the same `modes/*.md` evaluation logic.
+
+### Option A — Native Gemini CLI (Recommended)
+
+```bash
+# 1. Install Gemini CLI
+npm install -g @google/gemini-cli
+# or: npx @google/gemini-cli --version
+
+# 2. Authenticate (free — uses your Google account)
+gemini auth
+
+# 3. Run in the career-ops directory
+cd career-ops
+gemini
+
+# 4. Use slash commands just like Claude Code
+/career-ops "Senior AI Engineer at Anthropic..."
+/career-ops-evaluate --file ./jds/openai.txt
+/career-ops-scan
+/career-ops-pdf
+/career-ops-tracker
+```
+
+The `GEMINI.md` file is auto-loaded as context. All 15 commands are defined in `.gemini/commands/*.toml`.
+
+### Option B — Standalone API Script (No CLI install needed)
+
+```bash
+# 1. Get a free API key at https://aistudio.google.com/apikey
+cp .env.example .env
+# Edit .env → set GEMINI_API_KEY=your_key_here
+
+# 2. Install dependencies
+npm install
+
+# 3. Evaluate a job description
+node gemini-eval.mjs "We are looking for a Senior AI Engineer..."
+node gemini-eval.mjs --file ./jds/my-job.txt
+npm run gemini:eval -- "JD text here"
+```
+
+> **Free tier:** Both options work without billing. Native CLI uses Google OAuth; the API script uses `gemini-2.0-flash` (15 RPM, 1M tokens/day free).
+
+## Usage
+
+Career-ops is a single slash command with multiple modes:
+
+```
+/career-ops                → Show all available commands
+/career-ops {paste a JD}   → Full auto-pipeline (evaluate + PDF + tracker)
+/career-ops scan           → Scan portals for new offers
+/career-ops pdf            → Generate ATS-optimized CV
+/career-ops batch          → Batch evaluate multiple offers
+/career-ops tracker        → View application status
+/career-ops apply          → Fill application forms with AI
+/career-ops pipeline       → Process pending URLs
+/career-ops contacto       → LinkedIn outreach message
+/career-ops deep           → Deep company research
+/career-ops training       → Evaluate a course/cert
+/career-ops project        → Evaluate a portfolio project
+```
+
+Or just paste a job URL or description directly -- career-ops auto-detects it and runs the full pipeline.
 
 ## How It Works
 
 ```
-You paste a job description
-        ↓
-┌─────────────────────────────┐
-│     STAGE 1 — HALAL GATE   │
-│  Company business ruling    │
-│  Your specific role         │
-│  Oppression watchlist check │
-│  Personal red lines         │
-│  Scholarly opinions         │
-└────────────┬────────────────┘
-             │
-      ❌ HARAM? → Report saved. Stop.
-             │
-      ✅ / 🟡 / 🟠 → Continue
-             ↓
-┌─────────────────────────────┐
-│   STAGE 2 — CAREER FIT     │
-│  A) Role Summary            │
-│  B) CV Match                │
-│  C) Level & Strategy        │
-│  D) Comp & Demand           │
-│  E) Personalization Plan    │
-│  F) Interview Prep (STAR+R) │
-│  G) Posting Legitimacy      │
-└────────────┬────────────────┘
-             ↓
-   Halal Verdict + Career Score
-   Saved to evaluations/ + tracker
+You paste a job URL or description
+        │
+        ▼
+┌──────────────────┐
+│  Archetype       │  Classifies: LLMOps / Agentic / PM / SA / FDE / Transformation
+│  Detection       │
+└────────┬─────────┘
+         │
+┌────────▼─────────┐
+│  A-F Evaluation  │  Match, gaps, comp research, STAR stories
+│  (reads cv.md)   │
+└────────┬─────────┘
+         │
+    ┌────┼────┐
+    ▼    ▼    ▼
+ Report  PDF  Tracker
+  .md   .pdf   .tsv
 ```
 
----
+## Pre-configured Portals
 
-## Quick Start
+The scanner comes with **45+ companies** ready to scan and **19 search queries** across major job boards. Copy `templates/portals.example.yml` to `portals.yml` and add your own:
 
-### 1. Open HalalOps in Claude Code
+**AI Labs:** Anthropic, OpenAI, Mistral, Cohere, LangChain, Pinecone
+**Voice AI:** ElevenLabs, PolyAI, Parloa, Hume AI, Deepgram, Vapi, Bland AI
+**AI Platforms:** Retool, Airtable, Vercel, Temporal, Glean, Arize AI
+**Contact Center:** Ada, LivePerson, Sierra, Decagon, Talkdesk, Genesys
+**Enterprise:** Salesforce, Twilio, Gong, Dialpad
+**LLMOps:** Langfuse, Weights & Biases, Lindy, Cognigy, Speechmatics
+**Automation:** n8n, Zapier, Make.com
+**European:** Factorial, Attio, Tinybird, Clarity AI, Travelperk
+
+**Job boards searched:** Ashby, Greenhouse, Lever, Wellfound, Workable, RemoteFront
+
+## Dashboard TUI
+
+The built-in terminal dashboard lets you browse your pipeline visually:
 
 ```bash
-cd F:\HalalOps
+cd dashboard
+go build -o career-dashboard .
+./career-dashboard --path ..
 ```
 
-### 2. Set your madhab (first time only)
+Features: 6 filter tabs, 4 sort modes, grouped/flat view, lazy-loaded previews, inline status changes.
 
-On your first evaluation, the system will ask which madhab you follow:
-
-```
-Which madhab do you follow?
-1. Hanafi
-2. Shafi'i
-3. Maliki
-4. Hanbali
-5. Present all opinions equally
-
-Your answer is saved to config/profile.yml and never asked again.
-```
-
-Your madhab's ruling is always presented first and in full. Other schools are shown as supporting or dissenting opinions.
-
-### 3. Evaluate a job
-
-Paste any job description into Claude Code and say:
+## Project Structure
 
 ```
-evaluate this
-```
-
-or
-
-```
-is this halal?
-```
-
-### 4. Pull watchlist updates (every 2 days)
-
-A scheduled cloud agent updates the oppression watchlists automatically. To get the latest:
-
-```bash
-git pull
-```
-
----
-
-## Verdict System
-
-| Verdict | Meaning | What to do |
-|---------|---------|------------|
-| ✅ **HALAL** | Clear permissibility — no significant Islamic concerns | Proceed with career evaluation |
-| 🟡 **MASHBOOH** | Doubtful — scholar disagreement or unclear evidence | Read all opinions; perform Istikharah |
-| 🟠 **MUKHTALAF** | Major scholarly dispute — no clean ruling | All opinions presented; you decide with Allah's guidance |
-| ❌ **HARAM** | Clear prohibition | Do not apply — reason and citations provided |
-
-### Career Score (Stage 2 only)
-
-| Score | Recommendation |
-|-------|----------------|
-| 4.5 – 5.0 | Strong Apply |
-| 3.5 – 4.4 | Apply |
-| 2.5 – 3.4 | Borderline |
-| Below 2.5 | Skip |
-| N/A | Haram — not evaluated |
-
----
-
-## What Gets Checked
-
-### Islamic Ruling Categories
-
-#### Riba / Conventional Banking
-**File:** `knowledge/rulings/riba-banking.md`
-
-> *"Allah has permitted trade and forbidden riba."*
-> — Quran 2:275
-
-> *"O you who believe! Fear Allah and give up what remains of your demand for riba, if you are indeed believers. If you do not, then take notice of war from Allah and His Messenger."*
-> — Quran 2:278–279
-
-> *"The Messenger of Allah ﷺ cursed the one who consumes riba, the one who pays it, the one who records it, and the two witnesses to it — and he said: they are all equal."*
-> — Sahih Muslim 1598; Sunan Abu Dawud 3333; Jami' at-Tirmidhi 1206; Ibn Majah 2277
-
-**Implication:** Working at a conventional bank is haram under the majority and cautious scholarly positions, as even administrative roles sustain the riba institution and salary derives from haram income.
-
----
-
-#### Conventional Insurance
-**File:** `knowledge/rulings/insurance.md`
-
-> *"O you who believe! Do not consume one another's wealth unjustly, but only through trade by mutual consent."*
-> — Quran 4:29
-
-> *"The Messenger of Allah ﷺ forbade transactions determined by throwing stones (gharar), and he forbade gharar transactions."*
-> — Sahih Muslim 1513 (prohibition of gharar — excessive uncertainty)
-
-**Resolution:** Islamic Fiqh Academy (OIC) Resolution 9/2 (Second Session, 1985) — conventional insurance is haram due to gharar, maysir, and riba; takaful is the permissible alternative.
-
----
-
-#### Defense / Weapons Manufacturing
-**File:** `knowledge/rulings/defense-weapons.md`
-
-> *"Help one another in righteousness and piety, but do not help one another in sin and aggression (ithm and udwan). Fear Allah; indeed, Allah is severe in penalty."*
-> — Quran 5:2
-
-> *"And what is wrong with you that you fight not in the cause of Allah and for the oppressed — men, women, and children — who say, 'Our Lord, take us out of this city of oppressive people and appoint for us from Yourself a protector and appoint for us from Yourself a helper?'"*
-> — Quran 4:75
-
-**Implication:** Supplying weapons or enabling technology to forces actively killing civilians or oppressing Muslims is haram. Quran 5:2 is the primary basis — direct or indirect assistance in udwan (transgression/aggression) is prohibited.
-
----
-
-#### Alcohol / Tobacco
-**File:** `knowledge/rulings/alcohol-tobacco.md`
-
-> *"O you who believe! Intoxicants, gambling, sacrificing on stone altars, and divining arrows are but defilement from the work of Satan, so avoid it that you may be successful."*
-> — Quran 5:90
-
-> *"The Messenger of Allah ﷺ cursed ten people with regard to khamr: the one who squeezes [the grapes etc.], the one for whom it is squeezed, the one who drinks it, the one who carries it, the one it is carried to, the one who pours it, the one who sells it and consumes its price, the one who buys it and the one it is bought for."*
-> — Sunan Ibn Majah 3381; Jami' at-Tirmidhi 1295; Sunan Abu Dawud 3674
-
-**Implication:** The hadith explicitly covers the entire supply chain including those who transport, trade, and profit from it. Working in any capacity for an alcohol company — including building its software — falls under this curse.
-
----
-
-#### Gambling / Speculative Platforms
-**File:** `knowledge/rulings/gambling.md`
-
-> *"O you who believe! Intoxicants and gambling (maysir), stone altars and divining arrows are but defilement from the work of Satan, so avoid it that you may be successful. Satan only wants to cause between you animosity and hatred through intoxicants and gambling and to avert you from the remembrance of Allah and from prayer. So will you not desist?"*
-> — Quran 5:90–91
-
-> *"They ask you about wine and gambling. Say: 'In them is great sin and [yet, some] benefit for people. But their sin is greater than their benefit.'"*
-> — Quran 2:219
-
-**Implication:** Maysir (gambling) is prohibited in the same ayah as alcohol, with the same severity. Building casino games, betting platforms, or lottery systems is haram — regardless of whether you personally gamble.
-
----
-
-#### Tech / IT Work for a Haram Company
-**File:** `knowledge/rulings/tech-indirect.md`
-
-> *"Help one another in righteousness and piety, but do not help one another in sin and aggression."*
-> — Quran 5:2
-
-> *"The Messenger of Allah ﷺ cursed the one who consumes riba, the one who pays it, the one who **records** it, and the two who **witness** it."*
-> — Sahih Muslim 1598
-
-**Note:** The hadith on riba explicitly curses the *writer* and *witness* — those with indirect roles. The majority of scholars extend this principle to all who sustain a haram institution, even in unrelated departments. The minority (Al-Qaradawi) permits it under strict conditions of necessity (darurah).
-
----
-
-### Oppression Watchlists
-
-The Quran commands concern for oppressed Muslims everywhere:
-
-> *"And what is wrong with you that you fight not in the cause of Allah and for the oppressed — men, women, and children."*
-> — Quran 4:75
-
-> *"The believers, in their mutual mercy, love, and compassion, are like one body: if one limb suffers, the rest of the body responds with sleeplessness and fever."*
-> — Sahih Bukhari 6011; Sahih Muslim 2586
-
-| Watchlist | Covers | Key Sources |
-|-----------|--------|-------------|
-| 🇵🇸 **Palestine** | Gaza genocide (ICJ provisional measures Jan 2024); IDF weapons suppliers; tech military contracts | BDS Movement, Amnesty International, Who Profits (whoprofits.org), The Intercept |
-| 🕌 **Uyghurs** | Xinjiang detention camps (1M+ Muslims); forced labor supply chains; surveillance infrastructure | ASPI Uyghur Forced Labor Tracker, US BIS Entity List, Human Rights Watch |
-| 🏔️ **Kashmir** | Indian military occupation; internet shutdowns; surveillance tools used on civilians | Amnesty International, Citizen Lab, OHCHR |
-| 🛶 **Rohingya** | Myanmar military genocide (UN Fact-Finding Mission 2018); corporate funding of Tatmadaw | UN Fact-Finding Mission Report A/HRC/39/64, Justice for Myanmar, HRW |
-
-Each company entry includes: confidence level (High / Medium / Low), evidence source, and date added. Watchlists update automatically every 2 days.
-
----
-
-## Trusted Scholars Referenced
-
-| Scholar | Madhab | Key Works / Positions |
-|---------|--------|-----------------------|
-| Sheikh Ibn Uthaymeen رحمه الله | Hanbali | *Majmoo' Fataawa* (37 vols.); strict evidence-based rulings on contemporary finance |
-| Sheikh Ibn Baz رحمه الله | Hanbali | *Majmoo' Fataawa Ibn Baz* (30 vols.); former Grand Mufti of Saudi Arabia |
-| Mufti Taqi Usmani | Hanafi | *An Introduction to Islamic Finance*; *Fiqh al-Buyu'*; AAOIFI Shari'ah Board chairman |
-| Dr. Yusuf Al-Qaradawi رحمه الله | Comparative fiqh | *The Lawful and the Prohibited in Islam*; *Fiqh al-Zakat*; contemporary necessity rulings |
-| Sheikh Muhammad Al-Munajjid | Hanbali-leaning | IslamQA.info — largest searchable English fatwa database |
-| Darul Uloom Deoband | Hanafi | Founded 1867; primary Hanafi authority for South/Southeast Asian Muslims |
-
-**Fatwa bodies consulted:**
-- Islamic Fiqh Academy — OIC (*Majma' al-Fiqh al-Islami*)
-- AAOIFI (Accounting and Auditing Organization for Islamic Financial Institutions)
-- European Council for Fatwa and Research (ECFR)
-
-**Primary online sources:** [islamqa.info/en](https://islamqa.info/en) · [islamqa.org](https://islamqa.org/)
-
----
-
-## File Structure
-
-```
-HalalOps/
-│
+career-ops/
+├── CLAUDE.md                    # Agent instructions
+├── cv.md                        # Your CV (create this)
+├── article-digest.md            # Your proof points (optional)
 ├── config/
-│   ├── profile.yml          ← Your madhab, red lines, Islamic preferences
-│   └── scholars.md          ← Trusted scholars reference
-│
-├── knowledge/
-│   ├── rulings/             ← Islamic ruling library (one file per category)
-│   │   ├── riba-banking.md
-│   │   ├── insurance.md
-│   │   ├── defense-weapons.md
-│   │   ├── alcohol-tobacco.md
-│   │   ├── gambling.md
-│   │   └── tech-indirect.md
-│   │
-│   ├── companies/           ← Per-company research (auto-saved, reused)
-│   │   └── {company}.md
-│   │
-│   └── oppression-watch/    ← Living watchlists (auto-updated every 2 days)
-│       ├── _index.md        ← Master list + update log
-│       ├── palestine.md
-│       ├── uyghurs.md
-│       ├── kashmir.md
-│       └── rohingya.md
-│
-├── evaluations/             ← One report per job evaluated
-│   └── {company}-{role}-{date}.md
-│
-├── modes/
-│   └── evaluate.md          ← The evaluation pipeline (instructions for Claude)
-│
-└── tracker.md               ← All jobs: verdict, score, status
+│   └── profile.example.yml      # Template for your profile
+├── modes/                       # 14 skill modes
+│   ├── _shared.md               # Shared context (customize this)
+│   ├── oferta.md                # Single evaluation
+│   ├── pdf.md                   # PDF generation
+│   ├── scan.md                  # Portal scanner
+│   ├── batch.md                 # Batch processing
+│   └── ...
+├── templates/
+│   ├── cv-template.html         # ATS-optimized CV template
+│   ├── portals.example.yml      # Scanner config template
+│   └── states.yml               # Canonical statuses
+├── batch/
+│   ├── batch-prompt.md          # Self-contained worker prompt
+│   └── batch-runner.sh          # Orchestrator script
+├── dashboard/                   # Go TUI pipeline viewer
+├── data/                        # Your tracking data (gitignored)
+├── reports/                     # Evaluation reports (gitignored)
+├── output/                      # Generated PDFs (gitignored)
+├── fonts/                       # Space Grotesk + DM Sans
+├── docs/                        # Setup, customization, architecture
+└── examples/                    # Sample CV, report, proof points
 ```
 
----
+## Tech Stack
 
-## Learning System
+![Claude Code](https://img.shields.io/badge/Claude_Code-000?style=flat&logo=anthropic&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![Bubble Tea](https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white)
 
-HalalOps gets better the more you use it:
+- **Agent**: Claude Code with custom skills and modes
+- **PDF**: Playwright/Puppeteer + HTML template
+- **Scanner**: Playwright + Greenhouse API + WebSearch
+- **Dashboard**: Go + Bubble Tea + Lipgloss (Catppuccin Mocha theme)
+- **Data**: Markdown tables + YAML config + TSV batch files
 
-| What improves | How |
-|---------------|-----|
-| **Company knowledge** | After researching a company once, the dossier is saved to `knowledge/companies/`. Future evaluations start from existing research — never re-researched from scratch. |
-| **Your annotations** | Each evaluation report has an `## Annotations` section. Update it after you accept or decline a job — future evaluations of the same company read these notes. |
-| **Watchlists** | Auto-updated every 2 days by a scheduled cloud agent. Run `git pull` to sync locally. |
-| **Rulings** | If a new fatwa is issued, update the relevant file in `knowledge/rulings/`. All future evaluations benefit immediately. |
+## Also Open Source
 
----
+- **[cv-santiago](https://github.com/santifer/cv-santiago)** -- The portfolio website (santifer.io) with AI chatbot, LLMOps dashboard, and case studies. If you need a portfolio to showcase alongside your job search, fork it and make it yours.
 
-## Personalisation
+## About the Author
 
-Edit `config/profile.yml` to change:
+I'm Santiago -- Head of Applied AI, former founder (built and sold a business that still runs with my name on it). I built career-ops to manage my own job search. It worked: I used it to land my current role.
 
-```yaml
-fiqh:
-  madhab: "hanafi"             # Your madhab — set once after first prompt
-  mashbooh_tolerance: "strict" # strict = treat doubtful as haram
-  personal_red_lines:
-    - "Any work contributing to weapons against civilians"
-    - "Any riba product role"
-    # Add your own absolute prohibitions here
-```
+My portfolio and other open source projects → [santifer.io](https://santifer.io)
 
----
+## Star History
 
-## Istikharah
-
-When the verdict is 🟡 MASHBOOH or 🟠 MUKHTALAF, the evaluation will always remind you:
-
-> *"Jabir ibn Abdullah رضي الله عنه said: The Prophet ﷺ used to teach us Istikharah in all matters as he used to teach us a surah from the Quran. He ﷺ would say: 'When one of you is concerned about a matter, let him pray two rak'ahs of non-obligatory prayer, then say: O Allah, I seek Your guidance by Your knowledge, and I seek Your power by Your ability, and I ask of You from Your great bounty...'"*
-> — Sahih Bukhari 1166
-
-No tool can replace tawakkul. HalalOps provides information and scholarly guidance. The final decision, and complete reliance, is with Allah ﷻ alone.
-
----
-
-## On Halal Rizq
-
-The Prophet ﷺ said:
-> *"O people! Allah is pure (tayyib) and He only accepts that which is pure (tayyib). Allah commanded the believers with what He commanded the Messengers, saying: 'O Messengers, eat of the good things (tayyibaat) and do righteous deeds.' And He said: 'O you who believe, eat of the good things We have provided for you.'"*
-> — Sahih Muslim 1015; referencing Quran 23:51 and Quran 2:172
-
-> *"A man grows dishevelled and dusty from long journeys, raising his hands to the sky: 'O Lord! O Lord!' — while his food is haram, his drink is haram, his clothing is haram, and he has been nourished with haram. How then can his du'a be answered?"*
-> — Sahih Muslim 1015
-
----
+<a href="https://www.star-history.com/?repos=santifer%2Fcareer-ops&type=timeline&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=santifer/career-ops&type=timeline&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=santifer/career-ops&type=timeline&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=santifer/career-ops&type=timeline&legend=top-left" />
+ </picture>
+</a>
 
 ## Disclaimer
 
-This system presents scholarly opinions and fatwa sources as reference material. It is not itself a fatwa. When in doubt about a specific situation, consult a qualified scholar directly.
+**career-ops is a local, open-source tool — NOT a hosted service.** By using this software, you acknowledge:
 
----
+1. **You control your data.** Your CV, contact info, and personal data stay on your machine and are sent directly to the AI provider you choose (Anthropic, OpenAI, etc.). We do not collect, store, or have access to any of your data.
+2. **You control the AI.** The default prompts instruct the AI not to auto-submit applications, but AI models can behave unpredictably. If you modify the prompts or use different models, you do so at your own risk. **Always review AI-generated content for accuracy before submitting.**
+3. **You comply with third-party ToS.** You must use this tool in accordance with the Terms of Service of the career portals you interact with (Greenhouse, Lever, Workday, LinkedIn, etc.). Do not use this tool to spam employers or overwhelm ATS systems.
+4. **No guarantees.** Evaluations are recommendations, not truth. AI models may hallucinate skills or experience. The authors are not liable for employment outcomes, rejected applications, account restrictions, or any other consequences.
 
-*Built for a Muslim professional who wants his rizq to be halal — in this dunya and the next.*
+See [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md) for full details. This software is provided under the [MIT License](LICENSE) "as is", without warranty of any kind.
 
-> *"O you who believe! Eat of the good things which We have provided for you and be grateful to Allah if it is Him that you worship."*
-> — Quran 2:172
+## Contributors
+
+<a href="https://github.com/santifer/career-ops/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=santifer/career-ops" />
+</a>
+
+Got hired using career-ops? [Share your story!](https://github.com/santifer/career-ops/issues/new?template=i-got-hired.yml)
+
+## License & Trademark
+
+The code is licensed under [MIT](LICENSE). The "career-ops" name and
+brand are governed by the [Trademark Policy](TRADEMARK.md) — permissive
+for community use, reserved for commercial product naming and
+endorsement.
+
+## Let's Connect
+
+[![Website](https://img.shields.io/badge/santifer.io-000?style=for-the-badge&logo=safari&logoColor=white)](https://santifer.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/santifer)
+[![X](https://img.shields.io/badge/X-000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/santifer)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/8pRpHETxa4)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hi@santifer.io)
