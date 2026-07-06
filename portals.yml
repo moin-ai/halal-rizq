@@ -89,6 +89,22 @@ title_filter:
 # -- Search queries --
 
 search_queries:
+  # -- HALAL SOURCES: Muslim job boards (Halal-Career layer) --
+  - name: "UmmahJobs — data/BA"
+    query: 'site:ummahjobs.com "data analyst" OR "business analyst" OR "data engineer"'
+    enabled: true
+  - name: "MuslimJobs — data/BA"
+    query: 'site:muslimjobs.io "data analyst" OR "business analyst" OR "power bi"'
+    enabled: true
+  - name: "Barakah Jobs — data/BA"
+    query: 'site:barakahjobs.com "data" OR "analyst"'
+    enabled: true
+  - name: "JobStreet MY — Islamic finance data roles"
+    query: 'site:my.jobstreet.com takaful OR "islamic bank" "data analyst" OR "business analyst"'
+    enabled: true
+  - name: "Bayt — Islamic finance data roles (Gulf)"
+    query: 'site:bayt.com "islamic finance" OR takaful "data analyst" OR "business analyst"'
+    enabled: true
 
   # == GERMANY ==
 
@@ -507,4 +523,45 @@ tracked_companies:
     scan_method: websearch
     scan_query: 'site:jobs.ashbyhq.com/supabase "Data" OR "Analyst" OR "Engineer" OR "Developer"'
     notes: "Remote-first. Postgres/open-source. Engineering/data roles."
+    enabled: true
+
+  # ============================================================
+  # HALAL SOURCES (Halal-Career layer) — added 2026-07-06
+  # Full template: skill/halal-career/assets/templates/halal-portals.yml
+  # Every result still passes the halal gate.
+  # ============================================================
+  - name: "Islamic Development Bank (IsDB)"
+    careers_url: https://careers.isdb.org/
+    scan_method: browser
+    notes: "Multilateral dev bank. Data/BA roles in Jeddah + hubs. Strong halal alignment."
+    enabled: true
+  - name: "Islamic Financial Services Board (IFSB)"
+    careers_url: https://www.ifsb.org/career/
+    scan_method: browser
+    notes: "Standards body, Kuala Lumpur — Moin's market. Data/analyst roles."
+    enabled: true
+  - name: "Bank Islam Malaysia"
+    careers_url: https://www.bankislam.com/careers/
+    scan_method: browser
+    notes: "Fully Islamic bank, KL. Data/BI/BA roles pass the gate (no riba core)."
+    enabled: true
+  - name: "Wahed Invest"
+    careers_url: https://www.wahed.com/careers
+    scan_method: browser
+    notes: "Halal robo-advisor, remote-friendly fintech."
+    enabled: true
+  - name: "Zoya Finance"
+    careers_url: https://zoya.finance/careers
+    scan_method: browser
+    notes: "Halal investing app — data roles would be ideal fit."
+    enabled: true
+  - name: "LaunchGood"
+    careers_url: https://www.launchgood.com/careers
+    scan_method: browser
+    notes: "Muslim crowdfunding. Remote. Data/product roles."
+    enabled: true
+  - name: "Islamic Relief Worldwide"
+    careers_url: https://www.islamic-relief.org/careers/
+    scan_method: browser
+    notes: "Large NGO — data analyst / MEAL roles common."
     enabled: true

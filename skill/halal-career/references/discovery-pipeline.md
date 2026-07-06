@@ -3,6 +3,8 @@
 ## Scan — find new openings
 Config lives in user data as `portals.yml` (create on first use): `tracked_companies` (name, careers_url, ats provider), `search_queries`, `title_filter` (positive/negative keywords).
 
+**Halal default sources:** `assets/templates/halal-portals.yml` ships pre-populated with Muslim job boards (UmmahJobs, MuslimJobs, WorkHalal, Barakah Jobs, HijraJob, Muslim Professionals), Islamic-economy employers (IsDB, IFSB, fully-Islamic banks, takaful), Muslim tech (LaunchGood, Tarteel, Zoya, Musaffa, Wahed, Yaqeen, Quran Foundation), Islamic relief orgs, and Islamic-finance queries on mainstream boards (Bayt, JobStreet, NaukriGulf). On onboarding — or whenever the user says "find me halal jobs" — offer to merge it into their `portals.yml`, substituting their role keywords into the `{role keywords}` placeholders. Be honest with the user: a listing on a Muslim board is NOT automatically halal — every result still passes the gate (and Islamic windows of conventional banks are mashbooh per some scholars; the gate presents the split).
+
 **Halal pre-filter (always step 0):** drop any company on the watchlist Highest-Confidence tier before it enters the pipeline (log `HARAM-prefiltered`); Medium-tier companies pass through flagged `⚠ watchlist` for the gate to investigate fully.
 
 Three additive levels, dedup across all:

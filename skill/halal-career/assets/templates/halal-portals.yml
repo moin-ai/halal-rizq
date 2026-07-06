@@ -1,0 +1,131 @@
+# Halal Job Sources — Default Boards (Halal-Career)
+# Merge these into your portals.yml (or use standalone) to discover jobs
+# from Muslim job boards, Islamic-economy employers, and halal-verified sources.
+#
+# Same 3-level scan strategy as the base scanner:
+#   1. Browser → careers_url (real-time)
+#   2. ATS API where available
+#   3. WebSearch site: queries (broad discovery)
+#
+# The halal gate still evaluates EVERY result — a listing on a Muslim job
+# board is not automatically halal (verify the employer, always).
+
+# ---------------------------------------------------------------
+# Dedicated Muslim / halal job boards (no public APIs — site: search)
+# ---------------------------------------------------------------
+search_queries:
+  - name: "UmmahJobs"
+    query: "site:ummahjobs.com {role keywords}"
+    enabled: true
+  - name: "MuslimJobs"
+    query: "site:muslimjobs.io {role keywords}"
+    enabled: true
+  - name: "WorkHalal"
+    query: "site:workhalal.com {role keywords}"
+    enabled: true
+  - name: "Barakah Jobs"
+    query: "site:barakahjobs.com {role keywords}"
+    enabled: true
+  - name: "HijraJob (Gulf/MENA)"
+    query: "site:hijrajob.com {role keywords}"
+    enabled: true
+  - name: "Muslim Professionals (US)"
+    query: "site:muslimprofessionals.us/jobs {role keywords}"
+    enabled: true
+  # Mainstream boards, Islamic-economy queries
+  - name: "Bayt — Islamic finance (MENA)"
+    query: "site:bayt.com islamic finance OR takaful OR shariah {role keywords}"
+    enabled: true
+  - name: "JobStreet MY — Islamic finance"
+    query: "site:my.jobstreet.com islamic OR takaful OR shariah {role keywords}"
+    enabled: true
+  - name: "NaukriGulf — Islamic banking"
+    query: "site:naukrigulf.com islamic banking OR takaful {role keywords}"
+    enabled: true
+
+# ---------------------------------------------------------------
+# Islamic-economy institutions (multilateral, finance, takaful)
+# careers_url verified format; scanner discovers ATS on first visit
+# ---------------------------------------------------------------
+tracked_companies:
+  - name: "Islamic Development Bank (IsDB)"
+    careers_url: "https://careers.isdb.org/"
+    note: "Multilateral development bank, Jeddah + regional hubs"
+    enabled: true
+  - name: "Islamic Financial Services Board (IFSB)"
+    careers_url: "https://www.ifsb.org/career/"
+    note: "Standards body, Kuala Lumpur"
+    enabled: true
+  - name: "Maybank (Islamic division)"
+    careers_url: "https://www.maybank.com/en/careers"
+    note: "Largest Islamic bank in ASEAN — filter for Maybank Islamic roles; conventional-bank roles fail the gate"
+    enabled: true
+  - name: "Bank Islam Malaysia"
+    careers_url: "https://www.bankislam.com/careers/"
+    note: "Fully Islamic bank"
+    enabled: true
+  - name: "Al Rajhi Bank"
+    careers_url: "https://www.alrajhibank.com.sa/en/careers"
+    note: "World's largest Islamic bank (Saudi; also alrajhibank.com.my for Malaysia)"
+    enabled: true
+  - name: "Kuwait Finance House"
+    careers_url: "https://www.kfh.com/en/home/Personal/about-kfh/careers.html"
+    note: "Fully Islamic bank"
+    enabled: true
+
+  # Muslim tech & media (verify current ATS on first scan)
+  - name: "LaunchGood"
+    careers_url: "https://www.launchgood.com/careers"
+    note: "Muslim crowdfunding platform"
+    enabled: true
+  - name: "Tarteel AI"
+    careers_url: "https://www.tarteel.ai/careers"
+    note: "Quran AI"
+    enabled: true
+  - name: "Zoya Finance"
+    careers_url: "https://zoya.finance/careers"
+    note: "Halal investing app"
+    enabled: true
+  - name: "Musaffa"
+    careers_url: "https://musaffa.com/career"
+    note: "Halal stock screener"
+    enabled: true
+  - name: "Wahed Invest"
+    careers_url: "https://www.wahed.com/careers"
+    note: "Halal robo-advisor"
+    enabled: true
+  - name: "Yaqeen Institute"
+    careers_url: "https://yaqeeninstitute.org/careers"
+    note: "Islamic research nonprofit"
+    enabled: true
+  - name: "Quran.com / Quran Foundation"
+    careers_url: "https://quran.foundation/careers"
+    note: "Quranic tech nonprofit"
+    enabled: true
+  - name: "Pillars Fund"
+    careers_url: "https://pillarsfund.org/about/careers/"
+    note: "Muslim philanthropy (US)"
+    enabled: true
+
+  # Islamic relief & charity sector (large, always hiring, mission-aligned)
+  - name: "Islamic Relief Worldwide"
+    careers_url: "https://www.islamic-relief.org/careers/"
+    enabled: true
+  - name: "Muslim Aid"
+    careers_url: "https://www.muslimaid.org/vacancies/"
+    enabled: true
+  - name: "Penny Appeal"
+    careers_url: "https://pennyappeal.org/careers"
+    enabled: true
+  - name: "Human Appeal"
+    careers_url: "https://humanappeal.org.uk/careers"
+    enabled: true
+
+# ---------------------------------------------------------------
+# Reminders for the scanner agent
+# ---------------------------------------------------------------
+# - careers_url entries here are seed URLs; verify on first visit and
+#   update to the branded/current URL if redirected (note it in this file).
+# - "Islamic" in a company's name is not a halal verdict. Run the gate.
+# - Islamic windows of conventional banks (e.g., Maybank Islamic) are
+#   MASHBOOH territory per some scholars — the gate presents the split.
