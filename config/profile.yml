@@ -1,14 +1,109 @@
-# HalalOps — Islamic Preferences Profile
-# Arifuzzaman Moin
+# Career-Ops Profile Configuration — Arifuzzaman Moin
 
 candidate:
-  name: "Arifuzzaman Moin"
+  full_name: "Arifuzzaman Moin"
   email: "arifuzzamanmoin@gmail.com"
+  phone: "+60 14-266 2958"
+  location: "Narayanganj, Bangladesh"
+  linkedin: "linkedin.com/in/arifuzzaman-moin"
+  portfolio_url: "https://arifuzzamanmoin.com/"
+  github: "github.com/moin-ai"
 
-  # Path to CareerOps CV — skills/experience read from here, not duplicated
-  cv_path: "F:/CareerOps/career-ops/config/profile.yml"
-  cv_data: "F:/CareerOps/career-ops/data/cv.md"
+target_roles:
+  primary:
+    - "Data Analyst"
+    - "Business Intelligence Analyst"
+    - "Business Analyst"
+    - "Digital Transformation Consultant"
+  secondary:
+    - "Data Engineer"
+    - "Power Platform Developer"
+    - "Full-Stack Developer"
+  archetypes:
+    - name: "Data Analyst / BI Analyst"
+      level: "Entry–Mid"
+      fit: "primary"
+    - name: "Business Analyst / Digital Transformation Consultant"
+      level: "Entry–Mid"
+      fit: "primary"
+    - name: "Data Engineer"
+      level: "Entry–Mid"
+      fit: "secondary"
+    - name: "Power Platform Developer / Consultant"
+      level: "Entry–Mid"
+      fit: "secondary"
+    - name: "Full-Stack / Software Developer"
+      level: "Entry–Mid"
+      fit: "adjacent"
 
+target_markets:
+  primary: "Germany (EU Blue Card route)"
+  secondary:
+    - "Australia (Subclass 189/190 skilled migration)"
+    - "Malaysia (existing network)"
+    - "Remote / Global"
+
+narrative:
+  headline: "Computer Science graduate with real-world BA, BI, and automation experience at Fortune 500 and across 3 countries"
+  exit_story: "Delivered end-to-end digital transformation projects at Mercedes-Benz, founded Moinfinity Digital to finance my own education through real client engagements, and built production Power Platform systems used daily by non-technical teams — now targeting data and business analyst roles in Germany or Australia."
+  superpowers:
+    - "Bridging business and technical — translating complex requirements into working solutions"
+    - "End-to-end ownership — requirements → design → build → UAT → training, without supervision"
+    - "Microsoft Power Platform (Power BI PL-300 certified, Power Apps, Power Automate, DAX)"
+    - "Stakeholder management and facilitation across Fortune 500 and SMB contexts"
+    - "Self-starter — founded a consulting agency as a student, delivered for US/MY/AU clients"
+    - "Fast learner — develops while learning, ships production work in new stacks without waiting to 'be ready'"
+    - "AI-native — highly efficient with Claude Code, prompt engineering, and agentic workflows; builds real things with AI, not just experiments"
+  proof_points:
+    - name: "Mercedes-Benz Attendance & Escalation Systems"
+      url: ""
+      hero_metric: "40-60% reduction in issue response times, 100% elimination of manual calculations"
+    - name: "Moinfinity Digital — 7+ client engagements"
+      url: "https://arifuzzamanmoin.com/"
+      hero_metric: "200%+ web traffic increase, 40% operational efficiency improvement, 2-6h daily effort saved"
+    - name: "UMPSA Hostel Management System"
+      url: ""
+      hero_metric: "5h → 30min data compilation, 75% improvement in notification response times"
+    - name: "Harvard Business School — Aspire Leaders Program"
+      url: ""
+      hero_metric: "Top 1% globally selected"
+    - name: "CITREX Innovation Competition"
+      url: ""
+      hero_metric: "Gold Medal"
+
+compensation:
+  # Germany (primary market — EU Blue Card threshold ~€45,300)
+  target_range: "€50,000–€110,000"
+  currency: "EUR"
+  minimum: "€50,000"
+  # Australia (secondary market)
+  australia_range: "AUD 90,000–195,000"
+  # Malaysia / Remote
+  malaysia_range: "MYR 96,000–200,000"
+  location_flexibility: "Open to relocation to Germany, Malaysia or Australia. Remote globally considered."
+
+location:
+  country: "Bangladesh"
+  city: "Narayanganj"
+  timezone: "BST (UTC+6)"
+  visa_status: "Requires sponsorship — EU Blue Card (Germany) or Subclass 189/190 (Australia)"
+  relocation: "Willing to relocate to Germany, Malaysia or Australia"
+  remote_fallback: true
+
+languages:
+  - language: "English"
+    level: "Fluent Professional"
+  - language: "Bengali"
+    level: "Native"
+  - language: "Hindi/Urdu"
+    level: "Fluent"
+  - language: "Bahasa Melayu"
+    level: "Basic"
+  - language: "German"
+    level: "Basic (actively learning, targeting B1)"
+
+cv:
+  output_format: "html"
 # ============================================================
 # ISLAMIC PREFERENCES
 # ============================================================

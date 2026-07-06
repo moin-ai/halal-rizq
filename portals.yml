@@ -1,0 +1,510 @@
+# Portal Scanner Configuration — Arifuzzaman Moin
+# Target roles: Data Analyst, BI Analyst, Business Analyst, Data Engineer, Power Platform Developer, Full-Stack Developer
+# Target markets: Germany (primary), Australia (secondary), Malaysia, Remote
+
+title_filter:
+  positive:
+    # -- Data & BI roles --
+    - "Data Analyst"
+    - "Business Intelligence"
+    - "BI Analyst"
+    - "BI Developer"
+    - "Power BI"
+    - "Data Scientist"
+    - "Analytics Engineer"
+    - "Reporting Analyst"
+    - "Data Visualization"
+    - "Dashboard"
+    # -- Business Analysis --
+    - "Business Analyst"
+    - "BA"
+    - "Systems Analyst"
+    - "Functional Analyst"
+    - "Process Analyst"
+    - "Digital Transformation"
+    - "Requirements"
+    # -- Data Engineering --
+    - "Data Engineer"
+    - "ETL"
+    - "Data Pipeline"
+    - "Databricks"
+    - "Azure Data"
+    - "Data Platform"
+    - "Data Warehouse"
+    # -- Power Platform & Microsoft --
+    - "Power Platform"
+    - "Power Apps"
+    - "Power Automate"
+    - "Microsoft 365"
+    - "SharePoint"
+    - "Dynamics"
+    - "Low-Code"
+    - "No-Code"
+    # -- Software / Full-Stack --
+    - "Full-Stack"
+    - "Full Stack"
+    - "Web Developer"
+    - "Software Developer"
+    - "Software Engineer"
+    - "Frontend Developer"
+    - "Backend Developer"
+    - "React"
+    - "Node.js"
+    - "Python Developer"
+    # -- German keywords --
+    - "Datenanalyst"
+    - "Business Analyst"
+    - "Dateningenieur"
+    - "Softwareentwickler"
+    - "Informatiker"
+    - "IT-Consultant"
+    - "Digitaliserierung"
+  negative:
+    - "Principal"
+    - "Director"
+    - "VP "
+    - "Vice President"
+    - "C-Level"
+    - "COBOL"
+    - "Mainframe"
+    - "SAP ABAP"
+    - "Blockchain"
+    - "Web3"
+    - "Crypto"
+    - "Embedded"
+    - "Firmware"
+    - "iOS"
+    - "Android"
+    - "Machine Learning Research"
+    - "PhD"
+    - "10+ years"
+    - "15+ years"
+  seniority_boost:
+    - "Senior"
+    - "Lead"
+    - "Mid"
+    - "Mid-Level"
+    - "Intermediate"
+
+# -- Search queries --
+
+search_queries:
+
+  # == GERMANY ==
+
+  - name: Germany — Data Analyst (Greenhouse)
+    query: 'site:job-boards.greenhouse.io OR site:job-boards.eu.greenhouse.io "Data Analyst" OR "Business Intelligence" Germany OR Berlin OR Munich OR Hamburg OR Frankfurt'
+    enabled: true
+
+  - name: Germany — Business Analyst (Greenhouse)
+    query: 'site:job-boards.greenhouse.io OR site:job-boards.eu.greenhouse.io "Business Analyst" OR "Digital Transformation" Germany OR Berlin OR Munich'
+    enabled: true
+
+  - name: Germany — Data Engineer (Greenhouse)
+    query: 'site:job-boards.greenhouse.io OR site:job-boards.eu.greenhouse.io "Data Engineer" OR "Analytics Engineer" Germany OR Berlin OR Munich'
+    enabled: true
+
+  - name: Germany — Data Analyst (Ashby)
+    query: 'site:jobs.ashbyhq.com "Data Analyst" OR "Business Intelligence" OR "Business Analyst" Germany OR Berlin OR Munich OR remote Europe'
+    enabled: true
+
+  - name: Germany — Data Engineer (Ashby)
+    query: 'site:jobs.ashbyhq.com "Data Engineer" OR "Analytics Engineer" OR "Databricks" Germany OR Berlin OR Munich OR remote Europe'
+    enabled: true
+
+  - name: Germany — Software Developer (Greenhouse/Ashby)
+    query: 'site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com "Software Developer" OR "Full-Stack" OR "Web Developer" Germany OR Berlin OR Munich'
+    enabled: true
+
+  - name: Germany — StepStone Data/BA roles
+    query: 'site:stepstone.de "Data Analyst" OR "Business Analyst" OR "Business Intelligence" OR "Data Engineer" Berlin OR Munich OR Hamburg OR Frankfurt OR remote'
+    enabled: true
+
+  - name: Germany — Indeed DE Data roles
+    query: 'site:indeed.com/jobs "Data Analyst" OR "Business Analyst" Germany English'
+    enabled: true
+
+  - name: Germany — LinkedIn Data Analyst
+    query: '"Data Analyst" Germany "English" Berlin OR Munich OR Hamburg OR Frankfurt -site:linkedin.com/jobs'
+    enabled: true
+
+  - name: Germany — Power Platform / Microsoft
+    query: '"Power Platform" OR "Power BI Developer" OR "Power Apps" Germany OR Berlin OR Munich OR DACH OR remote Europe'
+    enabled: true
+
+  - name: Germany — Remotive Europe Data roles
+    query: 'site:remotive.com "Data Analyst" OR "Business Analyst" OR "Data Engineer" Europe OR Germany OR remote'
+    enabled: true
+
+  - name: Germany — EU Remote Data/BA roles
+    query: 'site:euremotejobs.com "Data Analyst" OR "Business Analyst" OR "Data Engineer" OR "Full-Stack"'
+    enabled: true
+
+  - name: Germany — Himalayas Remote Data roles
+    query: 'site:himalayas.app "Data Analyst" OR "Business Analyst" OR "Data Engineer" OR "Power BI" Europe OR Germany OR remote'
+    enabled: true
+
+  # == AUSTRALIA ==
+
+  - name: Australia — Data Analyst (Seek)
+    query: 'site:seek.com.au "Data Analyst" OR "Business Intelligence Analyst" OR "BI Analyst" Melbourne OR Sydney OR Brisbane OR remote'
+    enabled: true
+
+  - name: Australia — Business Analyst (Seek)
+    query: 'site:seek.com.au "Business Analyst" OR "Systems Analyst" OR "Digital Transformation" Melbourne OR Sydney OR Brisbane OR remote'
+    enabled: true
+
+  - name: Australia — Data Engineer (Seek)
+    query: 'site:seek.com.au "Data Engineer" OR "Analytics Engineer" OR "Databricks" OR "Azure Data" Melbourne OR Sydney OR remote'
+    enabled: true
+
+  - name: Australia — Software Developer (Seek)
+    query: 'site:seek.com.au "Software Developer" OR "Full-Stack Developer" OR "Web Developer" Melbourne OR Sydney OR Brisbane OR remote'
+    enabled: true
+
+  - name: Australia — Data/BA roles (Greenhouse)
+    query: 'site:job-boards.greenhouse.io "Data Analyst" OR "Business Analyst" OR "Data Engineer" Australia OR Sydney OR Melbourne'
+    enabled: true
+
+  - name: Australia — Power Platform / Microsoft
+    query: '"Power Platform" OR "Power BI" OR "Power Apps" Australia OR Sydney OR Melbourne OR Brisbane'
+    enabled: true
+
+  # == MALAYSIA ==
+
+  - name: Malaysia — Data Analyst (JobStreet)
+    query: 'site:jobstreet.com.my "Data Analyst" OR "Business Intelligence" OR "Power BI" OR "Business Analyst" Kuala Lumpur OR remote'
+    enabled: true
+
+  - name: Malaysia — Data Engineer (JobStreet)
+    query: 'site:jobstreet.com.my "Data Engineer" OR "Analytics Engineer" OR "Databricks" Kuala Lumpur OR remote'
+    enabled: true
+
+  - name: Malaysia — Software Developer (JobStreet)
+    query: 'site:jobstreet.com.my "Software Developer" OR "Full-Stack" OR "Web Developer" Kuala Lumpur OR Penang OR remote'
+    enabled: true
+
+  - name: Malaysia — Power Platform (LinkedIn/JobStreet)
+    query: '"Power Platform" OR "Power Apps" OR "Power Automate" Malaysia OR "Kuala Lumpur" OR remote'
+    enabled: true
+
+  # == GLOBAL REMOTE ==
+
+  - name: Remote — Data Analyst (WeWorkRemotely)
+    query: 'site:weworkremotely.com "Data Analyst" OR "Business Intelligence" OR "Business Analyst"'
+    enabled: true
+
+  - name: Remote — Data Engineer (WeWorkRemotely)
+    query: 'site:weworkremotely.com "Data Engineer" OR "Analytics Engineer" OR "Databricks"'
+    enabled: true
+
+  - name: Remote — Full-Stack Developer (WeWorkRemotely)
+    query: 'site:weworkremotely.com "Full-Stack" OR "Web Developer" OR "Software Developer" React OR Node.js OR Python'
+    enabled: true
+
+  - name: Remote — Power Platform global
+    query: '"Power Platform Developer" OR "Power Apps Developer" OR "Power BI Developer" remote'
+    enabled: true
+
+  - name: Remote — Data Analyst (RemoteOK)
+    query: 'site:remoteok.com "Data Analyst" OR "Business Intelligence" OR "Business Analyst"'
+    enabled: true
+
+  # == LINKEDIN — Germany ==
+
+  - name: LinkedIn — Germany Data Analyst
+    query: 'site:linkedin.com/jobs "Data Analyst" OR "BI Analyst" OR "Business Intelligence" Germany OR Berlin OR Munich OR Hamburg OR Frankfurt'
+    enabled: true
+
+  - name: LinkedIn — Germany Business Analyst
+    query: 'site:linkedin.com/jobs "Business Analyst" OR "Systems Analyst" OR "Digital Transformation" Germany OR Berlin OR Munich OR Frankfurt'
+    enabled: true
+
+  - name: LinkedIn — Germany Data Engineer
+    query: 'site:linkedin.com/jobs "Data Engineer" OR "Analytics Engineer" OR "Data Platform" Germany OR Berlin OR Munich OR Hamburg'
+    enabled: true
+
+  - name: LinkedIn — Germany Power Platform / Power BI
+    query: 'site:linkedin.com/jobs "Power BI" OR "Power Platform" OR "Power Apps" Germany OR Berlin OR Munich OR DACH'
+    enabled: true
+
+  - name: LinkedIn — Germany Full-Stack Developer
+    query: 'site:linkedin.com/jobs "Full-Stack Developer" OR "Software Developer" OR "Web Developer" Germany OR Berlin OR Munich English'
+    enabled: true
+
+  # == LINKEDIN — Australia ==
+
+  - name: LinkedIn — Australia Data Analyst
+    query: 'site:linkedin.com/jobs "Data Analyst" OR "BI Analyst" OR "Business Intelligence" Australia OR Sydney OR Melbourne OR Brisbane OR remote'
+    enabled: true
+
+  - name: LinkedIn — Australia Business Analyst
+    query: 'site:linkedin.com/jobs "Business Analyst" OR "Systems Analyst" OR "Digital Transformation" Australia OR Sydney OR Melbourne OR Brisbane'
+    enabled: true
+
+  - name: LinkedIn — Australia Data Engineer
+    query: 'site:linkedin.com/jobs "Data Engineer" OR "Analytics Engineer" OR "Databricks" Australia OR Sydney OR Melbourne OR remote'
+    enabled: true
+
+  - name: LinkedIn — Australia Power BI / Power Platform
+    query: 'site:linkedin.com/jobs "Power BI" OR "Power Platform" OR "Power Apps" Australia OR Sydney OR Melbourne'
+    enabled: true
+
+  - name: LinkedIn — Australia Full-Stack / Software Developer
+    query: 'site:linkedin.com/jobs "Full-Stack Developer" OR "Software Developer" OR "Web Developer" Australia OR Sydney OR Melbourne OR Brisbane'
+    enabled: true
+
+  # == LINKEDIN — Malaysia ==
+
+  - name: LinkedIn — Malaysia Data Analyst
+    query: 'site:linkedin.com/jobs "Data Analyst" OR "Business Intelligence" OR "Power BI" Malaysia OR "Kuala Lumpur" OR remote'
+    enabled: true
+
+  - name: LinkedIn — Malaysia Business Analyst
+    query: 'site:linkedin.com/jobs "Business Analyst" OR "Digital Transformation" OR "Systems Analyst" Malaysia OR "Kuala Lumpur" OR Penang'
+    enabled: true
+
+  - name: LinkedIn — Malaysia Data Engineer
+    query: 'site:linkedin.com/jobs "Data Engineer" OR "Analytics Engineer" OR "Databricks" Malaysia OR "Kuala Lumpur" OR remote'
+    enabled: true
+
+  - name: LinkedIn — Malaysia Power Platform
+    query: 'site:linkedin.com/jobs "Power Platform" OR "Power Apps" OR "Power Automate" Malaysia OR "Kuala Lumpur"'
+    enabled: true
+
+  # == LINKEDIN — Global Remote ==
+
+  - name: LinkedIn — Remote Data Analyst (Europe-friendly)
+    query: 'site:linkedin.com/jobs "Data Analyst" OR "Business Intelligence" remote Europe OR "remote Europe" OR "anywhere"'
+    enabled: true
+
+  - name: LinkedIn — Remote Business Analyst
+    query: 'site:linkedin.com/jobs "Business Analyst" OR "Product Analyst" remote "remote Europe" OR "worldwide" OR "anywhere"'
+    enabled: true
+
+  - name: LinkedIn — Remote Data Engineer
+    query: 'site:linkedin.com/jobs "Data Engineer" OR "Analytics Engineer" remote "remote Europe" OR "worldwide" OR "anywhere"'
+    enabled: true
+
+  - name: LinkedIn — Remote Power BI / Power Platform
+    query: 'site:linkedin.com/jobs "Power BI Developer" OR "Power Platform Developer" remote OR "remote Europe" OR worldwide'
+    enabled: true
+
+  - name: LinkedIn — Remote Full-Stack Developer
+    query: 'site:linkedin.com/jobs "Full-Stack Developer" OR "Software Developer" React OR Node.js OR Python remote "remote Europe" OR worldwide'
+    enabled: true
+
+# -- Tracked companies --
+# Companies hiring data/BA/engineering roles in Germany, Australia, Malaysia
+
+tracked_companies:
+
+  # == Germany — Tech companies hiring Data/BA/Engineering ==
+
+  - name: HelloFresh
+    careers_url: https://job-boards.greenhouse.io/hellofresh
+    api: https://boards-api.greenhouse.io/v1/boards/hellofresh/jobs
+    notes: "Berlin. Large data/analytics org. Visa-friendly for EU Blue Card candidates."
+    enabled: true
+
+  - name: Zalando
+    careers_url: https://jobs.zalando.com/en/
+    scan_method: websearch
+    scan_query: 'site:jobs.zalando.com "Data Analyst" OR "Business Analyst" OR "Data Engineer" OR "Software Engineer"'
+    notes: "Berlin. Fashion e-commerce tech. Large data and engineering org. English-friendly."
+    enabled: true
+
+  - name: N26
+    careers_url: https://job-boards.greenhouse.io/n26
+    api: https://boards-api.greenhouse.io/v1/boards/n26/jobs
+    notes: "Berlin. Mobile bank. Data/analytics/engineering roles. English-speaking culture."
+    enabled: true
+
+  - name: GetYourGuide
+    careers_url: https://job-boards.greenhouse.io/getyourguide
+    api: https://boards-api.greenhouse.io/v1/boards/getyourguide/jobs
+    notes: "Berlin. Travel marketplace. Data/engineering roles. English culture."
+    enabled: true
+
+  - name: Trade Republic
+    careers_url: https://job-boards.greenhouse.io/traderepublicbank
+    api: https://boards-api.greenhouse.io/v1/boards/traderepublicbank/jobs
+    notes: "Berlin. Neobroker. Data/platform roles. English culture."
+    enabled: true
+
+  - name: SumUp
+    careers_url: https://job-boards.greenhouse.io/sumup
+    api: https://boards-api.greenhouse.io/v1/boards/sumup/jobs
+    notes: "Berlin/London. Payments fintech. Data/engineering roles. Multicultural team."
+    enabled: true
+
+  - name: Celonis
+    careers_url: https://job-boards.greenhouse.io/celonis
+    api: https://boards-api.greenhouse.io/v1/boards/celonis/jobs
+    notes: "Munich. Process intelligence/data. Business Analyst, Data Engineer, Solutions Engineer roles."
+    enabled: true
+
+  - name: Contentful
+    careers_url: https://job-boards.greenhouse.io/contentful
+    api: https://boards-api.greenhouse.io/v1/boards/contentful/jobs
+    notes: "Berlin. Headless CMS. Data/engineering/BA roles."
+    enabled: true
+
+  - name: DeepL
+    careers_url: https://jobs.ashbyhq.com/DeepL
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/DeepL "Data" OR "Analyst" OR "Engineer" OR "Developer"'
+    notes: "Cologne. Language AI. Data/engineering roles. International team."
+    enabled: true
+
+  - name: Personio
+    careers_url: https://job-boards.greenhouse.io/personio
+    api: https://boards-api.greenhouse.io/v1/boards/personio/jobs
+    notes: "Munich/Berlin. HR SaaS unicorn. Data/BA/Engineering roles. English culture."
+    enabled: true
+
+  - name: Delivery Hero
+    careers_url: https://careers.deliveryhero.com/global/en
+    scan_method: websearch
+    scan_query: 'site:careers.deliveryhero.com "Data Analyst" OR "Business Analyst" OR "Data Engineer" OR "Software Engineer"'
+    notes: "Berlin. Food delivery. Large data/analytics org. English-friendly, global."
+    enabled: true
+
+  - name: Flixbus (Flix SE)
+    careers_url: https://www.flixbus.com/company/jobs
+    scan_method: websearch
+    scan_query: '"Flix" OR "FlixBus" "Data Analyst" OR "Business Analyst" OR "Data Engineer" site:jobs.lever.co OR site:job-boards.greenhouse.io'
+    notes: "Munich. Mobility/tech. Data and BA roles."
+    enabled: true
+
+  - name: SAP
+    careers_url: https://jobs.sap.com/
+    scan_method: websearch
+    scan_query: 'site:jobs.sap.com "Data Analyst" OR "Business Analyst" OR "Data Engineer" OR "Power BI" Germany OR Berlin OR Munich OR Walldorf'
+    notes: "Walldorf/Berlin. Enterprise software giant. Many data/BA roles. Good visa sponsor."
+    enabled: true
+
+  - name: Scout24
+    careers_url: https://jobs.ashbyhq.com/Scout24
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/Scout24 OR "scout24" "Data" OR "Analyst" OR "Engineer"'
+    notes: "Munich. Real estate/auto classifieds. Data/engineering roles."
+    enabled: true
+
+  - name: Qonto
+    careers_url: https://jobs.lever.co/qonto
+    notes: "Paris/Berlin/Barcelona. SMB neobank. Data/analytics roles."
+    enabled: true
+
+  - name: Forto
+    careers_url: https://jobs.lever.co/forto
+    notes: "Berlin. Digital freight. Data/product roles. English + German."
+    enabled: true
+
+  # == Australia — Tech companies ==
+
+  - name: Atlassian
+    careers_url: https://www.atlassian.com/company/careers
+    scan_method: websearch
+    scan_query: 'site:jobs.lever.co/atlassian "Data Analyst" OR "Business Analyst" OR "Data Engineer" OR "Software Engineer"'
+    notes: "Sydney. Global SaaS leader. Data/BA/engineering roles. Visa-friendly (often sponsors)."
+    enabled: true
+
+  - name: Canva
+    careers_url: https://www.canva.com/careers/
+    scan_method: websearch
+    scan_query: '"canva" "Data Analyst" OR "Business Analyst" OR "Data Engineer" OR "Software Engineer" site:jobs.lever.co OR site:jobs.ashbyhq.com'
+    notes: "Sydney. Design unicorn. Data/engineering roles. Strong visa sponsor."
+    enabled: true
+
+  - name: Xero
+    careers_url: https://job-boards.greenhouse.io/xero
+    api: https://boards-api.greenhouse.io/v1/boards/xero/jobs
+    notes: "Wellington NZ / Melbourne AU. Cloud accounting SaaS. Data/BA/engineering roles."
+    enabled: true
+
+  - name: REA Group
+    careers_url: https://www.realestate.com.au/careers
+    scan_method: websearch
+    scan_query: 'site:rea-group.com/careers OR "REA Group" "Data Analyst" OR "Business Analyst" OR "Data Engineer" OR "Software Engineer"'
+    notes: "Melbourne. Real estate marketplace. Large data/analytics org."
+    enabled: true
+
+  - name: Seek
+    careers_url: https://www.seek.com.au/work-for-seek/
+    scan_method: websearch
+    scan_query: '"Seek" "Data Analyst" OR "Business Analyst" OR "Data Engineer" Melbourne OR remote'
+    notes: "Melbourne. Job marketplace. Data/engineering roles."
+    enabled: true
+
+  - name: Afterpay (Block)
+    careers_url: https://job-boards.greenhouse.io/block
+    api: https://boards-api.greenhouse.io/v1/boards/block/jobs
+    notes: "Melbourne/Sydney. BNPL/fintech. Data/analytics roles."
+    enabled: true
+
+  - name: Zip Co
+    careers_url: https://jobs.lever.co/zip
+    scan_method: websearch
+    scan_query: 'site:jobs.lever.co/zip "Data Analyst" OR "Business Analyst" OR "Data Engineer"'
+    notes: "Sydney. BNPL fintech. Data/BA roles."
+    enabled: true
+
+  # == Malaysia — Tech companies ==
+
+  - name: Grab
+    careers_url: https://grab.careers/
+    scan_method: websearch
+    scan_query: 'site:grab.careers "Data Analyst" OR "Business Analyst" OR "Data Engineer" OR "Software Engineer" Malaysia OR Kuala Lumpur'
+    notes: "KL. Southeast Asia super-app. Large data/engineering org. English culture."
+    enabled: true
+
+  - name: Shopee (Sea Group)
+    careers_url: https://careers.shopee.com.my/
+    scan_method: websearch
+    scan_query: 'site:careers.shopee.com.my "Data Analyst" OR "Business Analyst" OR "Data Engineer" Kuala Lumpur'
+    notes: "KL. E-commerce. Large data/analytics team."
+    enabled: true
+
+  - name: AirAsia / Capital A
+    careers_url: https://www.airasia.com/en/gb/careers/
+    scan_method: websearch
+    scan_query: '"AirAsia" OR "Capital A" "Data Analyst" OR "Business Analyst" OR "Digital Transformation" Malaysia OR KL site:job-boards.greenhouse.io OR site:jobs.ashbyhq.com'
+    notes: "KL. Aviation/digital. Data/BA/transformation roles."
+    enabled: true
+
+  - name: Axiata
+    careers_url: https://axiata.com/careers/
+    scan_method: websearch
+    scan_query: '"Axiata" "Data Analyst" OR "Business Analyst" OR "Data Engineer" OR "Software Developer" Malaysia OR KL'
+    notes: "KL. Telecom. Data/digital roles."
+    enabled: true
+
+  # == Global Remote — Visa-friendly companies ==
+
+  - name: Zapier
+    careers_url: https://jobs.ashbyhq.com/zapier
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/zapier "Data" OR "Analyst" OR "Engineer" OR "Business"'
+    notes: "Remote-first globally. Automation platform. Data/BA/engineering roles."
+    enabled: true
+
+  - name: GitLab
+    careers_url: https://job-boards.greenhouse.io/gitlab
+    api: https://boards-api.greenhouse.io/v1/boards/gitlab/jobs
+    notes: "Fully remote globally. Data/BA/engineering roles. Often sponsors visa."
+    enabled: true
+
+  - name: Automattic
+    careers_url: https://automattic.com/work-with-us/
+    scan_method: websearch
+    scan_query: 'site:automattic.com/work-with-us "Data" OR "Analyst" OR "Engineer" OR "Developer"'
+    notes: "Fully remote globally. WordPress parent. Data/engineering roles."
+    enabled: true
+
+  - name: Supabase
+    careers_url: https://jobs.ashbyhq.com/supabase
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/supabase "Data" OR "Analyst" OR "Engineer" OR "Developer"'
+    notes: "Remote-first. Postgres/open-source. Engineering/data roles."
+    enabled: true

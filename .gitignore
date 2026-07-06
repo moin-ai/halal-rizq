@@ -1,17 +1,47 @@
+# Personal data — tracked in this private repo for automation
+# (career-ops default excludes these for public forks; safe to track here)
+# cv.md         ← tracked
+# data/*        ← tracked
+# config/profile.yml ← tracked
+# portals.yml   ← tracked
+# modes/_profile.md  ← tracked
+
+# reports/*.md  ← tracked in this private repo
+!reports/.gitkeep
+output/*
+!output/.gitkeep
+batch/logs/*
+!batch/logs/.gitkeep
+batch/batch-state.tsv
+batch/batch-input.tsv
+# batch/tracker-additions/**/*.tsv  ← tracked in this private repo
+!batch/tracker-additions/.gitkeep
+jds/*
+!jds/.gitkeep
+
+# Writing samples (user's personal files — never committed)
+writing-samples/*
+!writing-samples/README.md
+
+# Temp files
+.update-dismissed
+.update-lock
+
+# Secrets (never commit — use .env.example as template)
+.env
+
+# Generated
+.resolved-prompt-*
+node_modules/
+bun.lock
+
 # OS
 .DS_Store
-Thumbs.db
-desktop.ini
+*.mov
+*.mp4
 
-# Editor
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Personal annotations — keep local only if preferred
-# (remove this line if you want annotations synced to GitHub)
-# evaluations/
-
-# Node (if any scripts are added later)
-node_modules/
+# Claude Code local
+.claude/settings.local.json
+.claude/memory/
+career-dashboard
+package-lock.json
