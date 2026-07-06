@@ -41,6 +41,31 @@ WebFetch the answer URL; confirm the page's topic matches the claim before quoti
 
 ### Blocked (do not attempt): sunnah.com (Cloudflare 403 for bots — use only as human-readable links in output), dorar.net (blocked; skip).
 
+## Languages
+
+Verified per-language sources (IDs confirmed live 2026-06-16):
+
+**Quran translations** — same endpoint, swap resource ID (`/quran/translations/{ID}?verse_key=…`):
+
+| Language | ID | Translation |
+|----------|----|-------------|
+| English | 20 | Saheeh International |
+| Bengali | 213 | Dr. Abu Bakr Muhammad Zakaria |
+| Urdu | 54 | Maulana Muhammad Junagarhi |
+| Malay | 39 | Abdullah Muhammad Basmeih |
+| Indonesian | 33 | Indonesian Islamic Affairs Ministry |
+| Turkish | 77 | Diyanet |
+| French | 31 | Muhammad Hamidullah |
+| Hindi | 122 | Maulana Azizul Haque al-Umari |
+
+Other languages: fetch `/resources/translations`, filter by `language_name`, prefer official/King-Fahd-complex translations.
+
+**Hadith CDN** — swap the `eng-` prefix: `ara-` `ben-` `urd-` `ind-` `tur-` `fra-` (Bengali 8 collections, Urdu 7, Indonesian 7, Turkish 8, French 9 — verified). Not every collection exists per language; fall back to English + Arabic.
+
+**HadeethEnc** — `?language=` supports ar, en, ur, es, id, ug (Uyghur), bn, fr, and more — full list at `/api/v1/languages`.
+
+**Fatwas** — islamqa.info has parallel sections (/ur, /ar, etc.); link the user's language version when it exists.
+
 ## Verification steps for a new citation
 
 1. Quran: fetch translation + confirm content matches the claim. 2 calls max.
