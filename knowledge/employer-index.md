@@ -42,6 +42,7 @@ Confidence: 🄷 High (filings/UN/court or 2+ independent sources) · 🄼 Mediu
 | Caterpillar | D9 home demolitions (decades, documented) | 🄷 | AFSC Investigate profile | 2026-06-16 |
 | Any conventional bank (core) | Riba institution — Quran 2:275–279; Muslim 1598 | 🄷 | `knowledge/rulings/riba-banking.md` | — |
 | Any conventional insurer (core) | Gharar+riba+maysir — OIC Res. 9/2 | 🄷 | `knowledge/rulings/insurance.md` | — |
+| Allianz SE (group) | Conventional insurance core — evaluated | 🄷 | [reports/055](../reports/055-allianz-2026-07-06.md) | 2026-07-06 |
 | Alcohol, tobacco, gambling cos | Quran 5:90; Ibn Majah 3381 | 🄷 | `knowledge/rulings/` | — |
 
 ## Maintenance rules
