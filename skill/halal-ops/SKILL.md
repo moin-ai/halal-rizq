@@ -47,7 +47,18 @@ Read `config/profile.yml → fiqh.madhab`. If missing or `prompt_user`: ask (Han
 
 ## Stage 2 — Career Fit (only if not HARAM)
 
-Follow `references/career-fit.md`: A) Role summary, B) CV match table, C) Level strategy, D) Comp & demand, E) Personalization plan, F) STAR+R interview prep, G) Posting legitimacy → Score /5 with stated deductions.
+Follow `references/career-fit.md`: A) Role summary, B) CV match & strategy, D) Comp & demand (with a recommended ask), E) Personalization plan, F) STAR+R interview prep, G) Posting legitimacy → Score /5 with stated deductions. Recommend against applying below 3.5 unless the user has a reason.
+
+## Stage 3 — Application Lifecycle (on request)
+
+| User wants | Follow |
+|------------|--------|
+| Tailored CV / cover letter / form & screening answers | `references/apply-kit.md` |
+| LinkedIn outreach / follow-ups / "what's due?" | `references/outreach-followup.md` |
+| Interview prep (incl. deen accommodations) | `references/interview-prep.md` |
+| Outcome recorded / "what's working?" | tracker update + pattern learning (`career-fit.md` § Tracker) |
+
+Lifecycle ethics: draft everything, submit nothing — the user sends; never record a draft as sent; never invent experience anywhere.
 
 ## Output
 
