@@ -45,24 +45,38 @@ WebFetch the answer URL; confirm the page's topic matches the claim before quoti
 
 Verified per-language sources (IDs confirmed live 2026-06-16):
 
-**Quran translations** — same endpoint, swap resource ID (`/quran/translations/{ID}?verse_key=…`):
+**Quran translations** — same endpoint, swap resource ID (`/quran/translations/{ID}?verse_key=…`). 69 languages exist; IDs below pulled from the live resource list 2026-06-16:
 
-| Language | ID | Translation |
-|----------|----|-------------|
-| English | 20 | Saheeh International |
-| Bengali | 213 | Dr. Abu Bakr Muhammad Zakaria |
-| Urdu | 54 | Maulana Muhammad Junagarhi |
-| Malay | 39 | Abdullah Muhammad Basmeih |
-| Indonesian | 33 | Indonesian Islamic Affairs Ministry |
-| Turkish | 77 | Diyanet |
-| French | 31 | Muhammad Hamidullah |
-| Hindi | 122 | Maulana Azizul Haque al-Umari |
+| Language | ID | Translation | | Language | ID | Translation |
+|----------|----|--------------|-|----------|----|--------------|
+| English | 20 | Saheeh International | | Russian | 78 | Ministry of Awqaf, Egypt |
+| Bengali | 213 | Dr. Abu Bakr M. Zakaria | | Chinese | 109 | Muhammad Makin |
+| Urdu | 54 | Maulana Junagarhi | | German | 27 | Bubenheim & Nadeem |
+| Malay | 39 | Abdullah Basmeih | | Spanish | 83 | Sheikh Isa Garcia |
+| Indonesian | 33 | Islamic Affairs Ministry | | Portuguese | 103 | Helmi Nasr |
+| Turkish | 77 | Diyanet | | Italian | 153 | Hamza R. Piccardo |
+| French | 31 | Muhammad Hamidullah | | Dutch | 144 | Sofian S. Siregar |
+| Hindi | 122 | Azizul Haque al-Umari | | Japanese | 218 | Saeed Sato |
+| Persian | 135 | IslamHouse.com | | Korean | 219 | Hamed Choi |
+| Pashto | 118 | Zakaria Abulsalam | | Thai | 51 | King Fahad Complex |
+| Dari | 785 | Mawlawi Badkhashani | | Vietnamese | 220 | Ruwwad Center |
+| Uzbek | 55 | M. Sodiq M. Yusuf | | Tagalog | 211 | Dar Al-Salam Center |
+| Kazakh | 222 | Khalifa Altay | | Tamil | 229 | Omar Sharif |
+| Tajik | 139 | Khawaja Mirof & Mir | | Malayalam | 80 | Karakunnu & Elayavoor |
+| Azeri | 75 | Alikhan Musayev | | Telugu | 227 | Abder-Rahim ibn Muhammad |
+| Kurdish | 81 | Burhan Muhammad-Amin | | Gujarati | 225 | Rabila Al-Umry |
+| **Uyghur** | 76 | Muhammad Saleh | | Marathi | 226 | M. Shafi'i Ansari |
+| Bosnian | 214 | Dar Al-Salam Center | | Nepali | 108 | Ahl Al-Hadith Society |
+| Albanian | 88 | Hasan Efendi Nahi | | Sinhala | 228 | Ruwwad Center |
+| Somali | 46 | Mahmud M. Abduh | | Sindhi | 238 | Taj Mehmood Amroti |
+| Hausa | 32 | Abubakar Gumi | | Amharic | 87 | Sadiq and Sani |
+| Swahili | 231 | Dr. Abdullah Abu Bakr | | Yoruba | 125 | Shaykh Mikael Aykyuni |
 
-Other languages: fetch `/resources/translations`, filter by `language_name`, prefer official/King-Fahd-complex translations.
+Any other language: fetch `/resources/translations`, filter by `language_name`, prefer official / King-Fahd-complex / Ruwwad / Dar Al-Salam translations.
 
-**Hadith CDN** — swap the `eng-` prefix: `ara-` `ben-` `urd-` `ind-` `tur-` `fra-` (Bengali 8 collections, Urdu 7, Indonesian 7, Turkish 8, French 9 — verified). Not every collection exists per language; fall back to English + Arabic.
+**Hadith CDN** — swap the `eng-` prefix: `ara-` `ben-` `urd-` `ind-` `tur-` `fra-` `rus-` `tam-` (Bengali 8 collections, Urdu 7, Indonesian 7, Turkish 8, French 9, Russian 3, Tamil 2 — verified). Not every collection exists per language; fall back to English + Arabic.
 
-**HadeethEnc** — `?language=` supports ar, en, ur, es, id, ug (Uyghur), bn, fr, and more — full list at `/api/v1/languages`.
+**HadeethEnc** — `?language=` supports 70 languages (verified list): ar, en, ur, es, id, **ug**, bn, fr, tr, ru, bs, si, hi, zh, fa, vi, tl, ku, ha, pt, ml, te, sw, ta, my (Burmese/Rohingya-relevant), th, de, ja, ps, as, sq, sv, am, nl, gu, ky, ne, yo, prs (Dari), sr, so, tg, ro, hu, cs, it, kn, bg, az, el, uz, uk, km, pa, mr, da, ms, and more — full list at `/api/v1/languages`. This is the deepest multilingual source for hadith explanations.
 
 **Fatwas** — islamqa.info has parallel sections (/ur, /ar, etc.); link the user's language version when it exists.
 
