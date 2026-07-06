@@ -2,7 +2,7 @@
 
 | # | Date | Company | Role | Halal | Score | Applied | Report | Notes |
 |---|------|---------|------|-------|-------|---------|--------|-------|
-| — | — | — | — | — | — | — | — | No evaluations yet |
+| 1 | 2026-06-16 | AI HIVE Sdn. Bhd. | AI Automation Software Engineer | ✅ HALAL | 3.0/5 | ❌ | [eval](evaluations/ai-hive-ai-automation-engineer-2026-06-16.md) | PJ Malaysia on-site; halal clean; LLM production gap + comp below target — borderline |
 
 ---
 
@@ -29,6 +29,6 @@
 
 ## Stats
 
-- Total evaluated: 0
-- ✅ Halal: 0 | 🟡 Mashbooh: 0 | 🟠 Mukhtalaf: 0 | ❌ Haram: 0
+- Total evaluated: 1
+- ✅ Halal: 1 | 🟡 Mashbooh: 0 | 🟠 Mukhtalaf: 0 | ❌ Haram: 0
 - Applied: 0
