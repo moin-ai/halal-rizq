@@ -151,10 +151,10 @@ async function generatePDF() {
       format: format,
       printBackground: true,
       margin: {
-        top: '0.45in',
-        right: '0.45in',
-        bottom: '0.45in',
-        left: '0.45in',
+        top: '0.65in',
+        right: '0.65in',
+        bottom: '0.65in',
+        left: '0.65in',
       },
       preferCSSPageSize: false,
     });
