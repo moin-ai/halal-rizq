@@ -43,4 +43,4 @@ The CV/cover templates use ONE accent color via `:root { --accent: ... }` (heade
 - **Default:** professional navy `#1F4E79`.
 - **Brand matching (recommended):** set `--accent` to the employer's primary brand color IF it stays readable on white — darken bright brand colors to a print-safe shade (target roughly WCAG AA contrast for large text; e.g., GDEX red → `#A6151D`, never raw `#EE1C25`). One CSS variable = one-line swap.
 - **Never:** use more than one brand color, mimic the company's fonts or logo styling, or let the accent bleed into body text. Subtle tailoring signals care; cosplay signals presumption.
-- Fonts stay fixed (Space Grotesk headings / DM Sans body — or Calibri/Arial for very traditional employers on request). ATS is color-blind and font-agnostic within reason; these rules exist for the human reader.
+- Fonts: single family — DM Sans throughout (hierarchy via weight/size), the professional standard; Calibri/Arial variant available for very traditional employers on request; never brand-match fonts. ATS is color-blind and font-agnostic within reason; these rules exist for the human reader.
