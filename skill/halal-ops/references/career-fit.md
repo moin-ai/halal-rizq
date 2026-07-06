@@ -13,6 +13,7 @@ Seniority alignment; how to frame experience to clear the hardest gate; the narr
 
 ## D) Comp & Demand
 Market range (location+level) vs. candidate target vs. likely offer; name the gap.
+**Sourcing required:** salary figures come from WebSearch of salary sites for that market (Glassdoor, Payscale, levels.fyi, JobStreet/Jora for SEA, StepStone for DE) — cite the link and retrieval date. No data found → give the range labeled `[estimate — no market data found]`. Never present an unsourced number as market fact.
 
 ## E) Personalization Plan
 Numbered table: Section → Change → Why (mirror JD vocabulary; reorder bullets; surface matching skills).

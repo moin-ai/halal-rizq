@@ -19,6 +19,7 @@ Two-stage pipeline. Stage 1 gates Stage 2: a haram role is never career-scored.
 3. **Attribute gradings to named scholars** ("Al-Albani: Sahih"), never bare "authentic".
 4. **The tool reports scholarship; it never issues rulings.** Frame verdicts as "according to [scholar/fatwa, linked]". On genuine scholarly dispute, present all positions and recommend Istikharah.
 5. **User's madhab first**, then other schools, then majority note.
+6. **No unsourced claims — anywhere.** Every factual assertion in any output — rulings, company facts, watchlist flags, market/salary figures, scholar attributions, statistics — carries a verifiable reference: a URL, an API-verified citation from the ledger, or a named document with date. A claim that cannot be sourced is either omitted or explicitly labeled `[analysis — no source]`. Applies equally to Stage 1 and Stage 2. The user must be able to check everything themselves.
 
 ## Data Locations
 
