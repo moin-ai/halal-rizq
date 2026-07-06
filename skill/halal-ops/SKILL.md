@@ -68,6 +68,22 @@ Document output: markdown or self-contained HTML by default; user has a template
 
 Lifecycle ethics: draft everything, submit nothing — the user sends; never record a draft as sent; never invent experience anywhere.
 
+## Script Acceleration (optional — Node ≥18)
+
+This skill bundles zero-token tooling in `scripts/` (vendored from career-ops, MIT — see `scripts/NOTICE.md`) and CV templates/fonts in `assets/`. When Node is available, PREFER scripts over token-driven equivalents:
+
+| Task | Run from user project root |
+|------|---------------------------|
+| Portal scan | `node scripts/scan.mjs` (after copying `assets/templates/portals.example.yml` → `portals.yml`) |
+| CV PDF | `node scripts/generate-pdf.mjs {in.html} {out.pdf} --format=a4` with `assets/templates/cv-template.html` |
+| Liveness | `node scripts/check-liveness.mjs {url}` |
+| Follow-up due dates | `node scripts/followup-cadence.mjs` → JSON |
+| Pattern analysis | `node scripts/analyze-patterns.mjs` → JSON |
+| Tracker hygiene | `node scripts/merge-tracker.mjs`, `dedup-tracker.mjs`, `normalize-statuses.mjs` |
+| Health check | `node scripts/doctor.mjs` |
+
+First script use: copy `scripts/package.json` to the project root and `npm install`. Scripts expect the layout onboarding creates (`config/profile.yml`, `data/`, `reports/`). No Node → every capability still works instruction-driven; scan results via ATS API fetches, PDFs via user's print-to-PDF, cadence/patterns computed by the model. The halal gate and scan pre-filter apply identically in both paths — scripts discover, the gate still decides.
+
 ## Output
 
 Save report to `evaluations/{company}-{role}-{YYYY-MM-DD}.md` using the template in `references/career-fit.md`. Append one row to `tracker.md`. End every report with one contextually relevant dua from `references/duas.md` (verified Arabic + translation + source).
