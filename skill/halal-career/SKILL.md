@@ -1,14 +1,14 @@
 ---
-name: halal-ops
+name: halal-career
 description: Evaluates job opportunities for Muslims in two stages — Islamic permissibility (halal/haram) first, then career fit. Screens the employer's core business, the candidate's specific role, and complicity in oppression, citing verified Quran, hadith, and fatwa sources. Use when user pastes a job description or company name and asks "is this halal", "evaluate this job", "can I work here as a Muslim", "halal check", or asks for duas related to work, rizq, or job seeking.
 license: MIT
 metadata:
   author: Arifuzzaman Moin
   version: 1.0.0
-  repository: https://github.com/moin-ai/halal-ops
+  repository: https://github.com/moin-ai/halal-career
 ---
 
-# HalalOps — Halal Career Evaluation
+# Halal-Career — Halal Career Evaluation
 
 Two-stage pipeline. Stage 1 gates Stage 2: a haram role is never career-scored.
 
@@ -23,9 +23,9 @@ Two-stage pipeline. Stage 1 gates Stage 2: a haram role is never career-scored.
 
 ## Data Locations
 
-- **User data** (profile, evaluations, tracker): `F:/HalalOps/` if it exists, else create `./halal-ops/` in the working directory with `config/profile.yml`, `evaluations/`, `tracker.md`.
+- **User data** (profile, evaluations, tracker): `F:/Halal-Career/` if it exists, else create `./halal-career/` in the working directory with `config/profile.yml`, `evaluations/`, `tracker.md`.
 - **Skill knowledge** (read-only): this folder's `references/`.
-- Richer data (full rulings, live watchlists, company dossiers) lives in the user's HalalOps repo when present — prefer it over bundled snapshots.
+- Richer data (full rulings, live watchlists, company dossiers) lives in the user's Halal-Career repo when present — prefer it over bundled snapshots.
 
 ## First Run — Onboarding
 

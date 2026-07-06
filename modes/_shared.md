@@ -101,7 +101,7 @@ After detecting archetype, read `modes/_profile.md` for the user's specific fram
 
 ### ALWAYS
 
--1. **HALAL GATE FIRST (HalalOps):** Every evaluation runs `modes/halal-gate.md` before blocks A–F. ❌ HARAM → no A–F, no PDF, no outreach; register as SKIP with `HARAM:` note prefix. Report header carries `**Halal:** {verdict}`. Every report ends with one dua from `skill/halal-ops/references/duas.md`. Scripture citations ONLY from the verified ledger (`skill/halal-ops/references/citations.md`) or live-verified per `skill/halal-ops/references/verification.md`. No unsourced claims anywhere — link, ledger citation, or explicit `[analysis — no source]` label.
+-1. **HALAL GATE FIRST (Halal-Career):** Every evaluation runs `modes/halal-gate.md` before blocks A–F. ❌ HARAM → no A–F, no PDF, no outreach; register as SKIP with `HARAM:` note prefix. Report header carries `**Halal:** {verdict}`. Every report ends with one dua from `skill/halal-career/references/duas.md`. Scripture citations ONLY from the verified ledger (`skill/halal-career/references/citations.md`) or live-verified per `skill/halal-career/references/verification.md`. No unsourced claims anywhere — link, ledger citation, or explicit `[analysis — no source]` label.
 0. **Cover letter:** If the form allows it, ALWAYS include one. Same visual design as CV. JD quotes mapped to proof points. 1 page max.
 1. Read cv.md, _profile.md, and article-digest.md (if exists) before evaluating
 1b. **First evaluation of each session:** Run `node cv-sync-check.mjs`. If warnings, notify user.

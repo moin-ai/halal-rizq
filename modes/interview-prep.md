@@ -140,9 +140,9 @@ After delivering the report:
 - Generate in the language of the JD (EN default).
 - Be direct. This is a working prep document, not a pep talk.
 
-## Step 8 — Deen Readiness (HalalOps)
+## Step 8 — Deen Readiness (Halal-Career)
 
-Prepare the candidate to assess and negotiate religious accommodation — factually, without apology. Full scripts and rights research in `skill/halal-ops/references/interview-prep.md` § Deen Readiness. Cover:
+Prepare the candidate to assess and negotiate religious accommodation — factually, without apology. Full scripts and rights research in `skill/halal-career/references/interview-prep.md` § Deen Readiness. Cover:
 
 - **Prayer:** quiet space for salah; Jumu'ah (~1hr Friday midday) arrangement
 - **Ramadan:** schedule flexibility, iftar timing for on-site roles
@@ -150,6 +150,6 @@ Prepare the candidate to assess and negotiate religious accommodation — factua
 - **Leave:** Eid days where not public holidays
 - **Timing strategy:** accommodation asks are strongest post-offer; hard constraints the user prefers upfront are stated upfront
 - **Rights context:** WebSearch `religious accommodation workplace law {country}` — present findings with links, as information not legal advice
-- **Before the interview:** remind the candidate of dua #5 (Quran 20:25–28) from `skill/halal-ops/references/duas.md`
+- **Before the interview:** remind the candidate of dua #5 (Quran 20:25–28) from `skill/halal-career/references/duas.md`
 
 Hostile-to-practice signals discovered here are Stage 1 information → note in `knowledge/companies/{slug}.md` and the report's Annotations.

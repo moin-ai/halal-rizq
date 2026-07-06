@@ -1,4 +1,4 @@
-# HalalOps — Halal Jobs, Verified
+# Halal-Career — Halal Jobs, Verified
 
 > **Check if a job is halal before you check if it fits your CV.**
 > The first job-search system for Muslims that screens every opportunity for Islamic permissibility — the employer's business, your specific role, and their complicity in oppression — with verified Quran, hadith, and fatwa citations. Only then does it run the full career evaluation: CV match, salary analysis, tailored documents, interview prep.
@@ -21,7 +21,7 @@ The Prophet ﷺ said:
 
 And he ﷺ warned of the man whose du'a is not answered *"while his food is haram, his drink is haram, his clothing is haram, and he has been nourished with haram"* — Sahih Muslim 1015.
 
-HalalOps exists so that no Muslim has to choose between career tooling and their akhirah.
+Halal-Career exists so that no Muslim has to choose between career tooling and their akhirah.
 
 ---
 
@@ -83,7 +83,7 @@ Sunnah at the end of every report.
 ## How To Use It
 
 ### Option A — The skill (lightest)
-1. Copy `skill/halal-ops/` into your Claude Code skills directory (`~/.claude/skills/halal-ops/`) or upload it zipped to Claude.ai (Settings → Capabilities → Skills).
+1. Copy `skill/halal-career/` into your Claude Code skills directory (`~/.claude/skills/halal-career/`) or upload it zipped to Claude.ai (Settings → Capabilities → Skills).
 2. Paste any job description and say **"is this halal?"** or **"evaluate this job."**
 3. First run asks your madhab (Hanafi / Shafi'i / Maliki / Hanbali / present all) — answered once, saved forever.
 
@@ -137,13 +137,13 @@ Works in your language — evaluations respond in whatever language you write in
 | Violation Tracker | US corporate misconduct | https://violationtracker.goodjobsfirst.org |
 
 ### Base System
-The career-evaluation engine builds on **[career-ops](https://github.com/santifer/career-ops)** by Santiago Fernández de Valderrama (MIT License — retained in `LICENSE` and `skill/halal-ops/scripts/NOTICE.md`). May Allah reward him for open-sourcing it.
+The career-evaluation engine builds on **[career-ops](https://github.com/santifer/career-ops)** by Santiago Fernández de Valderrama (MIT License — retained in `LICENSE` and `skill/halal-career/scripts/NOTICE.md`). May Allah reward him for open-sourcing it.
 
 ---
 
 ## Key Verses & Duas In This System
 
-**Foundations** *(all verified against quran.com / hadith APIs — full ledger: `skill/halal-ops/references/citations.md`)*
+**Foundations** *(all verified against quran.com / hadith APIs — full ledger: `skill/halal-career/references/citations.md`)*
 
 - *"Allah has permitted trade and forbidden riba."* — **Quran 2:275**
 - *"Help one another in righteousness and piety, but do not help one another in sin and aggression."* — **Quran 5:2**
@@ -151,7 +151,7 @@ The career-evaluation engine builds on **[career-ops](https://github.com/santife
 - The Messenger of Allah ﷺ *"cursed the one who consumes riba, the one who pays it, the one who records it, and the two witnesses to it."* — **Sahih Muslim 1598** (Abd al-Baqi)
 - *"The believers, in their mutual love and compassion, are like one body."* — **Sahih Bukhari 6011; Sahih Muslim 2586**
 
-**Duas for the jobseeker** *(Arabic + transliteration + grading in `skill/halal-ops/references/duas.md`)*
+**Duas for the jobseeker** *(Arabic + transliteration + grading in `skill/halal-career/references/duas.md`)*
 
 1. **Halal sufficiency:** *Allahumma-kfini bi-halalika 'an haramika…* — "O Allah, suffice me with Your halal against Your haram" — Tirmidhi 3563 (Hasan)
 2. **Against worry & debt:** *Allahumma inni a'udhu bika minal-hammi wal-hazan…* — Bukhari 6369
@@ -165,7 +165,7 @@ The career-evaluation engine builds on **[career-ops](https://github.com/santife
 
 ## Disclaimer
 
-HalalOps presents verified scholarship as reference material — **it is not a fatwa, and it is not a mufti.** Rulings differ by situation and madhab; the system shows you the sources and the disagreements, but for your specific circumstance, consult a qualified scholar. Scholar review of the rulings library is planned before wide release.
+Halal-Career presents verified scholarship as reference material — **it is not a fatwa, and it is not a mufti.** Rulings differ by situation and madhab; the system shows you the sources and the disagreements, but for your specific circumstance, consult a qualified scholar. Scholar review of the rulings library is planned before wide release.
 
 > *"And do not say about what your tongues assert of untruth, 'This is lawful and this is unlawful,' to invent falsehood about Allah."* — Quran 16:116
 

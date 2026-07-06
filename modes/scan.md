@@ -68,7 +68,7 @@ Los niveles son aditivos — se ejecutan todos, los resultados se mezclan y dedu
 
 ## Workflow
 
-0. **Pre-filtro halal (HalalOps)**: leer `knowledge/oppression-watch/_index.md` (tabla quick-reference). Cualquier oferta cuya empresa (o matriz conocida) aparezca en el tier "Highest Confidence" NO entra al pipeline — registrar en scan-history con nota `HARAM-prefiltered: {watchlist}`. Empresas en tiers Medium: entran al pipeline con flag `⚠ watchlist-{tier}` en la nota para que el halal-gate lo investigue a fondo. Este filtro ahorra evaluaciones completas de empleadores categóricamente prohibidos (Elbit, Lockheed, Hikvision, etc.).
+0. **Pre-filtro halal (Halal-Career)**: leer `knowledge/oppression-watch/_index.md` (tabla quick-reference). Cualquier oferta cuya empresa (o matriz conocida) aparezca en el tier "Highest Confidence" NO entra al pipeline — registrar en scan-history con nota `HARAM-prefiltered: {watchlist}`. Empresas en tiers Medium: entran al pipeline con flag `⚠ watchlist-{tier}` en la nota para que el halal-gate lo investigue a fondo. Este filtro ahorra evaluaciones completas de empleadores categóricamente prohibidos (Elbit, Lockheed, Hikvision, etc.).
 
 1. **Leer configuración**: `portals.yml`
 2. **Leer historial**: `data/scan-history.tsv` → URLs ya vistas

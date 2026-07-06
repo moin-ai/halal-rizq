@@ -1,4 +1,4 @@
-# HalalOps — Full Evaluation Mode
+# Halal-Career — Full Evaluation Mode
 
 ## Purpose
 

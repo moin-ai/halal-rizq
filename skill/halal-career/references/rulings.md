@@ -1,6 +1,6 @@
 # Rulings Reference (Condensed, Verified)
 
-Portable snapshot for standalone use. When running inside the HalalOps repo, prefer the fuller files in `knowledge/rulings/`. All citations below are in `citations.md` (verified 2026-06-16).
+Portable snapshot for standalone use. When running inside the Halal-Career repo, prefer the fuller files in `knowledge/rulings/`. All citations below are in `citations.md` (verified 2026-06-16).
 
 ## Riba / Conventional Banking
 

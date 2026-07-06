@@ -49,7 +49,7 @@ Eres un worker de evaluación de ofertas de empleo for the candidate (read name 
 
 ### Paso 1.5 — HALAL GATE (OBLIGATORIO)
 
-Ejecuta `modes/halal-gate.md` (protocolo completo en `skill/halal-ops/`). ❌ HARAM → report solo con sección Halal Gate, TSV con status SKIP y nota `HARAM: {razón}`, TERMINA sin bloques A-G. ✅/🟡/🟠 → incluye `## Halal Gate` al inicio del report, header `**Halal:** {veredicto}`, y continúa. En modo batch sin Playwright: la investigación de empresa usa WebSearch/WebFetch; marca la confianza como corresponda.
+Ejecuta `modes/halal-gate.md` (protocolo completo en `skill/halal-career/`). ❌ HARAM → report solo con sección Halal Gate, TSV con status SKIP y nota `HARAM: {razón}`, TERMINA sin bloques A-G. ✅/🟡/🟠 → incluye `## Halal Gate` al inicio del report, header `**Halal:** {veredicto}`, y continúa. En modo batch sin Playwright: la investigación de empresa usa WebSearch/WebFetch; marca la confianza como corresponda.
 
 ### Paso 2 — Evaluación A-G
 
