@@ -33,7 +33,7 @@ Read `config/profile.yml → fiqh.madhab`. If missing or `prompt_user`: ask (Han
 ## Stage 1 — Halal Gate
 
 1. **Parse** JD: company (+parent), role, what the user would actually build/do.
-2. **Research company**: check `knowledge/companies/{slug}.md` dossier first; else WebSearch (revenue model, clients, haram elements), save new dossier.
+2. **Research company**: follow `references/company-research.md` — tiered protocol (identity/ownership → revenue truth from filings → halal screeners → contracts → ethics databases → ground truth). Cache result as dossier.
 3. **Oppression check**: consult `knowledge/oppression-watch/_index.md` (repo) or `references/watchlist-snapshot.md` (bundled fallback). Also WebSearch `"{company} Israel military | Uyghur | Myanmar"` for anything newer. Record confidence H/M/L + source.
 4. **Apply rulings**: load matching section of `references/rulings.md` (riba, insurance, defense, alcohol/tobacco, gambling, indirect-tech). Present user's madhab position first with verified citations, then others.
 5. **Red lines**: check every entry in `profile.yml → personal_red_lines`. Any trigger → HARAM.
