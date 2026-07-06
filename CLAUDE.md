@@ -276,6 +276,7 @@ Default modes are in `modes/` (English). Additional language-specific modes are 
 | Processes pending URLs | `pipeline` |
 | Batch processes offers | `batch` |
 | Asks about rejection patterns or wants to improve targeting | `patterns` |
+| Says they work in a haram job and want out | `exit` (Halal-Career) |
 | Asks about follow-ups or application cadence | `followup` |
 
 ### CV Source of Truth

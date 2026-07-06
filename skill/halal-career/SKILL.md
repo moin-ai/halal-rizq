@@ -38,7 +38,7 @@ Read `config/profile.yml → fiqh.madhab`. If missing or `prompt_user`: ask (Han
 ## Stage 1 — Halal Gate
 
 1. **Parse** JD: company (+parent), role, what the user would actually build/do.
-2. **Research company**: follow `references/company-research.md` — tiered protocol (identity/ownership → revenue truth from filings → halal screeners → contracts → ethics databases → ground truth). Cache result as dossier.
+2. **Research company**: check the employer index first (`knowledge/employer-index.md` in repo) — a fresh (<12mo) entry short-circuits research. Else follow `references/company-research.md` — tiered protocol (identity/ownership → revenue truth from filings → halal screeners → contracts → ethics databases → ground truth). Cache result as dossier. **After every verdict: append/update the employer index row** (verdict, confidence, evidence link, date).
 3. **Oppression check**: consult `knowledge/oppression-watch/_index.md` (repo) or `references/watchlist-snapshot.md` (bundled fallback). Also WebSearch `"{company} Israel military | Uyghur | Myanmar"` for anything newer. Record confidence H/M/L + source.
 4. **Apply rulings**: load matching section of `references/rulings.md` (riba, insurance, defense, alcohol/tobacco, gambling, indirect-tech). Present user's madhab position first with verified citations, then others.
 5. **Red lines**: check every entry in `profile.yml → personal_red_lines`. Any trigger → HARAM.
@@ -63,6 +63,7 @@ Follow `references/career-fit.md`: A) Role summary, B) CV match & strategy, D) C
 | Interview prep (incl. deen accommodations) | `references/interview-prep.md` |
 | Compare offers / evaluate a course, cert, or portfolio project / external research prompt | `references/compare-grow.md` |
 | Outcome recorded / "what's working?" | tracker update + pattern learning (`career-fit.md` § Tracker) |
+| "I'm in a haram job and want out" / exit plan | `references/exit-mode.md` — adab first, no judgment, runway math, purification guidance |
 
 Document output: markdown or self-contained HTML by default; user has a template/pipeline (HTML→PDF script, LaTeX/Overleaf, Canva) → use theirs. Verify a posting is live (liveness check) before investing document effort.
 

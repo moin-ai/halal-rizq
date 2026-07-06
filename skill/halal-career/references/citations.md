@@ -74,3 +74,12 @@ When a lookup returns a different hadith than expected:
 2. Locate the intended hadith by text search in the same collection.
 3. Cite BOTH numbers: "Muslim 1598 (Abd al-Baqi) / CDN#4093".
 4. Add the mapping to this ledger.
+
+## Additions — verified 2026-07-06 (Exit Mode)
+
+| Ref | Anchor | Topic |
+|-----|--------|-------|
+| Quran 39:53 | "O My servants who have transgressed against themselves, do not despair of the mercy of Allah..." | Hope — no despair |
+| Quran 66:8 | "Repent to Allah with sincere repentance (tawbatan nasuha)..." | Tawbah |
+| Quran 25:70 | "Except for those who repent, believe and do righteous work — Allah will replace their evil deeds with good" | Tawbah — deeds replaced |
+| Ibn Majah 4250 | "The one who repents from sin is like one who has no sin" — ⚠ SPLIT GRADING: Al-Albani: Da'if; Abd al-Baqi: Hasan — cite only with both grades shown | Tawbah (supporting, not primary) |
