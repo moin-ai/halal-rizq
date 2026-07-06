@@ -15,8 +15,8 @@ candidate:
 
 fiqh:
   # Primary madhab for borderline rulings. Options: hanafi | shafi | maliki | hanbali | prompt_user
-  # Set to prompt_user to be asked on first evaluation (answer saved automatically)
-  madhab: "prompt_user"
+  madhab: "hanafi"
+  present_all_madhabs: true
 
   # When scholars disagree, which position to default to:
   # cautious | majority | present_all
