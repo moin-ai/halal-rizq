@@ -1,5 +1,23 @@
 # Halal-Career — Halal Jobs, Verified
 
+## 🌍 Language Selection | اختر اللغة | ভাষা নির্বাচন করুন | Pilih Bahasa
+
+Choose your language to read this README:
+
+| English | العربية | বাংলা | اردو | 中文 | 繁體中文 | 日本語 | 한국어 |
+|---------|---------|--------|-------|------|---------|--------|---------|
+| [🇬🇧 English](README.md) | [🇸🇦 العربية](README.ar.md) | [🇧🇩 বাংলা](README.bn.md) | [🇵🇰 اردو](README.ur.md) | [🇨🇳 简体中文](README.cn.md) | [🇹🇼 繁體中文](README.zh-TW.md) | [🇯🇵 日本語](README.ja.md) | [🇰🇷 한국어](README.ko-KR.md) |
+
+| Español | Français | Português | Русский | Türkçe | Deutsch | Uyghur | Malay |
+|---------|----------|-----------|---------|--------|---------|--------|---------|
+| [🇪🇸 Español](README.es.md) | [🇫🇷 Français](README.fr.md) | [🇧🇷 Português](README.pt-BR.md) | [🇷🇺 Русский](README.ru.md) | [🇹🇷 Türkçe](README.tr.md) | [🇩🇪 Deutsch](README.de.md) | [🇨🇳 ئۇيغۇرچە](README.ug.md) | [🇲🇾 Bahasa Melayu](README.ms.md) |
+
+| Indonesian | हिन्दी | ไทย | Tiếng Việt | فارسی | Pashto | Dari | More Languages →  |
+|------------|--------|------|------------|--------|--------|--------|----------|
+| [🇮🇩 Indonesian](README.id.md) | [🇮🇳 हिन्दी](README.hi.md) | [🇹🇭 ไทย](README.th.md) | [🇻🇳 Tiếng Việt](README.vi.md) | [🇮🇷 فارسی](README.fa.md) | [🇦🇫 Pashto](README.ps.md) | [🇦🇫 Dari](README.prs.md) | [📋 View All Supported Languages](#all-languages) |
+
+---
+
 > **Check if a job is halal before you check if it fits your CV.**
 > The first job-search system for Muslims that screens every opportunity for Islamic permissibility — the employer's business, your specific role, and their complicity in oppression — with verified Quran, hadith, and fatwa citations. Only then does it run the full career evaluation: CV match, salary analysis, tailored documents, interview prep.
 
@@ -168,6 +186,52 @@ The career-evaluation engine builds on **[career-ops](https://github.com/santife
 Halal-Career presents verified scholarship as reference material — **it is not a fatwa, and it is not a mufti.** Rulings differ by situation and madhab; the system shows you the sources and the disagreements, but for your specific circumstance, consult a qualified scholar. Scholar review of the rulings library is planned before wide release.
 
 > *"And do not say about what your tongues assert of untruth, 'This is lawful and this is unlawful,' to invent falsehood about Allah."* — Quran 16:116
+
+---
+
+## All Supported Languages {#all-languages}
+
+### Core Translations Available
+- 🇬🇧 **English** (main) — [README.md](README.md)
+- 🇸🇦 **Arabic** (عربية) — [README.ar.md](README.ar.md)
+- 🇧🇩 **Bengali** (বাংলা) — [README.bn.md](README.bn.md)
+- 🇵🇰 **Urdu** (اردو) — [README.ur.md](README.ur.md)
+- 🇨🇳 **Simplified Chinese** (简体中文) — [README.cn.md](README.cn.md)
+- 🇹🇼 **Traditional Chinese** (繁體中文) — [README.zh-TW.md](README.zh-TW.md)
+- 🇯🇵 **Japanese** (日本語) — [README.ja.md](README.ja.md)
+- 🇰🇷 **Korean** (한국어) — [README.ko-KR.md](README.ko-KR.md)
+- 🇪🇸 **Spanish** (Español) — [README.es.md](README.es.md)
+- 🇫🇷 **French** (Français) — [README.fr.md](README.fr.md)
+- 🇧🇷 **Portuguese** (Português) — [README.pt-BR.md](README.pt-BR.md)
+- 🇷🇺 **Russian** (Русский) — [README.ru.md](README.ru.md)
+
+### Additional Languages (Beta)
+- 🇹🇷 **Turkish** (Türkçe) — [README.tr.md](README.tr.md)
+- 🇩🇪 **German** (Deutsch) — [README.de.md](README.de.md)
+- 🇨🇳 **Uyghur** (ئۇيغۇرچە) — [README.ug.md](README.ug.md)
+- 🇲🇾 **Malay** (Bahasa Melayu) — [README.ms.md](README.ms.md)
+- 🇮🇩 **Indonesian** (Bahasa Indonesia) — [README.id.md](README.id.md)
+- 🇮🇳 **Hindi** (हिन्दी) — [README.hi.md](README.hi.md)
+- 🇹🇭 **Thai** (ไทย) — [README.th.md](README.th.md)
+- 🇻🇳 **Vietnamese** (Tiếng Việt) — [README.vi.md](README.vi.md)
+- 🇮🇷 **Persian** (فارسی) — [README.fa.md](README.fa.md)
+- 🇦🇫 **Pashto** (پشتو) — [README.ps.md](README.ps.md)
+- 🇦🇫 **Dari** (دری) — [README.prs.md](README.prs.md)
+
+### Scripture & Hadith Available In
+Over **70 languages** for Quranic verses and **44+ languages** for hadith explanations (verified via quran.com, fawazahmed0 CDN, and HadeethEnc APIs). [See full language support](skill/halal-career/references/verification.md#languages).
+
+### How to Contribute a Translation
+Help us reach more Muslims in your language! To translate the README:
+
+1. Copy `README.md` → `README.[lang-code].md` (use [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) or regional code: `ar`, `bn`, `ur`, `zh-TW`, `pt-BR`, etc.)
+2. Translate faithfully — preserve:
+   - All Quranic verses (with surahs & verses)
+   - All hadith references (with collections & numbers)
+   - All links and formatting
+   - The disclaimer about scholarship vs. fatwas
+3. Open a pull request with the new `.md` file
+4. We'll add it to the language selector above once verified
 
 ---
 
