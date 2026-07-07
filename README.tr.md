@@ -1,54 +1,20 @@
 # Halal-Career — Helal İşler, Doğrulanmış
 
-## 🌍 Dili Seçin | Language Selection
+[🇬🇧 İngilizce tam sürüm](README.md) · [🌍 Tüm diller](README.md#languages)
 
-Choose your language to read this README:
+> **Bir işin CV'nize uyup uymadığına bakmadan önce helal olup olmadığına bakın.**
 
-| English | العربية | বাংলা | اردو | 中文 | 繁體中文 | 日本語 | 한국어 |
-|---------|---------|--------|-------|------|---------|--------|---------|
-| [🇬🇧 English](README.md) | [🇸🇦 العربية](README.ar.md) | [🇧🇩 বাংলা](README.bn.md) | [🇵🇰 اردو](README.ur.md) | [🇨🇳 简体中文](README.cn.md) | [🇹🇼 繁體中文](README.zh-TW.md) | [🇯🇵 日本語](README.ja.md) | [🇰🇷 한국어](README.ko-KR.md) |
+**🚧 Bu çeviri devam ediyor — şimdilik lütfen [İngilizce tam sürümü](README.md) okuyun.**
 
-| Español | Français | Português | Русский | Türkçe | Deutsch | Uyghur | Malay |
-|---------|----------|-----------|---------|--------|---------|--------|---------|
-| [🇪🇸 Español](README.es.md) | [🇫🇷 Français](README.fr.md) | [🇧🇷 Português](README.pt-BR.md) | [🇷🇺 Русский](README.ru.md) | [🇹🇷 Türkçe](README.tr.md) | [🇩🇪 Deutsch](README.de.md) | [🇨🇳 ئۇيغۇرچە](README.ug.md) | [🇲🇾 Bahasa Melayu](README.ms.md) |
+## Ne yapar
 
----
+- **Dinî cevaz kontrolü**: işverenin faaliyet alanı ve özellikle sizin rolünüz — doğrulanmış Kur'an ayetleri, hadisler ve fetva kaynaklarıyla; sistem âlimlerin görüşlerini sunar, asla kendisi fetva vermez
+- **Zulüm izleme listeleri kontrolü**: Filistin · Uygurlar · Keşmir · Rohingya (2 günde bir güncellenir)
+- **Tam kariyer değerlendirmesi**: CV uyumu, kaynaklı maaş analizi, kişiye özel CV ve ön yazı
+- **Mülakat hazırlığı** — dinî ihtiyaçlar dâhil: namaz, Cuma, Ramazan
 
-## 🚧 Çeviri Devam Ediyor
+**Zaten sizin dilinizde çalışıyor**: Türkçe yazın, Türkçe yanıt alın; Kur'an ve hadis doğrulanmış Türkçe çevirilerden sunulur (Kur'an: Diyanet) — dinî metinler asla makine çevirisi değildir.
 
-Bu dosya Türkçeye çevrilmektedir. Şimdilik, lütfen tam İngilizce sürümünü okuyun:
+## Çeviriye yardım edin
 
-### 📖 Tam Sürümü Okuyun
-- **[Tam İngilizce Sürüm](README.md)** ← Lütfen bu bağlantıyı kullanın
-
-### 🤝 Çeviriye Yardımcı Olmak İster misiniz?
-
-Katkılarınızı memnuniyetle karşılıyoruz! Şunları yapabilirsiniz:
-
-1. **README.md'yi Türkçeye çevirin**
-   - `README.md` → `README.tr.md` kopyalayın
-   - Koruyun:
-     - Tüm Kuran ayetleri (sure ve ayet numaraları ile)
-     - Tüm hadis referansları (koleksiyon ve numaralar ile)
-     - Tüm bağlantılar ve biçimlendirme
-     - Sorumluluk reddi beyanı
-
-2. **Çevrilmiş dosya ile bir Çekme İsteği (Pull Request) açın**
-
-Katkınız için Allah sizi iyilikle mükafatlandırsın!
-
----
-
-## Hızlı Bilgi
-
-**Halal-Career** size sağlayan bir iş arama sistemidir:
-- ✅ Başvurmadan önce kapsamlı İslami şirket kontrolü
-- ✅ Tam kariyer yolu değerlendirmesi (beceriler, maaş, uyum)
-- ✅ Özelleştirilmiş CV ve ön yazı oluşturma
-- ✅ İş görüşmesi hazırlığı
-
-[Tam ayrıntıları İngilizcede okuyun](README.md)
-
----
-
-**Rızkını helal tutmak isteyen her Müslüman için yapılmıştır — bu dünyada ve ahirette.**
+`README.md` dosyasını `README.tr.md` olarak kopyalayın, sadakatle çevirin (her alıntıyı tam numaralarıyla, tüm bağlantıları ve sorumluluk reddini koruyarak), ardından bir Pull Request açın. Allah razı olsun.

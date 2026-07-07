@@ -1,20 +1,6 @@
 # Halal-Career — Halal Jobs, Verified
 
-## 🌍 Language Selection | اختر اللغة | ভাষা নির্বাচন করুন | Pilih Bahasa
-
-Choose your language to read this README:
-
-| English | العربية | বাংলা | اردو | 中文 | 繁體中文 | 日本語 | 한국어 |
-|---------|---------|--------|-------|------|---------|--------|---------|
-| [🇬🇧 English](README.md) | [🇸🇦 العربية](README.ar.md) | [🇧🇩 বাংলা](README.bn.md) | [🇵🇰 اردو](README.ur.md) | [🇨🇳 简体中文](README.cn.md) | [🇹🇼 繁體中文](README.zh-TW.md) | [🇯🇵 日本語](README.ja.md) | [🇰🇷 한국어](README.ko-KR.md) |
-
-| Español | Français | Português | Русский | Türkçe | Deutsch | Uyghur | Malay |
-|---------|----------|-----------|---------|--------|---------|--------|---------|
-| [🇪🇸 Español](README.es.md) | [🇫🇷 Français](README.fr.md) | [🇧🇷 Português](README.pt-BR.md) | [🇷🇺 Русский](README.ru.md) | [🇹🇷 Türkçe](README.tr.md) | [🇩🇪 Deutsch](README.de.md) | [🇨🇳 ئۇيغۇرچە](README.ug.md) | [🇲🇾 Bahasa Melayu](README.ms.md) |
-
-| Indonesian | हिन्दी | ไทย | Tiếng Việt | فارسی | Pashto | Dari | More Languages →  |
-|------------|--------|------|------------|--------|--------|--------|----------|
-| [🇮🇩 Indonesian](README.id.md) | [🇮🇳 हिन्दी](README.hi.md) | [🇹🇭 ไทย](README.th.md) | [🇻🇳 Tiếng Việt](README.vi.md) | [🇮🇷 فارسی](README.fa.md) | [🇦🇫 Pashto](README.ps.md) | [🇦🇫 Dari](README.prs.md) | [📋 View All Supported Languages](#all-languages) |
+**🌍 Read this in:** [🇸🇦 العربية](README.ar.md) · [🇧🇩 বাংলা](README.bn.md) · [🇵🇰 اردو](README.ur.md) · [🇮🇳 हिन्दी](README.hi.md) · [🇮🇩 Bahasa Indonesia](README.id.md) · [🇲🇾 Bahasa Melayu](README.ms.md) · [🇹🇷 Türkçe](README.tr.md) · [🇮🇷 فارسی](README.fa.md) · [🇦🇫 پښتو](README.ps.md) · [🇦🇫 دری](README.prs.md) · [☪️ ئۇيغۇرچە](README.ug.md) · [🇫🇷 Français](README.fr.md) · [🇩🇪 Deutsch](README.de.md) · [🇪🇸 Español](README.es.md) · [🇧🇷 Português](README.pt-BR.md) · [🇷🇺 Русский](README.ru.md) · [🇨🇳 简体中文](README.cn.md) · [🇹🇼 繁體中文](README.zh-TW.md) · [🇯🇵 日本語](README.ja.md) · [🇰🇷 한국어](README.ko-KR.md) · [🇹🇭 ไทย](README.th.md) · [🇻🇳 Tiếng Việt](README.vi.md) — [see all / contribute](#languages)
 
 ---
 
@@ -189,49 +175,20 @@ Halal-Career presents verified scholarship as reference material — **it is not
 
 ---
 
-## All Supported Languages {#all-languages}
+## Languages
 
-### Core Translations Available
-- 🇬🇧 **English** (main) — [README.md](README.md)
-- 🇸🇦 **Arabic** (عربية) — [README.ar.md](README.ar.md)
-- 🇧🇩 **Bengali** (বাংলা) — [README.bn.md](README.bn.md)
-- 🇵🇰 **Urdu** (اردو) — [README.ur.md](README.ur.md)
-- 🇨🇳 **Simplified Chinese** (简体中文) — [README.cn.md](README.cn.md)
-- 🇹🇼 **Traditional Chinese** (繁體中文) — [README.zh-TW.md](README.zh-TW.md)
-- 🇯🇵 **Japanese** (日本語) — [README.ja.md](README.ja.md)
-- 🇰🇷 **Korean** (한국어) — [README.ko-KR.md](README.ko-KR.md)
-- 🇪🇸 **Spanish** (Español) — [README.es.md](README.es.md)
-- 🇫🇷 **French** (Français) — [README.fr.md](README.fr.md)
-- 🇧🇷 **Portuguese** (Português) — [README.pt-BR.md](README.pt-BR.md)
-- 🇷🇺 **Russian** (Русский) — [README.ru.md](README.ru.md)
+The full README is in **English**; the linked language pages are stubs awaiting community translation. **The tool itself already works in your language** — evaluations respond in whatever language you write in, and scripture is served from verified translations (Quran: 69 languages · hadith explanations: 70 languages via HadeethEnc), never machine-translated. [Full scripture language support →](skill/halal-career/references/verification.md#languages)
 
-### Additional Languages (Beta)
-- 🇹🇷 **Turkish** (Türkçe) — [README.tr.md](README.tr.md)
-- 🇩🇪 **German** (Deutsch) — [README.de.md](README.de.md)
-- 🇨🇳 **Uyghur** (ئۇيغۇرچە) — [README.ug.md](README.ug.md)
-- 🇲🇾 **Malay** (Bahasa Melayu) — [README.ms.md](README.ms.md)
-- 🇮🇩 **Indonesian** (Bahasa Indonesia) — [README.id.md](README.id.md)
-- 🇮🇳 **Hindi** (हिन्दी) — [README.hi.md](README.hi.md)
-- 🇹🇭 **Thai** (ไทย) — [README.th.md](README.th.md)
-- 🇻🇳 **Vietnamese** (Tiếng Việt) — [README.vi.md](README.vi.md)
-- 🇮🇷 **Persian** (فارسی) — [README.fa.md](README.fa.md)
-- 🇦🇫 **Pashto** (پشتو) — [README.ps.md](README.ps.md)
-- 🇦🇫 **Dari** (دری) — [README.prs.md](README.prs.md)
+| Status | Languages |
+|--------|-----------|
+| ✅ Complete | 🇬🇧 English |
+| 🚧 Stub — **help translate!** | العربية (ar) · বাংলা (bn) · اردو (ur) · हिन्दी (hi) · Bahasa Indonesia (id) · Bahasa Melayu (ms) · Türkçe (tr) · فارسی (fa) · پښتو (ps) · دری (prs) · ئۇيغۇرچە (ug) · Français (fr) · Deutsch (de) · Español (es) · Português (pt-BR) · Русский (ru) · 简体中文 (cn) · 繁體中文 (zh-TW) · 日本語 (ja) · 한국어 (ko-KR) · ไทย (th) · Tiếng Việt (vi) |
 
-### Scripture & Hadith Available In
-Over **70 languages** for Quranic verses and **44+ languages** for hadith explanations (verified via quran.com, fawazahmed0 CDN, and HadeethEnc APIs). [See full language support](skill/halal-career/references/verification.md#languages).
+### How to contribute a translation
 
-### How to Contribute a Translation
-Help us reach more Muslims in your language! To translate the README:
-
-1. Copy `README.md` → `README.[lang-code].md` (use [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) or regional code: `ar`, `bn`, `ur`, `zh-TW`, `pt-BR`, etc.)
-2. Translate faithfully — preserve:
-   - All Quranic verses (with surahs & verses)
-   - All hadith references (with collections & numbers)
-   - All links and formatting
-   - The disclaimer about scholarship vs. fatwas
-3. Open a pull request with the new `.md` file
-4. We'll add it to the language selector above once verified
+1. Copy `README.md` → `README.<code>.md` (codes above; [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for new languages).
+2. Translate faithfully — preserve every Quran verse and hadith reference **with its exact numbering**, all links, and the Disclaimer. **Never machine-translate scripture**: quote from the verified translations listed in [verification.md](skill/halal-career/references/verification.md#languages).
+3. Open a pull request; after review we link it in the selector at the top.
 
 ---
 

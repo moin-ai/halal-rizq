@@ -1,54 +1,20 @@
-# Halal-Career — Halal-Arbeitsplätze, Verifiziert
+# Halal-Career — Halal-Jobs, verifiziert
 
-## 🌍 Sprache wählen | Language Selection
+[🇬🇧 Vollständige englische Version](README.md) · [🌍 Alle Sprachen](README.md#languages)
 
-Choose your language to read this README:
+> **Prüfe, ob ein Job halal ist, bevor du prüfst, ob er zu deinem Lebenslauf passt.**
 
-| English | العربية | বাংলা | اردو | 中文 | 繁體中文 | 日本語 | 한국어 |
-|---------|---------|--------|-------|------|---------|--------|---------|
-| [🇬🇧 English](README.md) | [🇸🇦 العربية](README.ar.md) | [🇧🇩 বাংলা](README.bn.md) | [🇵🇰 اردو](README.ur.md) | [🇨🇳 简体中文](README.cn.md) | [🇹🇼 繁體中文](README.zh-TW.md) | [🇯🇵 日本語](README.ja.md) | [🇰🇷 한국어](README.ko-KR.md) |
+**🚧 Diese Übersetzung ist in Arbeit — bitte lies vorerst die [vollständige englische Version](README.md).**
 
-| Español | Français | Português | Русский | Türkçe | Deutsch | Uyghur | Malay |
-|---------|----------|-----------|---------|--------|---------|--------|---------|
-| [🇪🇸 Español](README.es.md) | [🇫🇷 Français](README.fr.md) | [🇧🇷 Português](README.pt-BR.md) | [🇷🇺 Русский](README.ru.md) | [🇹🇷 Türkçe](README.tr.md) | [🇩🇪 Deutsch](README.de.md) | [🇨🇳 ئۇيغۇرچە](README.ug.md) | [🇲🇾 Bahasa Melayu](README.ms.md) |
+## Was das System tut
 
----
+- **Prüfung der islamischen Zulässigkeit**: das Geschäft des Arbeitgebers und deine konkrete Rolle — mit verifizierten Zitaten aus Koran, Hadithen und Fatwas; das System stellt die Positionen der Gelehrten dar, es erlässt niemals selbst Fatwas
+- **Abgleich mit Unterdrückungs-Watchlists**: Palästina · Uiguren · Kaschmir · Rohingya (alle 2 Tage aktualisiert)
+- **Vollständige Karrierebewertung**: CV-Abgleich, belegte Gehaltsanalyse, maßgeschneiderter Lebenslauf und Anschreiben
+- **Interviewvorbereitung** inkl. religiöser Bedürfnisse: Gebet, Freitagsgebet, Ramadan
 
-## 🚧 Übersetzung läuft
+**Es funktioniert bereits in deiner Sprache**: Schreibe auf Deutsch, es antwortet auf Deutsch; Koran und Hadithe stammen aus verifizierten Übersetzungen (Koran: Bubenheim & Nadeem) — religiöse Texte werden niemals maschinell übersetzt.
 
-Diese Datei wird ins Deutsche übersetzt. Bitte lesen Sie vorläufig die vollständige englische Version:
+## Hilf beim Übersetzen
 
-### 📖 Vollständige Version lesen
-- **[Vollständige englische Version](README.md)** ← Bitte verwenden Sie diesen Link
-
-### 🤝 Möchten Sie bei der Übersetzung helfen?
-
-Wir begrüßen Ihre Beiträge! Sie können:
-
-1. **README.md ins Deutsche übersetzen**
-   - `README.md` → `README.de.md` kopieren
-   - Bewahren Sie:
-     - Alle Koranverse (mit Suren- und Versnummern)
-     - Alle Hadith-Referenzen (mit Sammlungen und Nummern)
-     - Alle Links und Formatierung
-     - Den Haftungsausschluss
-
-2. **Einen Pull Request öffnen** mit der übersetzten Datei
-
-Möge Allah Sie für Ihren Beitrag belohnen!
-
----
-
-## Schnelle Informationen
-
-**Halal-Career** ist ein Jobsearch-System, das Ihnen bietet:
-- ✅ Vollständige islamische Unternehmensüberprüfung vor der Bewerbung
-- ✅ Vollständige Bewertung des Karrierewegs (Fähigkeiten, Gehalt, Passung)
-- ✅ Generierung eines personalisierten Lebenslaufs und Anschreibens
-- ✅ Vorbereitung auf Bewerbungsgespräche
-
-[Vollständige Details auf Englisch lesen](README.md)
-
----
-
-**Entwickelt für jeden Muslim, der sein Rizq halal halten möchte — in dieser Welt und im Jenseits.**
+Kopiere `README.md` → `README.de.md`, übersetze getreu (jedes Zitat mit exakter Nummerierung, alle Links und den Haftungsausschluss beibehalten), dann öffne einen Pull Request. Möge Allah es dir vergelten.

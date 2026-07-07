@@ -1,54 +1,20 @@
 # Halal-Career — Pekerjaan Halal, Terverifikasi
 
-## 🌍 Pilih Bahasa | Language Selection
+[🇬🇧 Versi lengkap bahasa Inggris](README.md) · [🌍 Semua bahasa](README.md#languages)
 
-Choose your language to read this README:
+> **Periksa apakah pekerjaan itu halal sebelum memeriksa apakah cocok dengan CV Anda.**
 
-| English | العربية | বাংলা | اردو | 中文 | 繁體中文 | 日本語 | 한국어 |
-|---------|---------|--------|-------|------|---------|--------|---------|
-| [🇬🇧 English](README.md) | [🇸🇦 العربية](README.ar.md) | [🇧🇩 বাংলা](README.bn.md) | [🇵🇰 اردو](README.ur.md) | [🇨🇳 简体中文](README.cn.md) | [🇹🇼 繁體中文](README.zh-TW.md) | [🇯🇵 日本語](README.ja.md) | [🇰🇷 한국어](README.ko-KR.md) |
+**🚧 Terjemahan ini sedang dikerjakan — untuk saat ini silakan baca [versi lengkap bahasa Inggris](README.md).**
 
-| Español | Français | Português | Русский | Türkçe | Deutsch | Uyghur | Malay |
-|---------|----------|-----------|---------|--------|---------|--------|---------|
-| [🇪🇸 Español](README.es.md) | [🇫🇷 Français](README.fr.md) | [🇧🇷 Português](README.pt-BR.md) | [🇷🇺 Русский](README.ru.md) | [🇹🇷 Türkçe](README.tr.md) | [🇩🇪 Deutsch](README.de.md) | [🇨🇳 ئۇيغۇرچە](README.ug.md) | [🇲🇾 Bahasa Melayu](README.ms.md) |
+## Apa yang dilakukannya
 
----
+- **Pemeriksaan kebolehan syar'i**: bisnis pemberi kerja dan peran Anda secara spesifik — dengan kutipan Al-Qur'an, hadits, dan fatwa yang terverifikasi; sistem ini menyajikan pendapat ulama, tidak pernah mengeluarkan fatwa sendiri
+- **Pemeriksaan daftar pantauan kezaliman**: Palestina · Uighur · Kashmir · Rohingya (diperbarui setiap 2 hari)
+- **Evaluasi karier lengkap**: kecocokan CV, analisis gaji bersumber, CV dan surat lamaran yang disesuaikan
+- **Persiapan wawancara** termasuk kebutuhan agama: shalat, Jumat, Ramadhan
 
-## 🚧 Terjemahan Sedang Berlangsung
+**Sudah bekerja dalam bahasa Anda**: tulis dalam bahasa Indonesia, dijawab dalam bahasa Indonesia; Al-Qur'an dan hadits disajikan dari terjemahan terverifikasi (Al-Qur'an: terjemahan Kementerian Agama) — teks syar'i tidak pernah diterjemahkan mesin.
 
-Berkas ini sedang diterjemahkan ke bahasa Indonesia. Untuk saat ini, silakan baca versi lengkap dalam bahasa Inggris:
+## Bantu menerjemahkan
 
-### 📖 Baca Versi Lengkap
-- **[Versi Lengkap Bahasa Inggris](README.md)** ← Silakan gunakan tautan ini
-
-### 🤝 Ingin Membantu Menerjemahkan?
-
-Kami menyambut kontribusi Anda! Anda bisa:
-
-1. **Terjemahkan README.md ke Bahasa Indonesia**
-   - Salin `README.md` → `README.id.md`
-   - Pertahankan:
-     - Semua ayat Al-Quran (dengan nomor surah dan ayat)
-     - Semua referensi hadits (dengan koleksi dan nomor)
-     - Semua tautan dan pemformatan
-     - Pernyataan penafian tanggung jawab
-
-2. **Buka Permintaan Tarik (Pull Request)** dengan berkas yang diterjemahkan
-
-Semoga Allah memberi Anda kebaikan atas kontribusi Anda!
-
----
-
-## Informasi Cepat
-
-**Halal-Career** adalah sistem pencarian pekerjaan yang memberikan Anda:
-- ✅ Pemeriksaan perusahaan Islam lengkap sebelum melamar
-- ✅ Evaluasi jalur karir lengkap (keterampilan, gaji, kecocokan)
-- ✅ Pembuatan CV dan surat lamaran yang dipersonalisasi
-- ✅ Persiapan wawancara
-
-[Baca detail lengkap dalam bahasa Inggris](README.md)
-
----
-
-**Dibangun untuk setiap Muslim yang ingin rezekinya halal — di dunia ini dan di akhirat.**
+Salin `README.md` → `README.id.md`, terjemahkan dengan amanah (pertahankan setiap kutipan dengan penomoran persisnya, semua tautan, dan pernyataan sanggahan), lalu buka Pull Request. Jazakallahu khairan.

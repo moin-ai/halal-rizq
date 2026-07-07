@@ -1,54 +1,20 @@
-# Halal-Career — Việc Làm Halal, Được Xác Minh
+# Halal-Career — Việc làm Halal, đã kiểm chứng
 
-## 🌍 Chọn Ngôn Ngữ | Language Selection
+[🇬🇧 Bản tiếng Anh đầy đủ](README.md) · [🌍 Tất cả ngôn ngữ](README.md#languages)
 
-Choose your language to read this README:
+> **Hãy kiểm tra công việc có halal hay không trước khi kiểm tra nó có phù hợp với CV của bạn.**
 
-| English | العربية | বাংলা | اردو | 中文 | 繁體中文 | 日本語 | 한국어 |
-|---------|---------|--------|-------|------|---------|--------|---------|
-| [🇬🇧 English](README.md) | [🇸🇦 العربية](README.ar.md) | [🇧🇩 বাংলা](README.bn.md) | [🇵🇰 اردو](README.ur.md) | [🇨🇳 简体中文](README.cn.md) | [🇹🇼 繁體中文](README.zh-TW.md) | [🇯🇵 日本語](README.ja.md) | [🇰🇷 한국어](README.ko-KR.md) |
+**🚧 Bản dịch này đang được thực hiện — hiện tại vui lòng đọc [bản tiếng Anh đầy đủ](README.md).**
 
-| Español | Français | Português | Русский | Türkçe | Deutsch | Uyghur | Malay |
-|---------|----------|-----------|---------|--------|---------|--------|---------|
-| [🇪🇸 Español](README.es.md) | [🇫🇷 Français](README.fr.md) | [🇧🇷 Português](README.pt-BR.md) | [🇷🇺 Русский](README.ru.md) | [🇹🇷 Türkçe](README.tr.md) | [🇩🇪 Deutsch](README.de.md) | [🇨🇳 ئۇيغۇرچە](README.ug.md) | [🇲🇾 Bahasa Melayu](README.ms.md) |
+## Hệ thống làm gì
 
----
+- **Kiểm tra tính hợp pháp theo luật Hồi giáo**: lĩnh vực kinh doanh của nhà tuyển dụng và vai trò cụ thể của bạn — với các trích dẫn Qur'an, hadith và fatwa đã được kiểm chứng; hệ thống trình bày quan điểm của các học giả, không bao giờ tự ban hành fatwa
+- **Đối chiếu danh sách theo dõi áp bức**: Palestine · Người Duy Ngô Nhĩ · Kashmir · Rohingya (cập nhật mỗi 2 ngày)
+- **Đánh giá sự nghiệp toàn diện**: mức độ phù hợp CV, phân tích lương có nguồn, CV và thư xin việc được cá nhân hóa
+- **Chuẩn bị phỏng vấn**, bao gồm nhu cầu tôn giáo: lễ nguyện, Jumu'ah, Ramadan
 
-## 🚧 Dịch Đang Tiến Hành
+**Đã hoạt động bằng ngôn ngữ của bạn**: viết bằng tiếng Việt, hệ thống trả lời bằng tiếng Việt; Qur'an và hadith được lấy từ các bản dịch đã kiểm chứng — văn bản tôn giáo không bao giờ dùng dịch máy.
 
-Tệp này đang được dịch sang tiếng Việt. Hiện tại, vui lòng đọc phiên bản tiếng Anh đầy đủ:
+## Giúp dịch thuật
 
-### 📖 Đọc Phiên Bản Đầy Đủ
-- **[Phiên Bản Tiếng Anh Đầy Đủ](README.md)** ← Vui lòng sử dụng liên kết này
-
-### 🤝 Muốn Giúp Dịch?
-
-Chúng tôi hoan nghênh đóng góp của bạn! Bạn có thể:
-
-1. **Dịch README.md sang Tiếng Việt**
-   - Sao chép `README.md` → `README.vi.md`
-   - Bảo tồn:
-     - Tất cả các ayat Qur'an (với số surah và ayat)
-     - Tất cả các tài liệu tham khảo hadith (với bộ sưu tập và số)
-     - Tất cả các liên kết và định dạng
-     - Tuyên bố từ chối trách nhiệm
-
-2. **Mở Yêu Cầu Kéo (Pull Request)** với tệp đã dịch
-
-Xin Allah thưởng công cho sự đóng góp của bạn!
-
----
-
-## Thông Tin Nhanh
-
-**Halal-Career** là một hệ thống tìm kiếm việc làm cung cấp cho bạn:
-- ✅ Kiểm tra công ty Hồi giáo đầy đủ trước khi nộp đơn
-- ✅ Đánh giá con đường sự nghiệp đầy đủ (kỹ năng, lương, phù hợp)
-- ✅ Tạo CV và thư giới thiệu được cá nhân hóa
-- ✅ Chuẩn bị phỏng vấn
-
-[Đọc toàn bộ chi tiết bằng tiếng Anh](README.md)
-
----
-
-**Được xây dựng cho mọi người Hồi giáo muốn rezeki của họ là halal — ở thế giới này và cái tiếp theo.**
+Sao chép `README.md` → `README.vi.md`, dịch trung thực (giữ nguyên số hiệu chính xác của mọi trích dẫn, tất cả liên kết và tuyên bố miễn trừ trách nhiệm), sau đó mở Pull Request. Cầu xin Allah ban thưởng cho bạn.
