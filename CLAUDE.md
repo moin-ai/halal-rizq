@@ -13,6 +13,7 @@
 7. **Knowledge base:** `knowledge/rulings/` (full madhab rulings), `knowledge/oppression-watch/` (auto-updated every 2 days by cloud routine `halal-career-watchlist-update`), `knowledge/companies/` (research dossiers — reuse if <6 months old).
 8. **Company research** follows the tiered protocol in `skill/halal-career/references/company-research.md` (EDGAR/GLEIF/AFSC/UN OHCHR/USAspending + confidence labels), not plain WebSearch.
 9. The standalone skill (`skill/halal-career/`) is the portable form of this system — keep it in sync when halal-layer rules change. Installed copy: `C:\Users\arifu\.claude\skills\halal-career\`.
+10. **Session handoff:** read `docs/PROJECT-STATE.md` before major work — settled decisions (template design, API quirks, attribution rationale) + prioritized TODOs. Don't relitigate what's settled there.
 
 ---
 
