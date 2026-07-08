@@ -53,7 +53,9 @@ Break the business into ruled components; each gets its own verdict line:
 
 ## Step 3 — Apply rulings
 
-Load `rulings.md` § Business Ownership & Trade plus any industry section that matches (riba, insurance, gambling, alcohol, defense). Citations ONLY from `citations.md` or live-verified per `verification.md`. Source hierarchy when authorities differ:
+**Check `business-catalog.md` first** — if the model is listed, it names the axes that fire and which intake answers decide the outcome (a catalog lean is a starting point, never a verdict). Unlisted model → decompose onto the catalog's axes yourself, and append a row to the catalog after ruling.
+
+Load `rulings.md` § Business Ownership & Trade plus any axis section that matches (riba, insurance, gambling, alcohol, defense, music & entertainment, gender interaction, bribery, worker rights, compound contracts). Citations ONLY from `citations.md` or live-verified per `verification.md`. Source hierarchy when authorities differ:
 
 1. **Ledger scripture** (Quran/hadith, verified)
 2. **Fiqh academies & standards** — OIC International Islamic Fiqh Academy (iifa-aifi.org — fetchable), AAOIFI (aaoifi.com — fetchable), Islamic Fiqh Council/MWL (themwl.org — fetchable), SC Malaysia Shariah Advisory Council (sc.com.my — fetchable), Mufti WP Irsyad al-Fatwa (muftiwp.gov.my — fetchable)

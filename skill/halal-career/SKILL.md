@@ -57,6 +57,8 @@ Read `config/profile.yml → fiqh.madhab`. If missing or `prompt_user`: ask (Han
 
 User shares a business idea, side hustle, or existing business they own → follow `references/business-gate.md` in full: intake questions FIRST (batched, fiqh-driven — ownership/qabd, riba, gharar/maysir, honesty, partners), never a verdict on an under-specified idea. Decompose into components (product, each revenue stream, funding, contracts, partners, marketing), rule each with citations from the ledger, synthesize: ✅ HALAL | 🔧 CONDITIONAL (list exact restructures) | 🟠 MUKHTALAF | 🟡 MASHBOOH | ❌ HARAM. Source hierarchy and fetchability table live in `business-gate.md` § Step 3 and `citations.md`.
 
+`references/business-catalog.md` pre-maps ~45 current business models (dropshipping, SMMA, AI agencies, prop firms, MLM, faceless YouTube, delivery, gyms…) onto 14 closed fiqh axes (riba, gharar, maysir, qabd, ghish, assisting sin, gender interaction, music, bribery, labor, compound contracts, oppression, harm, haram product). Any model not listed — including future ones — is ruled by decomposing onto the same axes; after ruling, append it to the catalog (self-growing).
+
 ## Mandatory Disclaimer — every report, both pipelines, never omitted
 
 End EVERY evaluation report (job, business, batch, scan summary with verdicts) with this block, translated into the user's language (the Quran quote via verified translation only):

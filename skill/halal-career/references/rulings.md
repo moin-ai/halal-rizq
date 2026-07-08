@@ -75,6 +75,37 @@ Tirmidhi 1232 is the pivot. Classical majority: selling what you don't own/posse
 ### Marketing honesty (ghish)
 Concealing defects, fabricated reviews/scarcity, deceptive claims → prohibited (Bukhari 2079; Tirmidhi 1315). Structural deception → that practice haram; verdict CONDITIONAL on removing it.
 
+## Music & Entertainment (mukhtalaf — always present both positions)
+
+**Basis:** Bukhari 5590 (ma'azif — ⚠ mu'allaq; Ibn Hajar + majority: sahih; Ibn Hazm contested the chain — this dispute IS the crux, state it).
+- Majority of the four madhhabs (incl. Hanafi): musical instruments impermissible; vocals-only nasheed with clean content broadly accepted.
+- Minority (Ibn Hazm; contemporary: Al-Qaradawi): permissible when content and context are free of the haram (lewdness, intoxicants, distraction from obligations).
+- Business application: music-CORE businesses (label, streaming playlists, DJ/club services, music-driven channels) → 🟠 mukhtalaf at best under the minority view, haram per majority — present both, user's madhab first. Music-INCIDENTAL (background in produced ads) → same khilaf at smaller scale; offer the instrument-free alternative. Vocal-only / sound-design work → generally clear.
+
+## Gender Interaction — khalwa, ikhtilat, awrah (business models)
+
+**Basis:** Bukhari 5233 (no khalwa with a non-mahram), Quran 24:30–31 (gaze + adornment), 33:33 (tabarruj — ⚠ addressed to the Prophet's ﷺ wives; scholars extend the principle, say so).
+- **Dating apps / hookup platforms** → facilitate khalwa and zina-adjacent contact → haram, near-consensus — building, marketing, or managing them included (Quran 5:2).
+- **Matrimonial platforms with safeguards** (wali involvement, meeting protocols, no free chat) → accepted by many contemporary scholars with conditions → 🟡/✅ depending on implementation.
+- **Services involving non-mahram touch/awrah** (mixed massage/spa/salon) → haram per majority; gender-segregated equivalents → halal. Mixed gyms → mukhtalaf/mashbooh; segregated or women-only → clear.
+- **Modeling, influencer, and talent agencies** trading on tabarruj/display → prohibited per majority (24:31, 33:33 principle); modest-fashion or product-only content → judge the actual content.
+- One-on-one home services to a lone non-mahram client (tutoring, coaching, massage) → khalwa issue; third-person presence or public/recorded setting removes it → CONDITIONAL territory.
+
+## Bribery & Corruption
+
+**Basis:** Quran 2:188 (wealth sent to rulers to consume unjustly), Tirmidhi 1337 (Ahmad Shakir: Sahih — curse on briber and taker).
+Businesses whose market access depends on bribes (import "facilitation", tender kickbacks, buying regulators) → that channel haram; whole business haram if inseparable. Paying under extortion to recover one's own established right → scholars differ, sin falls on the taker per many — present positions, flag for scholar.
+
+## Worker Rights (running the business, not just starting it)
+
+**Basis:** Ibn Majah 2443 (Al-Albani: Sahih — "give the worker his wages before his sweat dries"); Quran 4:29 mutual consent.
+Delayed/withheld wages, dark-pattern gig compensation, requiring employees to perform haram tasks (serve alcohol, deceptive sales scripts) → zulm; a model PREMISED on wage abuse (systematic unpaid "trials", fake commission traps) → haram as practiced. Standard employment with fair, timely pay → clear; this axis usually produces CONDITIONAL fixes, not whole-business verdicts.
+
+## Compound & Conditional Contracts
+
+**Basis:** Tirmidhi 1231 (Al-Albani: Sahih — "two sales in one"), plus gharar (Muslim 1513).
+Price-contingent bundles ("$X cash / $Y credit" left unresolved at contract), sale conditional on a second sale, hidden financing folded into price → classical prohibition territory; modern equivalents (some BNPL structures, tying arrangements, "free" bundles with obligatory paid continuation) → decompose the actual contract; where the structure resolves to a single defined price and obligation → clear.
+
 ## Verdict Synthesis
 
 Red line triggered OR core business haram OR High-confidence oppression flag → ❌ HARAM.

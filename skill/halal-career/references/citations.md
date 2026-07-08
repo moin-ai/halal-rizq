@@ -93,6 +93,19 @@ When a lookup returns a different hadith than expected:
 | Bukhari 2079 | (Bukhari — sahih by definition) | Hakim bin Hizam: "if both the parties spoke the truth and described the defects... blessed in their transaction; if they told lies or hid something, blessings... lost" | Honesty in trade |
 | Tirmidhi 1315 | Ahmad Shakir: Sahih; Al-Albani: Sahih; Bashar Awad Maarouf: Hasan Sahih | Abu Hurairah (wet grain concealed): "Whoever cheats, he is not one of us" | Ghish — deception in sale |
 
+### Axes expansion — verified 2026-07-08 (music, gender interaction, bribery, wages, compound sales)
+
+| Ref | Grade (named scholars) | Anchor | Topic |
+|-----|------------------------|--------|-------|
+| Quran 24:30 | — (Saheeh Intl, ID 20) | "Tell the believing men to reduce [some] of their vision and guard their private parts..." | Lowering gaze (men) |
+| Quran 24:31 | — (Saheeh Intl, ID 20) | "And tell the believing women to reduce [some] of their vision... and not expose their adornment..." | Lowering gaze / adornment (women) |
+| Quran 33:33 | — (Saheeh Intl, ID 20) | "...do not display yourselves as [was] the display of the former times of ignorance..." — ⚠ addressed to the Prophet's ﷺ wives; scholars extend the tabarruj principle — state this honestly when citing | Tabarruj |
+| Bukhari 5233 | (Bukhari — sahih by definition) | Ibn Abbas: "No man should stay with a lady in seclusion except in the presence of a Dhu-Mahram" | Khalwa prohibition |
+| Bukhari 5590 | (in Bukhari; ⚠ mu'allaq chain — Ibn Hajar and the majority grade it sahih; Ibn Hazm contested it — ALWAYS note this dispute when citing, it is the pivot of the music khilaf) | Abu Amir/Abu Malik al-Ash'ari: "...will consider illegal sexual intercourse, the wearing of silk, the drinking of alcoholic drinks and the use of musical instruments, as lawful" | Ma'azif — musical instruments |
+| Tirmidhi 1337 | Ahmad Shakir: Sahih; Bashar Awad Maarouf: Hasan Sahih; Zubair Ali Zai: Isnaad Hasan | Abdullah bin Amr: "cursed the one who bribes and the one who takes a bribe" | Bribery |
+| Tirmidhi 1231 | Ahmad Shakir: Sahih; Al-Albani: Sahih; Bashar Awad Maarouf: Hasan Sahih | Abu Hurairah: "prohibited two sales in one" | Compound/conditional contracts |
+| Ibn Majah 2443 | Al-Albani: Sahih; Abd al-Baqi: Sahih; Zubair Ali Zai: Sahih | Ibn Umar: "Give the worker his wages before his sweat dries" | Worker rights |
+
 ### Fiqh source fetchability (probed 2026-07-08, HTTP status; re-confirm with WebFetch before asserting page content)
 
 | Source | Status | Use |
