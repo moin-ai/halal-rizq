@@ -18,7 +18,7 @@ Full protocol lives in the skill: `skill/halal-career/SKILL.md` + `skill/halal-c
 - Report header gains: `**Halal:** {✅|🟡|🟠|❌} ({one-line reason})` — placed directly under **Score:**.
 - Stage 1 findings go in a `## Halal Gate` section at the TOP of the report, before Block A.
 - ❌ HARAM → report contains Halal Gate section only; Score field reads `N/A — haram`; tracker status `SKIP`; notes prefixed `HARAM:`. STOP — no blocks A–F, no PDF.
-- Every report ends with one contextual dua from `skill/halal-career/references/duas.md` (Arabic + transliteration + translation + verified source).
+- Every report ends with one contextual dua from `skill/halal-career/references/duas.md` (Arabic + transliteration + translation + verified source), followed by the Mandatory Disclaimer block from `skill/halal-career/SKILL.md` § Mandatory Disclaimer — dua first, disclaimer last, never omitted.
 
 ## Tracker integration (no schema change — scripts keep working)
 

@@ -48,6 +48,33 @@ Mixed-revenue employers: haram share <5% and role unrelated → many scholars to
 **Basis:** Quran 5:2, 4:75; Bukhari 6011 / Muslim 2586 (CDN#6586) — the ummah as one body.
 Flag tiers (from watchlists): High confidence (direct weapons/surveillance to oppressors) → haram. Medium (enabling tech contracts) → haram per majority reading of 5:2 / mashbooh at minimum. Financial/indirect ties → mashbooh, disclose and let the user weigh.
 
+## Business Ownership & Trade (muamalat — Business Gate)
+
+**Basis:** Quran 4:29 (only trade by mutual consent), 2:188 (no unjust/bribed wealth), 2:275 ("Allah has permitted trade and forbidden riba"). Bukhari 2079 (truthful disclosure → blessed transaction), Tirmidhi 1315 (Al-Albani: Sahih — "whoever cheats is not one of us"), Tirmidhi 1232 (Al-Albani: Sahih — "do not sell what is not with you"), Muslim 1513 / CDN#3808 (gharar).
+
+### Selling without possession (dropshipping, pre-orders, reselling)
+Tirmidhi 1232 is the pivot. Classical majority: selling what you don't own/possess is invalid — EXCEPT salam (full payment up front, precisely specified goods, fixed delivery date) and istisna' (commissioned manufacture).
+- Dropshipping as commonly practiced (list → sell → then buy) → impermissible per most contemporary Hanafi muftis; permissible restructured as **wakalah** (you act as the buyer's purchasing agent for a fee) or under salam conditions. Present both positions with links (Askimam, Amanah Advisors analyses — fetch before asserting).
+- Digital goods/services you produce → qabd issue doesn't arise.
+
+### Funding
+- Interest-bearing loan / credit line / conventional BNPL → haram (Quran 2:275; Muslim 1598 curses the payer too).
+- Own savings, straight equity, **musharakah/mudarabah** → structurally halal. Screen investor terms: guaranteed return or guaranteed capital to the "investor" = riba in disguise; reference AAOIFI standards. Preference shares/liquidation preferences → mukhtalaf, flag for scholar review of the actual term sheet.
+- Conventional business insurance → haram per OIC Fiqh Academy Res. 9/2 (1985); takaful where available; legally mandated insurance → necessity discussions exist, present positions.
+
+### Revenue streams — decompose, rule each separately
+- Interest on balances/customer float → riba, haram at any percentage.
+- Advertising/affiliate for haram products → assisting sin (Quran 5:2) → that stream haram.
+- Mixed: haram stream <5% and incidental → many tolerate with purification of that share; 5–33% → mashbooh; core-haram → haram. Same AAOIFI-analogy caveat as employment: those thresholds were written for share screening — say so.
+
+### Gharar & maysir in the model
+- Price, product, or delivery materially undefined at contract time → gharar (Muslim 1513). Minor operational uncertainty ≠ gharar; the test is whether the uncertainty is in the CONTRACT ESSENTIALS and likely to cause dispute.
+- Mystery boxes, loot boxes, raffle-based sales, pay-to-spin mechanics → maysir (Quran 5:90–91) → haram.
+- Crypto/tokens: spot utility → mukhtalaf; interest-bearing, leveraged, or lottery-like tokenomics → haram (riba+gharar+maysir).
+
+### Marketing honesty (ghish)
+Concealing defects, fabricated reviews/scarcity, deceptive claims → prohibited (Bukhari 2079; Tirmidhi 1315). Structural deception → that practice haram; verdict CONDITIONAL on removing it.
+
 ## Verdict Synthesis
 
 Red line triggered OR core business haram OR High-confidence oppression flag → ❌ HARAM.

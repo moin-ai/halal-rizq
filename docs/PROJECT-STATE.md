@@ -1,4 +1,4 @@
-# Halal-Career — Project State (session handoff, 2026-07-07)
+# Halal-Career — Project State (session handoff, 2026-07-08)
 
 Read this before major work. CLAUDE.md has the operating rules; this file has history, decisions, and todos.
 
@@ -14,6 +14,10 @@ Read this before major work. CLAUDE.md has the operating rules; this file has hi
 - **Halal job sources:** assets/templates/halal-portals.yml (Muslim boards + Islamic-economy employers) + merged into Moin's portals.yml (52 queries, 38 companies, YAML-validated).
 - **Evaluations:** 053 AI HIVE ✅3.0 borderline · 054 GDEX ✅(SC Shariah-listed) 3.6 apply, CV+cover generated in output/GDEX/ · 055 Allianz ❌HARAM (+posting dead). Tracker rows 80–82.
 - **skill-forge:** permanent skill (user scope) encoding Anthropic's skill guide — use for any skill build.
+- **Business Gate (2026-07-08, v1.1.0):** `references/business-gate.md` — validates business ideas the user OWNS: batched fiqh intake (qabd, riba, gharar/maysir, ghish, partners) → per-component rulings → verdict incl. new 🔧 CONDITIONAL (list restructures). rulings.md gained § Business Ownership & Trade (dropshipping/wakalah/salam, funding, revenue decomposition, mystery-box maysir). Ledger +4 verified 2026-07-08: Quran 2:188, Tirmidhi 1232, Bukhari 2079, Tirmidhi 1315. Fiqh source probe: aaoifi/iifa-aifi/sc.com.my/muftiwp/askimam/seekersguidance/amanahadvisors/themwl = 200 fetchable; daruliftaa.com (522) + darulifta-deoband.com (403) = LINK-ONLY (table in citations.md).
+- **Mandatory Disclaimer (all reports, both pipelines):** exact block in SKILL.md § Mandatory Disclaimer (not-a-fatwa, AI-can-err, seek scholar, no liability, Quran 16:116) — dua first, disclaimer last, never omitted. Wired in modes/halal-gate.md too.
+- **Global slash commands** (user scope `C:\Users\arifu\.claude\commands\` + repo copy `.claude/commands/`): /halalcheck (router), /halalbiz (business gate), /halaljob (job gate), /halaldua. Registered and working.
+- **Multilingual READMEs (2026-07-08):** 22-language selector in README.md; all non-English files are honest stubs w/ native pitch + contribute instructions; career-ops-era es/cn/ja/ko/pt-BR/ru/zh-TW translations replaced (P3 item done); Uyghur flag ☪️ not 🇨🇳.
 
 ## Template design (settled — do not relitigate)
 
@@ -41,7 +45,8 @@ Single column · name centered ALL-CAPS 29px + keyword role-line under it · **D
 
 **P2 — growth:**
 - [ ] Employer index → top-100 (batches of ~10: Petronas, Grab, Shopee, AirAsia, TM, Maxis, GLCs, FAANG, Big4)
-- [ ] Scholar review package (rulings + ledger + exit-mode purification section) — REQUIRED before public release; candidates: local JAKIM-affiliated mufti, Amanah Advisors (Mufti Faraz Adam)
+- [ ] Scholar review package (rulings + ledger + exit-mode purification section **+ NEW muamalat/business-gate section**) — REQUIRED before public release; candidates: local JAKIM-affiliated mufti, Amanah Advisors (Mufti Faraz Adam — extra fitting now, his papers are the business gate's Tier-3 source)
+- [ ] Dry-run the Business Gate end-to-end on a real idea (untested; try a dropshipping example — exercises intake, CONDITIONAL verdict, and restructure list)
 
 **P3 — later:**
 - [ ] Green List (deen-friendly employers — populates from post-interview annotations)

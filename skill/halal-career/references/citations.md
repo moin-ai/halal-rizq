@@ -83,3 +83,27 @@ When a lookup returns a different hadith than expected:
 | Quran 66:8 | "Repent to Allah with sincere repentance (tawbatan nasuha)..." | Tawbah |
 | Quran 25:70 | "Except for those who repent, believe and do righteous work — Allah will replace their evil deeds with good" | Tawbah — deeds replaced |
 | Ibn Majah 4250 | "The one who repents from sin is like one who has no sin" — ⚠ SPLIT GRADING: Al-Albani: Da'if; Abd al-Baqi: Hasan — cite only with both grades shown | Tawbah (supporting, not primary) |
+
+## Additions — verified 2026-07-08 (Business Gate)
+
+| Ref | Grade (named scholars) | Anchor | Topic |
+|-----|------------------------|--------|-------|
+| Quran 2:188 | — (Saheeh Intl, ID 20) | "And do not consume one another's wealth unjustly or send it [in bribery] to the rulers..." | Unjust wealth / bribery |
+| Tirmidhi 1232 | Ahmad Shakir: Sahih; Al-Albani: Sahih; Zubair Ali Zai: Isnaad Hasan | Hakim b. Hizam: "Do not sell what is not with you" | Qabd — ownership before sale |
+| Bukhari 2079 | (Bukhari — sahih by definition) | Hakim bin Hizam: "if both the parties spoke the truth and described the defects... blessed in their transaction; if they told lies or hid something, blessings... lost" | Honesty in trade |
+| Tirmidhi 1315 | Ahmad Shakir: Sahih; Al-Albani: Sahih; Bashar Awad Maarouf: Hasan Sahih | Abu Hurairah (wet grain concealed): "Whoever cheats, he is not one of us" | Ghish — deception in sale |
+
+### Fiqh source fetchability (probed 2026-07-08, HTTP status; re-confirm with WebFetch before asserting page content)
+
+| Source | Status | Use |
+|--------|--------|-----|
+| aaoifi.com | 200 ✅ | AAOIFI Shariah Standards references |
+| iifa-aifi.org/en | 200 ✅ | OIC Intl. Islamic Fiqh Academy resolutions |
+| sc.com.my | 200 ✅ | SC Malaysia Shariah Advisory Council resolutions |
+| muftiwp.gov.my | 200 ✅ | Irsyad al-Fatwa series (Malaysia) |
+| askimam.org | 200 ✅ | Hanafi fatwas — Darul Iftaa Mahmudiyyah |
+| seekersguidance.org | 200 ✅ | Hanafi/Shafi'i answers |
+| amanahadvisors.com | 200 ✅ | Mufti Faraz Adam papers (analysis tier) |
+| themwl.org | 200 ✅ | Islamic Fiqh Council (Muslim World League) |
+| daruliftaa.com | 522 ⚠ | LINK-ONLY — origin unstable; never assert contents |
+| darulifta-deoband.com | 403 ⚠ | LINK-ONLY — bot-blocked (like sunnah.com); never assert contents |
