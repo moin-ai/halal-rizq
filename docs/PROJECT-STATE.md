@@ -66,7 +66,7 @@ Single column · name centered ALL-CAPS 29px + keyword role-line under it · **D
 **P2 — growth:**
 - [ ] Employer index → top-100 (batches of ~10: Petronas, Grab, Shopee, AirAsia, TM, Maxis, GLCs, FAANG, Big4)
 - [ ] Scholar review package (rulings + ledger + exit-mode purification section **+ NEW muamalat/business-gate section**) — REQUIRED before public release; candidates: local JAKIM-affiliated mufti, Amanah Advisors (Mufti Faraz Adam — extra fitting now, his papers are the business gate's Tier-3 source)
-- [ ] Dry-run the Business Gate end-to-end on a real idea (untested; try a dropshipping example — exercises intake, CONDITIONAL verdict, and restructure list)
+- [x] Dry-run Business Gate DONE 2026-07-14 (Legal Voice AI MY → 🔧 CONDITIONAL, report 057 — intake, catalog lean, CONDITIONAL verdict + restructure list all exercised; catalog gained vertical-AI-receptionist row)
 - [x] Dry-run Client Gate DONE 2026-07-14 (GHL client → ✅ HALAL, report 056; intake/ladder/ijarah/ghish/index-update all exercised — CONDITIONAL path still unexercised, will occur naturally)
 
 **P3 — later:**

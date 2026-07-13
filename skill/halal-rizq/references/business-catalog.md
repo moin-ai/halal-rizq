@@ -78,6 +78,7 @@ Pre-mapped starting points for the Business Gate (`business-gate.md`). **A catal
 | Model | Axes triggered | Lean | What decides it |
 |-------|---------------|------|-----------------|
 | B2B SaaS (generic) | ASSIST, RIBA | ✅ | Customer concentration in haram industries + float interest are the checks |
+| Vertical AI receptionist SaaS (law firms, clinics…) | ASSIST, RIBA, GHISH | 🔧 | Client-industry filter (riba-core customers = rung 3), non-interest float account, AI-disclosure in spec — ruled 2026-07-14 (report 057) |
 | Dating app | GENDER, ASSIST | ❌ | Facilitates khalwa/zina — building or running |
 | Halal matrimony app (safeguarded) | GENDER | 🟡→✅ | Wali/meeting protocols and moderation decide |
 | Gambling tech / casino games / raffle apps | MAYSIR | ❌ | Any role, any layer |
