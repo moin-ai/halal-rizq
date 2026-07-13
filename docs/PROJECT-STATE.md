@@ -20,6 +20,17 @@ Read this before major work. CLAUDE.md has the operating rules; this file has hi
 - **Global slash commands** (user scope `C:\Users\arifu\.claude\commands\` + repo copy `.claude/commands/`): /halalcheck (router), /halalbiz (business gate), /halaljob (job gate), /halaldua. Registered and working.
 - **Multilingual READMEs (2026-07-08):** 22-language selector in README.md; all non-English files are honest stubs w/ native pitch + contribute instructions; career-ops-era es/cn/ja/ko/pt-BR/ru/zh-TW translations replaced (P3 item done); Uyghur flag ☪️ not 🇨🇳.
 
+## Data split (2026-07-13)
+
+Personal application data (which companies, evaluations, tracker, CV, employer-specific research) now lives in a **separate private repo**, not this one:
+- Local: `F:\Halal-Career-Private\`
+- Remote: `github.com/moin-ai/halal-career-private` (private)
+- Moved: `tracker.md`, `cv.md`, `reports/`, `knowledge/employer-index.md`, `knowledge/companies/`, `batch/tracker-additions/`
+- Linked back into `F:\Halal-Career\` via NTFS hardlinks (files) and junctions (folders) so all scripts (merge-tracker.mjs, scan.mjs, cv-sync-check.mjs, etc.) keep working unchanged.
+- Reason: this repo (halal-career) is slated for public release; the private repo never will be.
+- `.gitignore` updated to ignore these paths permanently.
+- **⚠ Not yet done:** old commits in THIS repo's history (pre-2026-07-13) still contain the moved files. Not an active leak today (repo is private, solo access) but this is a **hard blocker before public release** — must run `git filter-repo` to strip these paths from history and force-push before flipping repo visibility. Added to TODO below.
+
 ## Template design (settled — do not relitigate)
 
 Single column · name centered ALL-CAPS 29px + keyword role-line under it · **DM Sans only** (hierarchy by weight/size; Space Grotesk retired) · **one accent color** via `:root{--accent}` — default navy #1F4E79, brand-match per employer only if darkened contrast-safe (GDEX: #A6151D; never raw brand colors; never mimic fonts) · body 13px≈10pt, line-height ~1.4 · **margins 0.65in from generate-pdf.mjs ONLY — HTML body has NO padding** (double-margin bug: script 0.6 + body 0.6 = fixed) · Month-Year dates · policy lives in apply-kit.md §Brand Accent. CV target 2 pages.
@@ -52,7 +63,7 @@ Single column · name centered ALL-CAPS 29px + keyword role-line under it · **D
 **P3 — later:**
 - [ ] Green List (deen-friendly employers — populates from post-interview annotations)
 - [ ] Purification calculator (only after scholar sign-off)
-- [ ] Public release: make repo public → enable ruleset, our own multilingual READMEs, CONTRIBUTING w/ evidence template; career-ops translated READMEs still describe career-ops (replace or delete)
+- [ ] Public release: make repo public → **FIRST run `git filter-repo` to strip tracker.md/cv.md/reports/knowledge-employer-index/knowledge-companies/batch-tracker-additions from ALL history (see Data split above), force-push, verify clean** → then enable ruleset, our own multilingual READMEs, CONTRIBUTING w/ evidence template; career-ops translated READMEs still describe career-ops (replace or delete)
 - [ ] Verdict API/MCP for Muslim job boards · Calibri template variant · LaTeX template not restyled to new design
 
 ## Roadmap vision (agreed direction)
