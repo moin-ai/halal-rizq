@@ -5,6 +5,9 @@ Goal: know what the company ACTUALLY does — revenue truth, real owners, real c
 ## Tier 0 — Cache
 `knowledge/companies/{slug}.md` exists → load it; only refresh sections older than 6 months or when the role demands (e.g. defense flag).
 
+## Parallel research (>3 companies, agent-capable environments)
+Researching many companies inline buries the session in fetched pages and degrades late-batch quality. When more than 3 companies need research (employer-index growth, scan pre-research, multi-client checks): spawn one researcher subagent per company (background, all in one message). Each agent gets this file's protocol + the company name, and returns ONLY the filled dossier template — no verdict. **Verdicts are ruled by the coordinating session** against the ledger and rulings — researchers dig, the gate judges. No agent capability → run the tiers inline, batched by company.
+
 ## Tier 1 — Identity & Ownership (always)
 Resolve the TRUE entity before anything else. A clean subsidiary of a haram parent fails the gate; parent evaluation is mandatory.
 
