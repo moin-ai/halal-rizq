@@ -1,23 +1,27 @@
-# Personal data — tracked in this private repo for automation
-# (career-ops default excludes these for public forks; safe to track here)
-# cv.md         ← tracked
+# Personal data — lives ONLY in the separate private repo
+# (F:\Halal-Career-Private, github.com/moin-ai/halal-career-private).
+# In this working tree these paths are hardlinks/junctions into that repo
+# so scripts keep working — but they must NEVER be tracked here.
+# See docs/PROJECT-STATE.md "Data split" for the architecture.
+tracker.md
+cv.md
+knowledge/employer-index.md
+knowledge/companies/
+reports/
+output/
+batch/tracker-additions/
+jds/*
+!jds/.gitkeep
+
 # data/*        ← tracked
 # config/profile.yml ← tracked
 # portals.yml   ← tracked
 # modes/_profile.md  ← tracked
 
-# reports/*.md  ← tracked in this private repo
-!reports/.gitkeep
-output/*
-!output/.gitkeep
 batch/logs/*
 !batch/logs/.gitkeep
 batch/batch-state.tsv
 batch/batch-input.tsv
-# batch/tracker-additions/**/*.tsv  ← tracked in this private repo
-!batch/tracker-additions/.gitkeep
-jds/*
-!jds/.gitkeep
 
 # Writing samples (user's personal files — never committed)
 writing-samples/*
