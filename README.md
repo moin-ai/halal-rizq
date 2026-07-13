@@ -1,4 +1,4 @@
-# Halal-Career — Halal Jobs, Verified
+# Halal-Rizq — Halal Jobs, Verified
 
 **🌍 Read this in:** [🇸🇦 العربية](README.ar.md) · [🇧🇩 বাংলা](README.bn.md) · [🇵🇰 اردو](README.ur.md) · [🇮🇳 हिन्दी](README.hi.md) · [🇮🇩 Bahasa Indonesia](README.id.md) · [🇲🇾 Bahasa Melayu](README.ms.md) · [🇹🇷 Türkçe](README.tr.md) · [🇮🇷 فارسی](README.fa.md) · [🇦🇫 پښتو](README.ps.md) · [🇦🇫 دری](README.prs.md) · [☪️ ئۇيغۇرچە](README.ug.md) · [🇫🇷 Français](README.fr.md) · [🇩🇪 Deutsch](README.de.md) · [🇪🇸 Español](README.es.md) · [🇧🇷 Português](README.pt-BR.md) · [🇷🇺 Русский](README.ru.md) · [🇨🇳 简体中文](README.cn.md) · [🇹🇼 繁體中文](README.zh-TW.md) · [🇯🇵 日本語](README.ja.md) · [🇰🇷 한국어](README.ko-KR.md) · [🇹🇭 ไทย](README.th.md) · [🇻🇳 Tiếng Việt](README.vi.md) — [see all / contribute](#languages)
 
@@ -25,7 +25,7 @@ The Prophet ﷺ said:
 
 And he ﷺ warned of the man whose du'a is not answered *"while his food is haram, his drink is haram, his clothing is haram, and he has been nourished with haram"* — Sahih Muslim 1015.
 
-Halal-Career exists so that no Muslim has to choose between career tooling and their akhirah.
+Halal-Rizq exists so that no Muslim has to choose between career tooling and their akhirah.
 
 ---
 
@@ -87,7 +87,7 @@ Sunnah at the end of every report.
 ## How To Use It
 
 ### Option A — The skill (lightest)
-1. Copy `skill/halal-career/` into your Claude Code skills directory (`~/.claude/skills/halal-career/`) or upload it zipped to Claude.ai (Settings → Capabilities → Skills).
+1. Copy `skill/halal-rizq/` into your Claude Code skills directory (`~/.claude/skills/halal-rizq/`) or upload it zipped to Claude.ai (Settings → Capabilities → Skills).
 2. Paste any job description and say **"is this halal?"** or **"evaluate this job."**
 3. First run asks your madhab (Hanafi / Shafi'i / Maliki / Hanbali / present all) — answered once, saved forever.
 
@@ -141,13 +141,13 @@ Works in your language — evaluations respond in whatever language you write in
 | Violation Tracker | US corporate misconduct | https://violationtracker.goodjobsfirst.org |
 
 ### Base System
-The career-evaluation engine builds on **[career-ops](https://github.com/santifer/career-ops)** by Santiago Fernández de Valderrama (MIT License — retained in `LICENSE` and `skill/halal-career/scripts/NOTICE.md`). May Allah reward him for open-sourcing it.
+The career-evaluation engine builds on **[career-ops](https://github.com/santifer/career-ops)** by Santiago Fernández de Valderrama (MIT License — retained in `LICENSE` and `skill/halal-rizq/scripts/NOTICE.md`). May Allah reward him for open-sourcing it.
 
 ---
 
 ## Key Verses & Duas In This System
 
-**Foundations** *(all verified against quran.com / hadith APIs — full ledger: `skill/halal-career/references/citations.md`)*
+**Foundations** *(all verified against quran.com / hadith APIs — full ledger: `skill/halal-rizq/references/citations.md`)*
 
 - *"Allah has permitted trade and forbidden riba."* — **Quran 2:275**
 - *"Help one another in righteousness and piety, but do not help one another in sin and aggression."* — **Quran 5:2**
@@ -155,7 +155,7 @@ The career-evaluation engine builds on **[career-ops](https://github.com/santife
 - The Messenger of Allah ﷺ *"cursed the one who consumes riba, the one who pays it, the one who records it, and the two witnesses to it."* — **Sahih Muslim 1598** (Abd al-Baqi)
 - *"The believers, in their mutual love and compassion, are like one body."* — **Sahih Bukhari 6011; Sahih Muslim 2586**
 
-**Duas for the jobseeker** *(Arabic + transliteration + grading in `skill/halal-career/references/duas.md`)*
+**Duas for the jobseeker** *(Arabic + transliteration + grading in `skill/halal-rizq/references/duas.md`)*
 
 1. **Halal sufficiency:** *Allahumma-kfini bi-halalika 'an haramika…* — "O Allah, suffice me with Your halal against Your haram" — Tirmidhi 3563 (Hasan)
 2. **Against worry & debt:** *Allahumma inni a'udhu bika minal-hammi wal-hazan…* — Bukhari 6369
@@ -169,7 +169,7 @@ The career-evaluation engine builds on **[career-ops](https://github.com/santife
 
 ## Disclaimer
 
-Halal-Career presents verified scholarship as reference material — **it is not a fatwa, and it is not a mufti.** Rulings differ by situation and madhab; the system shows you the sources and the disagreements, but for your specific circumstance, consult a qualified scholar. Scholar review of the rulings library is planned before wide release.
+Halal-Rizq presents verified scholarship as reference material — **it is not a fatwa, and it is not a mufti.** Rulings differ by situation and madhab; the system shows you the sources and the disagreements, but for your specific circumstance, consult a qualified scholar. Scholar review of the rulings library is planned before wide release.
 
 > *"And do not say about what your tongues assert of untruth, 'This is lawful and this is unlawful,' to invent falsehood about Allah."* — Quran 16:116
 
@@ -177,7 +177,7 @@ Halal-Career presents verified scholarship as reference material — **it is not
 
 ## Languages
 
-The full README is in **English**; the linked language pages are stubs awaiting community translation. **The tool itself already works in your language** — evaluations respond in whatever language you write in, and scripture is served from verified translations (Quran: 69 languages · hadith explanations: 70 languages via HadeethEnc), never machine-translated. [Full scripture language support →](skill/halal-career/references/verification.md#languages)
+The full README is in **English**; the linked language pages are stubs awaiting community translation. **The tool itself already works in your language** — evaluations respond in whatever language you write in, and scripture is served from verified translations (Quran: 69 languages · hadith explanations: 70 languages via HadeethEnc), never machine-translated. [Full scripture language support →](skill/halal-rizq/references/verification.md#languages)
 
 | Status | Languages |
 |--------|-----------|
@@ -187,7 +187,7 @@ The full README is in **English**; the linked language pages are stubs awaiting 
 ### How to contribute a translation
 
 1. Copy `README.md` → `README.<code>.md` (codes above; [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for new languages).
-2. Translate faithfully — preserve every Quran verse and hadith reference **with its exact numbering**, all links, and the Disclaimer. **Never machine-translate scripture**: quote from the verified translations listed in [verification.md](skill/halal-career/references/verification.md#languages).
+2. Translate faithfully — preserve every Quran verse and hadith reference **with its exact numbering**, all links, and the Disclaimer. **Never machine-translate scripture**: quote from the verified translations listed in [verification.md](skill/halal-rizq/references/verification.md#languages).
 3. Open a pull request; after review we link it in the selector at the top.
 
 ---

@@ -3,7 +3,7 @@ description: Get a verified dua (Arabic + transliteration + translation + source
 argument-hint: [situation — e.g. "interview tomorrow", "in debt", "need rizq"]
 ---
 
-Load the **halal-career** skill (invoke via the Skill tool if listed; otherwise read `C:\Users\arifu\.claude\skills\halal-career\SKILL.md`) and serve the most relevant dua(s) from `references/duas.md` ONLY for:
+Load the **halal-rizq** skill (invoke via the Skill tool if listed; otherwise read `C:\Users\arifu\.claude\skills\halal-rizq\SKILL.md`) and serve the most relevant dua(s) from `references/duas.md` ONLY for:
 
 $ARGUMENTS
 

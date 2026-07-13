@@ -1,4 +1,4 @@
-# Halal-Career — Full Evaluation Mode
+# Halal-Rizq — Full Evaluation Mode
 
 ## Purpose
 

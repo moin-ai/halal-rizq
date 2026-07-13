@@ -1,4 +1,4 @@
-# Halal-Career — Việc làm Halal, đã kiểm chứng
+# Halal-Rizq — Việc làm Halal, đã kiểm chứng
 
 [🇬🇧 Bản tiếng Anh đầy đủ](README.md) · [🌍 Tất cả ngôn ngữ](README.md#languages)
 

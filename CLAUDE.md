@@ -1,18 +1,18 @@
-# Halal-Career — Halal-Gated AI Job Search Pipeline
+# Halal-Rizq — Halal-Gated AI Job Search Pipeline
 
-**Halal-Career = full career-ops + a mandatory Islamic permissibility layer.** Every career-ops feature works unchanged; the halal layer adds, never removes.
+**Halal-Rizq = full career-ops + a mandatory Islamic permissibility layer.** Every career-ops feature works unchanged; the halal layer adds, never removes.
 
 ## HALAL LAYER (read this first — overrides where stated)
 
 1. **Halal gate is mandatory.** Every evaluation (oferta, auto-pipeline, batch, pipeline) runs `modes/halal-gate.md` BEFORE blocks A–F. ❌ HARAM → no A–F, no PDF, no outreach; tracker status SKIP with `HARAM:` note prefix. Non-haram verdicts (✅ 🟡 🟠) prepend a `## Halal Gate` section to the report and add `**Halal:** {verdict}` to the header.
-2. **Verified citations only.** Quran/hadith/fatwa content comes exclusively from `skill/halal-career/references/citations.md` (pre-verified ledger) or live verification per `skill/halal-career/references/verification.md`. Sahih Muslim citations carry dual numbering. Gradings name the scholar.
+2. **Verified citations only.** Quran/hadith/fatwa content comes exclusively from `skill/halal-rizq/references/citations.md` (pre-verified ledger) or live verification per `skill/halal-rizq/references/verification.md`. Sahih Muslim citations carry dual numbering. Gradings name the scholar.
 3. **No unsourced claims — anywhere.** Company facts, watchlist flags, salary figures, statistics: link + date + confidence, or labeled `[analysis — no source]`, or omitted.
 4. **Madhab-aware:** `config/profile.yml → fiqh.madhab` (currently hanafi, present_all_madhabs: true). User's madhab position first, then other schools.
 5. **Scan pre-filter:** scan mode drops Highest-Confidence watchlist companies before they enter the pipeline (`modes/scan.md` step 0).
-6. **Duas:** every report ends with one contextual dua from `skill/halal-career/references/duas.md`. Interview prep includes Deen Readiness (Step 8 of `modes/interview-prep.md`).
-7. **Knowledge base:** `knowledge/rulings/` (full madhab rulings), `knowledge/oppression-watch/` (auto-updated every 2 days by cloud routine `halal-career-watchlist-update`), `knowledge/companies/` (research dossiers — reuse if <6 months old).
-8. **Company research** follows the tiered protocol in `skill/halal-career/references/company-research.md` (EDGAR/GLEIF/AFSC/UN OHCHR/USAspending + confidence labels), not plain WebSearch.
-9. The standalone skill (`skill/halal-career/`) is the portable form of this system — keep it in sync when halal-layer rules change. Installed copy: `C:\Users\arifu\.claude\skills\halal-career\`.
+6. **Duas:** every report ends with one contextual dua from `skill/halal-rizq/references/duas.md`. Interview prep includes Deen Readiness (Step 8 of `modes/interview-prep.md`).
+7. **Knowledge base:** `knowledge/rulings/` (full madhab rulings), `knowledge/oppression-watch/` (auto-updated every 2 days by cloud routine `halal-rizq-watchlist-update`), `knowledge/companies/` (research dossiers — reuse if <6 months old).
+8. **Company research** follows the tiered protocol in `skill/halal-rizq/references/company-research.md` (EDGAR/GLEIF/AFSC/UN OHCHR/USAspending + confidence labels), not plain WebSearch.
+9. The standalone skill (`skill/halal-rizq/`) is the portable form of this system — keep it in sync when halal-layer rules change. Installed copy: `C:\Users\arifu\.claude\skills\halal-rizq\`.
 10. **Session handoff:** read `docs/PROJECT-STATE.md` before major work — settled decisions (template design, API quirks, attribution rationale) + prioritized TODOs. Don't relitigate what's settled there.
 
 ---
@@ -277,7 +277,7 @@ Default modes are in `modes/` (English). Additional language-specific modes are 
 | Processes pending URLs | `pipeline` |
 | Batch processes offers | `batch` |
 | Asks about rejection patterns or wants to improve targeting | `patterns` |
-| Says they work in a haram job and want out | `exit` (Halal-Career) |
+| Says they work in a haram job and want out | `exit` (Halal-Rizq) |
 | Asks about follow-ups or application cadence | `followup` |
 
 ### CV Source of Truth

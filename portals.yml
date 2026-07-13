@@ -89,7 +89,7 @@ title_filter:
 # -- Search queries --
 
 search_queries:
-  # -- HALAL SOURCES: Muslim job boards (Halal-Career layer) --
+  # -- HALAL SOURCES: Muslim job boards (Halal-Rizq layer) --
   - name: "UmmahJobs — data/BA"
     query: 'site:ummahjobs.com "data analyst" OR "business analyst" OR "data engineer"'
     enabled: true
@@ -526,8 +526,8 @@ tracked_companies:
     enabled: true
 
   # ============================================================
-  # HALAL SOURCES (Halal-Career layer) — added 2026-07-06
-  # Full template: skill/halal-career/assets/templates/halal-portals.yml
+  # HALAL SOURCES (Halal-Rizq layer) — added 2026-07-06
+  # Full template: skill/halal-rizq/assets/templates/halal-portals.yml
   # Every result still passes the halal gate.
   # ============================================================
   - name: "Islamic Development Bank (IsDB)"

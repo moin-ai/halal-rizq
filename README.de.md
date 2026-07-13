@@ -1,4 +1,4 @@
-# Halal-Career — Halal-Jobs, verifiziert
+# Halal-Rizq — Halal-Jobs, verifiziert
 
 [🇬🇧 Vollständige englische Version](README.md) · [🌍 Alle Sprachen](README.md#languages)
 

@@ -1,6 +1,6 @@
 # Rulings Reference (Condensed, Verified)
 
-Portable snapshot for standalone use. When running inside the Halal-Career repo, prefer the fuller files in `knowledge/rulings/`. All citations below are in `citations.md` (verified 2026-06-16).
+Portable snapshot for standalone use. When running inside the Halal-Rizq repo, prefer the fuller files in `knowledge/rulings/`. All citations below are in `citations.md` (verified 2026-06-16).
 
 ## Riba / Conventional Banking
 
@@ -105,6 +105,37 @@ Delayed/withheld wages, dark-pattern gig compensation, requiring employees to pe
 
 **Basis:** Tirmidhi 1231 (Al-Albani: Sahih — "two sales in one"), plus gharar (Muslim 1513).
 Price-contingent bundles ("$X cash / $Y credit" left unresolved at contract), sale conditional on a second sale, hidden financing folded into price → classical prohibition territory; modern equivalents (some BNPL structures, tying arrangements, "free" bundles with obligatory paid continuation) → decompose the actual contract; where the structure resolves to a single defined price and obligation → clear.
+
+## Freelance & Client Work (i'anah ladder — Client Gate)
+
+**Basis:** Quran 5:2 ("cooperate in righteousness… do not cooperate in sin and aggression"); Muslim 1598 / CDN#4093 (riba curse reaches the **recorder and the two witnesses** — the scribe is the paradigm of the hired hand who produces the instrument of the sin); Ibn Majah 3381 = Tirmidhi 1295, Abu Dawud 3674 parallel (khamr chain — ten cursed including presser, carrier, server: assistance roles, not just the drinker).
+
+### The assistance ladder — rule the DELIVERABLE by its rung
+
+1. **The deliverable IS the haram thing** (betting engine, riba loan calculator, alcohol-brand campaign asset, dating-app build) → haram; the scribe/presser texts apply directly. Near-consensus.
+2. **The deliverable directly promotes the haram** (ads, funnels, SEO, content marketing whose subject is the haram product) → haram per majority — promotion is the "carrier/server" rung of the chain.
+3. **Neutral deliverable sustaining an essentially-haram operation** (back-office tooling, internal dashboards, general IT for a casino/riba institution) → the employment khilaf transfers: majority prohibit (Muslim 1598 extension — IslamQA 22905, 9987; Deoband); minority (Al-Qaradawi) permit temporarily under necessity with full separation. A freelancer's one-off tie is *lighter* than employment (no ongoing loyalty/salary dependence) — some contemporary muftis ease accordingly for one-offs; retainers approach employment. Present both; strict tolerance leans prohibitive.
+4. **Neutral deliverable serving the CLEAN part of a mixed business** (menu design for a restaurant that also serves alcohol; logo for a bank's charitable foundation) → judge separability + the mixed-revenue thresholds analogy (<5% incidental / 5–33% mashbooh / core-haram) with the same honesty caveat: those thresholds were written for share screening, not services — say so.
+5. **Neutral deliverable for a halal business** → halal; contract soundness is the only remaining check.
+
+Retainer vs one-off: an ongoing retainer with a rung-3 client accumulates the very dependence that drives the majority employment position — treat a retainer one rung stricter than the identical one-off.
+
+### Contract soundness (ijarah)
+Scope and fee defined before work starts (undefined scope/fee = gharar — Muslim 1513); no compound traps ("free" work bound to obligatory paid continuation — Tirmidhi 1231); timely payment cuts both ways (Ibn Majah 2443 — and the freelancer's own delivery obligations are the mirror duty, Quran 4:29 mutual consent).
+
+### The freelancer's own conduct — absolute red lines regardless of client
+Fake reviews/testimonials, deceptive ad claims, plagiarized deliverables, academic work submitted as the buyer's own → ghish (Bukhari 2079; Tirmidhi 1315 "whoever cheats is not one of us") — the engagement is haram even for a fully halal client.
+
+### Payment from a client whose income is predominantly haram
+Distinct question from the deliverable. Fiqh judges the outward (the fee is owed for lawful work under a lawful contract); Muslim 1015 grounds the caution (Allah accepts only the good). Contemporary fatwa positions differ on accepting payment from predominantly-haram wealth — present with links fetched at answer time (IslamQA and Askimam both carry rulings on wages from a person of haram income — fetch before asserting specifics; unfetched → link-only). Mostly-halal income client → no issue per the zahir principle `[analysis of the classical principle — positions linked at runtime]`.
+
+### Freelance platforms (Upwork, Fiverr, Toptal, Malt…)
+Decompose the platform mechanics rather than ruling the platform:
+- **Brokerage/service fee** (platform % of the contract) → fee for a real intermediation service; classically the samsarah (brokerage) discussion — permissible per the well-known majority when the fee is known; verify specifics via AAOIFI standards / linked fatwas at answer time.
+- **Escrow** (client funds held until milestone approval) → custody/agency arrangement reducing gharar for both sides — structurally sound `[analysis — no source]`; flag only if the platform pays or charges interest on held funds (riba — check the platform's terms if determinable, else name it as an unknown).
+- **Paid bidding tokens** (e.g., "Connects" purchased to submit proposals) → payment for a chance at consideration; contemporary analyses differ on whether this is a fee-for-service or gharar-tainted — mukhtalaf territory, present positions with links, `[analysis — no source]` where none fetchable.
+- **Mandatory arbitration/dispute terms** → judge by fairness of the actual terms; not inherently problematic.
+- Working THROUGH a platform never changes the deliverable's ladder rung — the platform layer is additive, not substitutive.
 
 ## Verdict Synthesis
 

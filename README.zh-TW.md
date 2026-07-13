@@ -1,4 +1,4 @@
-# Halal-Career — 清真工作，經過核驗
+# Halal-Rizq — 清真工作，經過核驗
 
 [🇬🇧 完整英文版](README.md) · [🌍 所有語言](README.md#languages)
 

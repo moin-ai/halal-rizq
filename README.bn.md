@@ -1,4 +1,4 @@
-# Halal-Career — হালাল চাকরি, যাচাইকৃত
+# Halal-Rizq — হালাল চাকরি, যাচাইকৃত
 
 [🇬🇧 সম্পূর্ণ ইংরেজি সংস্করণ](README.md) · [🌍 সব ভাষা](README.md#languages)
 

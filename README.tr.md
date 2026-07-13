@@ -1,4 +1,4 @@
-# Halal-Career — Helal İşler, Doğrulanmış
+# Halal-Rizq — Helal İşler, Doğrulanmış
 
 [🇬🇧 İngilizce tam sürüm](README.md) · [🌍 Tüm diller](README.md#languages)
 

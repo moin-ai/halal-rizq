@@ -1,4 +1,4 @@
-# Halal-Career — Pekerjaan Halal, Disahkan
+# Halal-Rizq — Pekerjaan Halal, Disahkan
 
 [🇬🇧 Versi penuh bahasa Inggeris](README.md) · [🌍 Semua bahasa](README.md#languages)
 

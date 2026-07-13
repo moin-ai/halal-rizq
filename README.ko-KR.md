@@ -1,4 +1,4 @@
-# Halal-Career — 할랄 일자리, 검증 완료
+# Halal-Rizq — 할랄 일자리, 검증 완료
 
 [🇬🇧 완전한 영어 버전](README.md) · [🌍 모든 언어](README.md#languages)
 

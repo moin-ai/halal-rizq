@@ -1,5 +1,5 @@
 # Personal data — lives ONLY in the separate private repo
-# (F:\Halal-Career-Private, github.com/moin-ai/halal-career-private).
+# (F:\Halal-Rizq-Private, github.com/moin-ai/halal-rizq-private).
 # In this working tree these paths are hardlinks/junctions into that repo
 # so scripts keep working — but they must NEVER be tracked here.
 # See docs/PROJECT-STATE.md "Data split" for the architecture.
@@ -7,13 +7,14 @@ tracker.md
 cv.md
 knowledge/employer-index.md
 knowledge/companies/
+knowledge/clients/
 reports/
 output/
 batch/tracker-additions/
+data/
 jds/*
 !jds/.gitkeep
 
-# data/*        ← tracked
 # config/profile.yml ← tracked
 # portals.yml   ← tracked
 # modes/_profile.md  ← tracked

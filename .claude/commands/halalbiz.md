@@ -1,9 +1,9 @@
 ---
-description: Validate a business idea against Quran/Sunnah rulings — fiqh intake questions, per-component verdict, required fixes (halal-career skill)
+description: Validate a business idea against Quran/Sunnah rulings — fiqh intake questions, per-component verdict, required fixes (halal-rizq skill)
 argument-hint: [describe your business idea]
 ---
 
-Load and follow the **halal-career** skill (invoke it via the Skill tool if listed; otherwise read `C:\Users\arifu\.claude\skills\halal-career\SKILL.md`), then run the **Business Gate** protocol in `references/business-gate.md` on:
+Load and follow the **halal-rizq** skill (invoke it via the Skill tool if listed; otherwise read `C:\Users\arifu\.claude\skills\halal-rizq\SKILL.md`), then run the **Business Gate** protocol in `references/business-gate.md` on:
 
 $ARGUMENTS
 

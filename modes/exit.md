@@ -1,8 +1,8 @@
-# Mode: exit — Leaving Haram Employment (Halal-Career)
+# Mode: exit — Leaving Haram Employment (Halal-Rizq)
 
 Trigger: user says "I work at a bank/insurer/haram company and want out", "exit plan", "how do I leave my haram job", or the gate finds their CURRENT employer haram.
 
-Full protocol: `skill/halal-career/references/exit-mode.md`. Summary of the flow:
+Full protocol: `skill/halal-rizq/references/exit-mode.md`. Summary of the flow:
 
 1. **Adab first** — no judgment; open with Quran 39:53 (verified ledger). They are already in tawbah by asking.
 2. **Assess** — halal gate on the current role; verdict calibrates urgency (direct haram work vs. indirect vs. mashbooh).

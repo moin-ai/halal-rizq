@@ -1,4 +1,4 @@
-# Halal-Career — شغل حلال، تأییدشده
+# Halal-Rizq — شغل حلال، تأییدشده
 
 [🇬🇧 نسخهٔ کامل انگلیسی](README.md) · [🌍 همهٔ زبان‌ها](README.md#languages)
 

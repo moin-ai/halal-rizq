@@ -1,9 +1,9 @@
 ---
-description: Evaluate a job for Islamic permissibility, then career fit — employer screening, oppression watchlists, cited rulings (halal-career skill)
+description: Evaluate a job for Islamic permissibility, then career fit — employer screening, oppression watchlists, cited rulings (halal-rizq skill)
 argument-hint: [job description, URL, or company + role]
 ---
 
-Load and follow the **halal-career** skill (invoke it via the Skill tool if listed; otherwise read `C:\Users\arifu\.claude\skills\halal-career\SKILL.md`) on:
+Load and follow the **halal-rizq** skill (invoke it via the Skill tool if listed; otherwise read `C:\Users\arifu\.claude\skills\halal-rizq\SKILL.md`) on:
 
 $ARGUMENTS
 

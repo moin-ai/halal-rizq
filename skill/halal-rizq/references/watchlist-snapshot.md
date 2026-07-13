@@ -1,6 +1,6 @@
 # Oppression Watchlist — Bundled Snapshot (2026-06-16)
 
-Fallback only. Prefer the live, auto-updated lists in the Halal-Career repo (`knowledge/oppression-watch/`); this snapshot ages. Always supplement with a fresh WebSearch (`"{company} Israel military | Uyghur forced labor | Myanmar military"`).
+Fallback only. Prefer the live, auto-updated lists in the Halal-Rizq repo (`knowledge/oppression-watch/`); this snapshot ages. Always supplement with a fresh WebSearch (`"{company} Israel military | Uyghur forced labor | Myanmar military"`).
 
 ## High confidence — direct weapons/surveillance to oppressors
 

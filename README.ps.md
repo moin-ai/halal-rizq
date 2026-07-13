@@ -1,4 +1,4 @@
-# Halal-Career — حلال دندې، تصدیق شوې
+# Halal-Rizq — حلال دندې، تصدیق شوې
 
 [🇬🇧 بشپړه انګليسي نسخه](README.md) · [🌍 ټولې ژبې](README.md#languages)
 

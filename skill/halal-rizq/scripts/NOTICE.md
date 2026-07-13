@@ -1,6 +1,6 @@
 # Vendored Tooling — Attribution
 
-The `.mjs` scripts in this folder and the CV templates/fonts in `../assets/` are from **career-ops** by Santiago Fernández de Valderrama (https://github.com/santifer/career-ops), MIT License — see `LICENSE` in this folder. Vendored unmodified into the halal-career skill as optional zero-token accelerators.
+The `.mjs` scripts in this folder and the CV templates/fonts in `../assets/` are from **career-ops** by Santiago Fernández de Valderrama (https://github.com/santifer/career-ops), MIT License — see `LICENSE` in this folder. Vendored unmodified into the halal-rizq skill as optional zero-token accelerators.
 
 | Script | Purpose |
 |--------|---------|

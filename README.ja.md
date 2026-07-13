@@ -1,4 +1,4 @@
-# Halal-Career — ハラールな仕事を、検証つきで
+# Halal-Rizq — ハラールな仕事を、検証つきで
 
 [🇬🇧 完全な英語版](README.md) · [🌍 すべての言語](README.md#languages)
 

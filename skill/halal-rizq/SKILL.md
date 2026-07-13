@@ -1,20 +1,21 @@
 ---
-name: halal-career
-description: Evaluates jobs AND business ideas for Muslims against verified Quran, hadith, and fatwa sources. Jobs — two stages, Islamic permissibility (halal/haram) first, then career fit; screens the employer's business, the candidate's role, and complicity in oppression. Business ideas — the Business Gate asks fiqh-driven intake questions (ownership/qabd, riba, gharar, honesty) then rules per component with cited scholarship. Use when user pastes a job description or company name and asks "is this halal", "evaluate this job", "can I work here as a Muslim", "halal check", shares a business/startup idea asking "is this business halal", "can I sell X", "validate my startup", uses /halalcheck, /halaljob, or /halalbiz, or asks for duas related to work, rizq, or job seeking.
+name: halal-rizq
+description: Evaluates jobs, business ideas, AND freelance clients for Muslims against verified Quran, hadith, and fatwa sources. Jobs — two stages, Islamic permissibility (halal/haram) first, then career fit; screens the employer's business, the candidate's role, and complicity in oppression. Business ideas — the Business Gate asks fiqh-driven intake questions (ownership/qabd, riba, gharar, honesty) then rules per component with cited scholarship. Freelance clients — the Client Gate rules the ENGAGEMENT (client × deliverable) on the assisting-in-sin ladder, plus contract and platform fiqh, and maintains a Green Client List. Use when user pastes a job description or company name and asks "is this halal", "evaluate this job", "can I work here as a Muslim", "halal check", shares a business/startup idea asking "is this business halal", "can I sell X", "validate my startup", asks "is this client halal to work with", "should I take this gig/contract", uses /halalcheck, /halaljob, /halalbiz, or /halalclient, or asks for duas related to work, rizq, or job seeking.
 license: MIT
 metadata:
   author: Arifuzzaman Moin
-  version: 1.1.0
-  repository: https://github.com/moin-ai/halal-career
+  version: 1.2.0
+  repository: https://github.com/moin-ai/halal-rizq
 ---
 
-# Halal-Career — Halal Career & Business Evaluation
+# Halal-Rizq — Halal Rizq & Business Evaluation
 
-Two pipelines sharing one verified rulings core:
+Three pipelines sharing one verified rulings core:
 - **Jobs** — two-stage: Halal Gate first, then career fit. Stage 1 gates Stage 2: a haram role is never career-scored.
 - **Business ideas** — the Business Gate (`references/business-gate.md`): fiqh-driven intake questions, component-by-component rulings, verdict with required restructures where applicable. Route there whenever the user is the OWNER of the venture rather than a candidate.
+- **Freelance clients** — the Client Gate (`references/client-gate.md`): rules the ENGAGEMENT (client × deliverable) on the assisting-in-sin ladder, plus ijarah contract and platform checks. Route there when the user would deliver defined work for a fee rather than be employed. Tiebreaker: salaried/ongoing under their direction = job; defined deliverable = client gig; retainer = client gig, one rung stricter.
 
-Every report from either pipeline ends with the Mandatory Disclaimer (below).
+Every report from any pipeline ends with the Mandatory Disclaimer (below).
 
 ## Critical Rules
 
@@ -27,9 +28,9 @@ Every report from either pipeline ends with the Mandatory Disclaimer (below).
 
 ## Data Locations
 
-- **User data** (profile, evaluations, tracker): `F:/Halal-Career/` if it exists, else create `./halal-career/` in the working directory with `config/profile.yml`, `evaluations/`, `tracker.md`.
+- **User data** (profile, evaluations, tracker): `F:/Halal-Rizq/` if it exists, else create `./halal-rizq/` in the working directory with `config/profile.yml`, `evaluations/`, `tracker.md`.
 - **Skill knowledge** (read-only): this folder's `references/`.
-- Richer data (full rulings, live watchlists, company dossiers) lives in the user's Halal-Career repo when present — prefer it over bundled snapshots.
+- Richer data (full rulings, live watchlists, company dossiers) lives in the user's Halal-Rizq repo when present — prefer it over bundled snapshots.
 
 ## First Run — Onboarding
 
@@ -56,6 +57,10 @@ Read `config/profile.yml → fiqh.madhab`. If missing or `prompt_user`: ask (Han
 ## Business Gate — business ideas & ventures
 
 User shares a business idea, side hustle, or existing business they own → follow `references/business-gate.md` in full: intake questions FIRST (batched, fiqh-driven — ownership/qabd, riba, gharar/maysir, honesty, partners), never a verdict on an under-specified idea. Decompose into components (product, each revenue stream, funding, contracts, partners, marketing), rule each with citations from the ledger, synthesize: ✅ HALAL | 🔧 CONDITIONAL (list exact restructures) | 🟠 MUKHTALAF | 🟡 MASHBOOH | ❌ HARAM. Source hierarchy and fetchability table live in `business-gate.md` § Step 3 and `citations.md`.
+
+## Client Gate — freelance clients & gigs
+
+User asks about taking a client or contract → follow `references/client-gate.md` in full: client index first (`knowledge/clients/_index.md` — fresh entry skips re-research), batched intake (client business, exact deliverable and what it serves, contract, platform), then rule the engagement on the assistance ladder (`rulings.md` § Freelance & Client Work). Verdict per engagement, standing profile per client, Green column = Green Client List (private data — user repo only). Report: `evaluations/client-{slug}-{YYYY-MM-DD}.md`.
 
 `references/business-catalog.md` pre-maps ~45 current business models (dropshipping, SMMA, AI agencies, prop firms, MLM, faceless YouTube, delivery, gyms…) onto 14 closed fiqh axes (riba, gharar, maysir, qabd, ghish, assisting sin, gender interaction, music, bribery, labor, compound contracts, oppression, harm, haram product). Any model not listed — including future ones — is ruled by decomposing onto the same axes; after ruling, append it to the catalog (self-growing).
 
