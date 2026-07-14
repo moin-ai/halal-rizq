@@ -73,7 +73,7 @@ Per component, then overall — same scale as the Business Gate:
 - 🟡 **MASHBOOH** — doubt (unverifiable small client, unclear what the deliverable will be used for); strict tolerance leans prohibitive and says so.
 - ✅ **HALAL** — clean business or clean separable scope, sound contract, no flags.
 
-Bukhari 52 / Muslim 1599 quoted for any non-clear verdict. Dua from `duas.md`.
+Bukhari 52 / Muslim 1599 quoted for any non-clear verdict. Deciding citations follow SKILL.md § Evidence Depth: short matn + tafsir excerpt in the report, full explanation offered. Dua from `duas.md`.
 
 ## Step 6 — Report + index update
 

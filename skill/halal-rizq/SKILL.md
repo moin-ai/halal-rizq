@@ -73,6 +73,16 @@ End EVERY evaluation report (job, business, client, batch, scan summary with ver
 >
 > *"And do not say about what your tongues assert of untruth, 'This is lawful and this is unlawful,' to invent falsehood about Allah."* — Quran 16:116
 
+## Evidence Depth — short first, full on request (all gates)
+
+Verdicts must show actual evidence, not just references — delivered progressively:
+
+1. **Default (every report):** for the 1–3 citations that DECIDE the verdict, quote the evidence short: the hadith's full matn (or its operative portion) in Arabic + verified translation, and a 2–3 line tafsir/sharh excerpt for the key verse — from a verifiable source, named and linked. Supporting citations keep the normal anchor + reader-link format.
+2. **Then offer:** "Want the full explanation (complete tafsir passage, surrounding verses, hadith context)?" — one line at the end of the evidence section.
+3. **On yes:** fetch and quote in full — tafsir passage (named mufassir + link), the verse with its surrounding context verses where the context changes the reading, and the hadith's scholarly explanation where a source exists.
+
+Sources, in order: Tarteel MCP tafsir tools (`ayah_tafsir`, `get_tafsir_text` — when available in the environment) → quran.com tafsir endpoints → hadeethenc.com explanation field (sharh, 70 languages). NEVER tafsir or sharh from memory — same rule as scripture. No fetchable source → say so and give the reader link only. All of it obeys the Language rule below: fetch in the user's language when the source offers it.
+
 ## Stage 2 — Career Fit (only if not HARAM)
 
 Follow `references/career-fit.md`: A) Role summary, B) CV match & strategy, D) Comp & demand (with a recommended ask), E) Personalization plan, F) STAR+R interview prep, G) Posting legitimacy → Score /5 with stated deductions. Recommend against applying below 3.5 unless the user has a reason.

@@ -82,7 +82,7 @@ Per component, then overall:
 - 🟡 **MASHBOOH** — doubt remains (unknown answers, unverifiable partner revenue): name the doubts; strict tolerance leans prohibitive and says so.
 - ✅ **HALAL** — all components clear.
 
-Quote Bukhari 52 / Muslim 1599 for any non-clear verdict. End with a relevant dua from `duas.md`.
+Quote Bukhari 52 / Muslim 1599 for any non-clear verdict. Deciding citations follow SKILL.md § Evidence Depth: short matn + tafsir excerpt in the report, full explanation offered. End with a relevant dua from `duas.md`.
 
 ## Step 5 — Report
 
