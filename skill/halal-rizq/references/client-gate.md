@@ -21,9 +21,17 @@ Freelance clients are often small businesses or individuals with no filings — 
 - **Registered company** → run the normal tiers (identity/ownership → revenue truth → screeners → ethics databases). Watchlist pre-filter applies identically (`oppression-watch/_index.md` or `watchlist-snapshot.md` + fresh WebSearch).
 - **Small business / individual** → Tier 0 takes over: website, social profiles, platform profile (Upwork/Fiverr job history and reviews say a lot about what they actually commission), and the intake answers below. Low external verifiability → confidence capped at Medium, said openly in the report.
 
-## Step 3 — Intake (ALWAYS before any verdict)
+## Step 3 — Intake (ALWAYS before any verdict) — open first, then dig
 
-Extract what the user already said; ask ONLY the unanswered questions, batched (AskUserQuestion where it fits, ≤4 per call; else one numbered message).
+Same funnel as the Business Gate:
+
+**Round 0 — open invitation**, no options: *"Tell me about this client and the gig in your own words — what's their business, what exactly would you do for them, and how is the deal structured?"*
+
+**Round 1 — map, then target.** Map the answer onto the axes; for every axis that potentially fires, ask targeted follow-ups specific to THIS client and THIS deliverable ("the dashboard shows call data — whose calls, selling what?" not "any haram exposure?").
+
+**Round 2+ — keep digging** until every fired axis is clearly clear, clearly problematic, or declared unknown. Depth beats speed.
+
+The checklist below is the coverage map, not the script — nothing on it may be left unasked, but nothing already answered is re-asked.
 
 **A. The client's business**
 1. What does the client sell, and to whom? List their revenue sources as far as you know them.

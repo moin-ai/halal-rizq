@@ -8,9 +8,17 @@ Triggers: "is this business idea halal?", "validate my startup", "can I sell X?"
 
 Same as the job gate: `config/profile.yml → fiqh.madhab`, ask once if missing, present the user's madhab first, all schools shown.
 
-## Step 1 — Intake (ALWAYS before any verdict)
+## Step 1 — Intake (ALWAYS before any verdict) — open first, then dig
 
-Never rule on a one-line idea. First extract what the user already said, then ask ONLY the unanswered questions below — batched (one message, numbered), not one-by-one. If the answers change the picture, follow up once more. No verdict until every pillar is answered or the user explicitly says "unknown" (unknowns lower confidence and are named in the report).
+Never rule on a one-line idea, and never open with a wall of preset questions. Intake is a funnel:
+
+**Round 0 — open invitation.** One open question, no options: *"Describe the business in your own words — what do you sell, to whom, how does money come in, and how does the work actually happen day to day?"* Let the user talk. Their own framing reveals more than any checklist.
+
+**Round 1 — map, then target.** Map their description onto the fiqh axes (business-catalog.md's 14 axes + the pillar list below). For each axis that POTENTIALLY fires, ask targeted follow-ups about THAT area — specific to their business, not generic ("you mentioned suppliers invoice you net-30 — who owns the goods between your sale and their delivery?" not "any qabd issues?"). Follow the money and follow the contract.
+
+**Round 2+ — keep digging until resolved.** Each fired axis ends in one of three states: clearly clear, clearly problematic, or user says "unknown". While an axis is ambiguous, keep asking — depth beats speed; more detail = better verdict. Stop only when new answers stop changing the picture.
+
+The pillar checklist below is the COVERAGE MAP (nothing may be left unasked if the description didn't answer it) — it is not the script. Questions the description already answered are never re-asked. Unknowns lower confidence and are named in the report.
 
 **A. The business itself**
 1. Describe it in detail: what exactly do you sell, to whom, and how does money come in? List EVERY revenue stream (sales, subscriptions, ads, affiliate commissions, fees, float).
