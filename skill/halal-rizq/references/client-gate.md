@@ -82,7 +82,7 @@ Save to `evaluations/client-{slug}-{YYYY-MM-DD}.md`:
 ## Contract & payment  (ijarah check, platform notes, payment-purity note if fired)
 ## Required changes    (CONDITIONAL only — each fix + resulting verdict)
 ## Scholarly positions (user's madhab first; named scholars; linked fatwas)
-## Sources             (every citation + fetch date)
+## Sources             (every citation + direct reader URL + fetch date)
 ## Dua
 ```
 

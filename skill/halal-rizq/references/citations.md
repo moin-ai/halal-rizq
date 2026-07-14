@@ -67,6 +67,23 @@ Standard scheme = Abd al-Baqi (used by sunnah.com). The CDN's `hadithnumber` is 
 
 ⚠ Fatwa numbers above were NOT yet re-verified by page fetch (islamqa.info accessibility varies). Before quoting fatwa content: WebFetch the URL and confirm topic matches. If fetch fails, present the link labeled "reference — verify content" without asserting its contents.
 
+## Reader links — MANDATORY in every report
+
+Every citation shown to the user carries a direct clickable URL. Verification happens via the APIs (above); the link is for the READER to check the source in a browser. Patterns:
+
+| Source | URL pattern | Example | Note |
+|--------|-------------|---------|------|
+| Quran | `https://quran.com/{surah}/{ayah}` | https://quran.com/5/2 | Shows Arabic + translations |
+| Bukhari | `https://sunnah.com/bukhari:{n}` | https://sunnah.com/bukhari:52 | sunnah.com is bot-blocked for FETCHING (403) but works fine for human readers |
+| Muslim | `https://sunnah.com/muslim:{abd-al-baqi-n}` | https://sunnah.com/muslim:1598 | sunnah.com uses Abd al-Baqi numbering — matches our standard refs, NOT the CDN seq# |
+| Tirmidhi | `https://sunnah.com/tirmidhi:{n}` | https://sunnah.com/tirmidhi:1232 | |
+| Ibn Majah | `https://sunnah.com/ibnmajah:{n}` | https://sunnah.com/ibnmajah:2443 | |
+| Abu Dawud | `https://sunnah.com/abudawud:{n}` | https://sunnah.com/abudawud:3333 | |
+| IslamQA | `https://islamqa.info/en/answers/{n}` | https://islamqa.info/en/answers/22905 | |
+| IIFA (OIC Fiqh Academy) | resolution pages under `https://iifa-aifi.org/en/resolutions` | — | Link the resolutions index if the exact resolution URL wasn't fetched this session — never fabricate a deep URL |
+
+Rules: (1) never invent a URL — patterns above only, or URLs already in this ledger; (2) a hadith link uses the STANDARD number (sunnah.com side), never the CDN sequence number; (3) if no pattern exists for a source, give the best index/search page and say "navigate to …".
+
 ## Numbering-mismatch protocol
 
 When a lookup returns a different hadith than expected:

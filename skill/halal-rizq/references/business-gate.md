@@ -89,7 +89,7 @@ Save to `evaluations/biz-{slug}-{YYYY-MM-DD}.md`:
 ## Component verdicts  (table: component | verdict | basis with citations)
 ## Required changes    (CONDITIONAL only — each fix + resulting verdict)
 ## Scholarly positions (user's madhab first; named scholars; linked fatwas)
-## Sources             (every citation + fetch date)
+## Sources             (every citation + direct reader URL + fetch date)
 ## Dua
 ```
 

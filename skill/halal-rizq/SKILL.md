@@ -25,6 +25,7 @@ Every report from any pipeline ends with the Mandatory Disclaimer (below).
 4. **The tool reports scholarship; it never issues rulings.** Frame verdicts as "according to [scholar/fatwa, linked]". On genuine scholarly dispute, present all positions and recommend Istikharah.
 5. **User's madhab first**, then other schools, then majority note.
 6. **No unsourced claims — anywhere.** Every factual assertion in any output — rulings, company facts, watchlist flags, market/salary figures, scholar attributions, statistics — carries a verifiable reference: a URL, an API-verified citation from the ledger, or a named document with date. A claim that cannot be sourced is either omitted or explicitly labeled `[analysis — no source]`. Applies equally to Stage 1 and Stage 2. The user must be able to check everything themselves.
+7. **Every citation gets a clickable reader link.** "It's in the ledger" is verification, not a source the user can visit. Every Quran verse, hadith, and fatwa cited in a report carries its direct URL per `citations.md` § Reader links (quran.com / sunnah.com / islamqa.info patterns — standard numbering, never CDN seq#, never a fabricated URL). No link pattern exists → give the best index page and say so.
 
 ## Data Locations
 
