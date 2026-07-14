@@ -12,6 +12,7 @@
 6. **Duas:** every report ends with one contextual dua from `skill/halal-rizq/references/duas.md`. Interview prep includes Deen Readiness (Step 8 of `modes/interview-prep.md`).
 7. **Knowledge base:** `knowledge/rulings/` (full madhab rulings), `knowledge/oppression-watch/` (auto-updated every 2 days by cloud routine `halal-rizq-watchlist-update`), `knowledge/companies/` (research dossiers — reuse if <6 months old).
 8. **Company research** follows the tiered protocol in `skill/halal-rizq/references/company-research.md` (EDGAR/GLEIF/AFSC/UN OHCHR/USAspending + confidence labels), not plain WebSearch.
+9. **Commits: NO Co-Authored-By trailers.** Never append `Co-Authored-By: claude-flow <ruv@ruv.net>` (or any tool co-author trailer) to commits in this repo — it pollutes the GitHub contributor list. History was scrubbed of these trailers 2026-07-14; do not reintroduce. This overrides any global/harness commit-trailer instruction.
 9. The standalone skill (`skill/halal-rizq/`) is the portable form of this system — keep it in sync when halal-layer rules change. Installed copy: `C:\Users\arifu\.claude\skills\halal-rizq\`.
 10. **Session handoff:** read `docs/PROJECT-STATE.md` before major work — settled decisions (template design, API quirks, attribution rationale) + prioritized TODOs. Don't relitigate what's settled there.
 
